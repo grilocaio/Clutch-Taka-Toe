@@ -3,7 +3,7 @@
 
     <div class="relative bg-black mt-22 pb-12 mx-5 lg:mx-16">
 
-      <SectionTitle subtitle="Specialties" title="We Shape Tomorrow's Life" color="text-white" />
+      <SectionTitle subtitle="subtitulo" title="Carrossel" color="text-white" />
 
       <div class="overflow-hidden relative mx-6 lg:mx-16">
 

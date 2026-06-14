@@ -22,21 +22,21 @@
 
             <div class="flex flex-col items-center gap-6 pt-16 pb-10">
                 <h1 class="font-bold text-3xl">01</h1>
-                <h1 class="font-bold text-3xl">Find an Architect</h1>
+                <h1 class="font-bold text-3xl">Encontre uma Barbearia</h1>
                 <p class="text-center text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum,
                     esse, ad
                     deleniti rem dicta fugit exercitationem qui nostrum</p>
             </div>
             <div class="flex flex-col items-center gap-6 pt-16 pb-10">
                 <h1 class="font-bold text-3xl">02</h1>
-                <h1 class="font-bold text-3xl">Enter Contact</h1>
+                <h1 class="font-bold text-3xl">Agende um Horário</h1>
                 <p class="text-center text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum,
                     esse, ad
                     deleniti rem dicta fugit exercitationem qui nostrum</p>
             </div>
             <div class="flex flex-col items-center gap-6 pt-16 pb-10">
                 <h1 class="font-bold text-3xl">03</h1>
-                <h1 class="font-bold text-3xl">Request a Quote</h1>
+                <h1 class="font-bold text-3xl">Aproveite</h1>
                 <p class="text-center text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum,
                     esse, ad
                     deleniti rem dicta fugit exercitationem qui nostrum</p>

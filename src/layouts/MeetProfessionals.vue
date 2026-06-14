@@ -5,7 +5,7 @@
         <div class="bg-cover bg-center relative" :style="{ backgroundImage: `url(${BGMP})` }">
             <div class="absolute inset-0 bg-gradient-to-b from-white/0 via-white/40 to-white"></div>
             <div class="relative z-10">
-                <SectionTitles title="Meet Our Professionals" subtitle="Our Architects" />
+                <SectionTitles title="Barbeiros" subtitle="Our Architects" />
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-9 gap-8">

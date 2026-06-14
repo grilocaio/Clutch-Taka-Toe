@@ -1,6 +1,6 @@
 <template>
     <section class="imagens">
-        <SectionTitles subtitle="Types of Job" title="Our Architectural Wonders" />
+        <SectionTitles subtitle="Imagens que podem ser dos barbeiros ou dos cortes ou sla" title="Titulo" />
         
         <nav class="lg:flex justify-center items-center flex-wrap pt-8 lg:px-16 px-6 grid grid-cols-3">
             <a v-for="cat in categories" :key="cat" href="#" @click.prevent="selectedCategory = cat" :class="[
