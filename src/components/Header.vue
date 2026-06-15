@@ -6,7 +6,7 @@
                 <!--logo LG-->
                 <div
                     class="hidden lg:flex items-center bg-gray-200 [clip-path:polygon(0_0,100%_0,75%_100%,0_100%)] h-20 pl-16 pr-8 w-auto col-span-2">
-                    Logo
+                    <img :src="logo" alt="imgTrimly" class="h-12 w-auto object-contain">
                 </div>
                 <!--logo SM-->
                 <div class="flex items-center justify-center px-4 py-2 lg:hidden shrink-0">
@@ -28,7 +28,7 @@
                 <div class="hidden lg:flex lg:col-span-10 lg:items-center lg:justify-between lg:px-16">
                     <nav class="flex gap-8 text-white">
                         <a href="#home" class="nav-link font-semibold hover:text-[#8D6D25]">Home</a>
-                        <a href="#architects" class="nav-link font-semibold hover:text-[#8D6D25]">Barbearias</a>
+                        <a href="#Barbearias" class="nav-link font-semibold hover:text-[#8D6D25]">Barbearias</a>
                         <a href="#aboutUs" class="nav-link font-semibold hover:text-[#8D6D25]">About Us</a>
                     </nav>
                     <div class="flex items-center gap-4 text-white">
@@ -67,7 +67,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import logo from '@/assets/imgLogo.png'
+import logo from '@/assets/imgTrimly.png'
 import Button from './Button.vue'
 
 const menuAberto = ref(false)

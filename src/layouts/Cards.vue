@@ -22,24 +22,18 @@
 
             <div class="flex flex-col items-center gap-6 pt-16 pb-10">
                 <h1 class="font-bold text-3xl">01</h1>
-                <h1 class="font-bold text-3xl">Encontre uma Barbearia</h1>
-                <p class="text-center text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum,
-                    esse, ad
-                    deleniti rem dicta fugit exercitationem qui nostrum</p>
+                <h1 class="font-bold text-3xl">Melhores opções para você</h1>
+                <p class="text-center text-xl">Encontre facilmente barbearias perto de você cadastradas em nosso sistema</p>
             </div>
             <div class="flex flex-col items-center gap-6 pt-16 pb-10">
                 <h1 class="font-bold text-3xl">02</h1>
-                <h1 class="font-bold text-3xl">Agende um Horário</h1>
-                <p class="text-center text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum,
-                    esse, ad
-                    deleniti rem dicta fugit exercitationem qui nostrum</p>
+                <h1 class="font-bold text-3xl">Do seu jeito</h1>
+                <p class="text-center text-xl">Escolha entre as opções de barbeiros da barbearia</p>
             </div>
             <div class="flex flex-col items-center gap-6 pt-16 pb-10">
                 <h1 class="font-bold text-3xl">03</h1>
-                <h1 class="font-bold text-3xl">Aproveite</h1>
-                <p class="text-center text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita cum,
-                    esse, ad
-                    deleniti rem dicta fugit exercitationem qui nostrum</p>
+                <h1 class="font-bold text-3xl">No seu conforto</h1>
+                <p class="text-center text-xl">E por fim escolha o horário de sua preferência para realizar o corte</p>
             </div>
         </div>
     </section>

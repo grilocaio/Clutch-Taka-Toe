@@ -5,7 +5,7 @@
                 class="flex flex-col gap-8 mt-16 pb-16 px-4 text-center lg:pb-24 lg:mt-32 lg:pl-16 lg:pr-8 lg:col-span-7 lg:text-left">
                 <div class="flex flex-col gap-6 lg:pr-23">
                     <h1 class="text-4xl text-gray-800 font-bold px-8 lg:px-0 lg:text-6xl">Trimly</h1>
-                    <p class="lg:text-lg">Não lembro qual que era o bordão lá</p>
+                    <p class="lg:text-lg">Corte marcado, tempo otimizado.</p>
                 </div>
 
                 <div class="hidden lg:block shadow-xl max-w-full min-h-[106px] bg-white">
@@ -15,7 +15,7 @@
 
                             <div class="flex flex-col items-center justify-center gap-3">
                                 <h1 class="font-bold text-gray-800">Localização</h1>
-                                <select
+                                <select v-model="estadoSelecionado" @change="atualizarCidade"
                                     class="bg-transparent text-gray-600 border-none outline-none cursor-pointer text-center w-full focus:ring-0">
                                     <option value="sp" selected>São Paulo</option>
                                     <option value="mg">Minas Gerais</option>
@@ -25,17 +25,16 @@
 
                             <div class="flex flex-col items-center justify-center gap-2 border-l border-l-black/30 px-2">
                                 <h1 class="font-bold text-gray-800">Cidade</h1>
-                                <select
+                                <select v-model="cidadeSelecionada"
                                     class="bg-transparent text-gray-600 border-none outline-none cursor-pointer text-center w-full focus:ring-0">
-                                    <option value="london" selected>Teste</option>
-                                    <option value="manchester">Teste</option>
-                                    <option value="birmingham">Teste</option>
-                                    <option value="liverpool">Teste</option>
+                                    <option v-for="cidade in cidadesPorEstado[estadoSelecionado]" :key="cidade.valor" :value="cidade.valor">
+                                        {{ cidade.nome }}
+                                    </option>
                                 </select>
                             </div>
                         </div>
 
-                        <Button text="Search">
+                        <Button text="Buscar" @click="$emit('buscar', estadoSelecionado, cidadeSelecionada)">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor" class="w-5 h-5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -92,7 +91,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center">
-                        <Button text="Search">
+                        <Button text="Buscar" @click="$emit('buscar', estadoSelecionado, cidadeSelecionada)">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor" class="w-5 h-5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -108,7 +107,34 @@
 </template>
 
 <script setup>
+import { ref, defineEmits } from 'vue';
 import Button from '@/components/Button.vue';
-import imgInicio from '@/assets/imgInicio.png'
-import frame from '@/assets/imgFrame.png'
+import imgInicio from '@/assets/imgInicio.png'; // Confirme se o nome da imagem está certo
+
+const emit = defineEmits(['buscar']);
+
+const estadoSelecionado = ref('sp');
+const cidadeSelecionada = ref('sjc');
+
+const cidadesPorEstado = {
+  sp: [
+    { valor: 'sjc', nome: 'São José dos Campos' },
+    { valor: 'jacarei', nome: 'Jacareí' },
+    { valor: 'sp_capital', nome: 'São Paulo' }
+  ],
+  mg: [
+    { valor: 'bh', nome: 'Belo Horizonte' },
+    { valor: 'uberlandia', nome: 'Uberlândia' },
+    { valor: 'ouro_preto', nome: 'Ouro Preto' }
+  ],
+  rj: [
+    { valor: 'rj_capital', nome: 'Rio de Janeiro' },
+    { valor: 'niteroi', nome: 'Niterói' },
+    { valor: 'petropolis', nome: 'Petrópolis' }
+  ]
+};
+
+function atualizarCidade() {
+    cidadeSelecionada.value = cidadesPorEstado[estadoSelecionado.value][0].valor;
+}
 </script>
