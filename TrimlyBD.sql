@@ -56,10 +56,14 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`Usuario` (
   `idUsuario` INT NOT NULL AUTO_INCREMENT,
   `Nome_Usuario` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(100) NOT NULL,
+  `senha` VARCHAR(255) NOT NULL,
+  `telefone` VARCHAR(20) NULL,
   `ID_Cargo` INT NOT NULL,
   `Barbearia_id_Barbearia` INT NULL,
   `Barbearia_endereco_id_endereco` INT NULL,
   PRIMARY KEY (`idUsuario`),
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE,
   INDEX `ID_Cargo_idx` (`ID_Cargo` ASC) VISIBLE,
   INDEX `fk_Usuario_Barbearia1_idx` (`Barbearia_id_Barbearia` ASC, `Barbearia_endereco_id_endereco` ASC) VISIBLE,
   CONSTRAINT `ID_Cargo`
