@@ -47,7 +47,7 @@
             </div>
             <div class="relative grid lg:col-span-5 justify-center">
                 <div class="hidden lg:block absolute right-0 top-0 w-[450px] h-[470px] bg-gray-200"></div>
-                <img :src="imgInicio" class="lg:absolute z-10 px-8 lg:px-0 lg:right-16 lg:top-16">
+                <img :src="trimlybarber" class="lg:absolute z-5 px-5 lg:px-0 lg:right-6 lg:top-7">
             </div>
 
 
@@ -55,41 +55,7 @@
 
                 <div class="grid grid-cols-1 items-center justify-between gap-8 pt-7 pb-14 px-8">
 
-                    <div class="grid grid-cols-2 gap-4 px-2 items-center">
-
-                        <div class="flex flex-col items-center justify-center gap-3">
-                            <h1 class="font-bold text-gray-800">Location</h1>
-                            <select
-                                class="bg-transparent text-gray-600 border-none outline-none cursor-pointer text-center w-full focus:ring-0">
-                                <option value="uk" selected>United Kingdom</option>
-                                <option value="us">United States</option>
-                                <option value="ca">Canada</option>
-                                <option value="au">Australia</option>
-                            </select>
-                        </div>
-
-                        <div class="flex flex-col items-center justify-center gap-2 border-l border-l-black/30">
-                            <h1 class="font-bold text-gray-800 ">City</h1>
-                            <select
-                                class="bg-transparent text-gray-600 border-none outline-none cursor-pointer text-center w-full focus:ring-0">
-                                <option value="london" selected>London</option>
-                                <option value="manchester">Manchester</option>
-                                <option value="birmingham">Birmingham</option>
-                                <option value="liverpool">Liverpool</option>
-                            </select>
-                        </div>
-
-                        <div class="flex flex-col items-center justify-center gap-2 lg:border-l border-l-black/30">
-                            <h1 class="font-bold text-gray-800">Average Price</h1>
-                            <select
-                                class="bg-transparent text-gray-600 border-none outline-none cursor-pointer text-center w-full focus:ring-0">
-                                <option value="15-20" selected>$15000 - $20000</option>
-                                <option value="20-30">$20000 - $30000</option>
-                                <option value="30-50">$30000 - $50000</option>
-                                <option value="50+">$50000+</option>
-                            </select>
-                        </div>
-                    </div>
+                    
                     <div class="flex justify-center">
                         <Button text="Buscar" @click="$emit('buscar', estadoSelecionado, cidadeSelecionada)">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -109,7 +75,7 @@
 <script setup>
 import { ref, defineEmits } from 'vue';
 import Button from '@/components/Button.vue';
-import imgInicio from '@/assets/imgInicio.png'; // Confirme se o nome da imagem está certo
+import trimlybarber from '@/assets/trimlybarber.png'; // Confirme se o nome da imagem está certo
 
 const emit = defineEmits(['buscar']);
 
