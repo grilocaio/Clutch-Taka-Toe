@@ -3,21 +3,39 @@
         <div class="max-w-md w-full space-y-8 bg-white p-10 shadow-xl rounded-xl">
             
             <div class="text-center">
-                <h2 class="mt-6 text-3xl font-bold text-gray-900">
+                <h2 class="text-3xl font-bold text-gray-900">
                     {{ isCadastro ? 'Crie sua conta' : 'Acesse sua conta' }}
                 </h2>
                 <p class="mt-2 text-sm text-gray-600">
                     <span v-if="!isCadastro">
-                        Ou <button @click="isCadastro = true" class="font-medium text-red-700 hover:text-red-500">crie uma conta nova</button>
+                        Ou <button @click="isCadastro = true" class="font-medium text-red-700 hover:text-red-500 cursor-pointer">crie uma conta nova</button>
                     </span>
                     <span v-else>
-                        Já tem uma conta? <button @click="isCadastro = false" class="font-medium text-red-700 hover:text-red-500">Faça o login</button>
+                        Já tem uma conta? <button @click="isCadastro = false" class="font-medium text-red-700 hover:text-red-500 cursor-pointer">Faça o login</button>
                     </span>
                 </p>
             </div>
 
-            <form v-if="isCadastro" class="mt-8 space-y-6" @submit.prevent="fazerCadastro">
+            <!-- Formulário de Cadastro -->
+            <form v-if="isCadastro" class="mt-8 space-y-4" @submit.prevent="fazerCadastro">
                 <div class="rounded-md shadow-sm space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Tipo de Conta</label>
+                        <select v-model="cadCargo" class="block w-full px-3 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm bg-white">
+                            <option value="Cliente">Cliente (Quero agendar cortes)</option>
+                            <option value="Administrador">Administrador (Gerenciar barbearia)</option>
+                        </select>
+                    </div>
+
+                    <!-- Dropdown de Barbearia apenas para Administrador -->
+                    <div v-if="cadCargo === 'Administrador'">
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Selecione sua Barbearia</label>
+                        <select required v-model="cadBarbeariaId" class="block w-full px-3 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm bg-white">
+                            <option value="" disabled selected>Escolha a barbearia que você gerencia</option>
+                            <option v-for="b in barbearias" :key="b.id" :value="b.id">{{ b.nome }} ({{ b.cidade.toUpperCase() }})</option>
+                        </select>
+                    </div>
+
                     <input type="text" required v-model="cadNome" placeholder="Seu Nome Completo"
                         class="appearance-none rounded block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm">
                     
@@ -30,11 +48,13 @@
                     <input type="password" required v-model="cadSenha" placeholder="Crie uma Senha"
                         class="appearance-none rounded block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm">
                 </div>
-                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800 transition-colors">
+
+                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800 transition-colors cursor-pointer font-bold">
                     Cadastrar
                 </button>
             </form>
 
+            <!-- Formulário de Login -->
             <form v-else class="mt-8 space-y-6" @submit.prevent="fazerLogin">
                 <div class="rounded-md shadow-sm space-y-4">
                     <input type="email" required v-model="logEmail" placeholder="Seu E-mail"
@@ -43,13 +63,14 @@
                     <input type="password" required v-model="logSenha" placeholder="Sua Senha"
                         class="appearance-none rounded block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-red-500 focus:border-red-500 sm:text-sm">
                 </div>
-                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors">
+
+                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors cursor-pointer font-bold">
                     Entrar
                 </button>
             </form>
 
             <div class="text-center mt-4">
-                <button @click="$emit('voltar')" class="text-sm font-medium text-gray-500 hover:text-gray-900">
+                <button @click="$emit('voltar')" class="text-sm font-medium text-gray-500 hover:text-gray-900 cursor-pointer">
                     ← Voltar para o Início
                 </button>
             </div>
@@ -59,70 +80,96 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue';
+import { ref, onMounted, defineEmits } from 'vue';
+import { getUsuarios, saveUsuarios, getBarbearias } from '@/utils/storage';
 
 const emit = defineEmits(['voltar', 'loginSucesso']);
 
 // Controle de qual tela mostrar
 const isCadastro = ref(false);
 
+// Listagem de Barbearias para a criação simplificada de Admin
+const barbearias = ref([]);
+
 // Variáveis do Cadastro
 const cadNome = ref('');
 const cadTelefone = ref('');
 const cadEmail = ref('');
 const cadSenha = ref('');
+const cadCargo = ref('Cliente');
+const cadBarbeariaId = ref('');
 
 // Variáveis do Login
 const logEmail = ref('');
 const logSenha = ref('');
 
+onMounted(() => {
+    barbearias.value = getBarbearias();
+});
+
 // FUNÇÃO 1: Salvar o Cadastro
 function fazerCadastro() {
-    // Puxa a lista de usuários ou cria uma lista vazia se não existir
-    const usuariosSalvos = localStorage.getItem('trimly_usuarios');
-    const listaUsuarios = usuariosSalvos ? JSON.parse(usuariosSalvos) : [];
+    const listaUsuarios = getUsuarios();
 
     // Verifica se o e-mail já foi usado
-    const emailJaExiste = listaUsuarios.find(user => user.email === cadEmail.value);
+    const emailJaExiste = listaUsuarios.find(user => user.email.toLowerCase() === cadEmail.value.toLowerCase());
     if (emailJaExiste) {
         alert("Este e-mail já está cadastrado!");
         return;
     }
 
+    // Se for Admin, valida se selecionou a barbearia
+    if (cadCargo.value === 'Administrador' && !cadBarbeariaId.value) {
+        alert("Por favor, selecione a barbearia que você gerenciará.");
+        return;
+    }
+
     // Cria o pacote do novo usuário
     const novoUsuario = {
+        id: Date.now(),
         nome: cadNome.value,
         telefone: cadTelefone.value,
         email: cadEmail.value,
-        senha: cadSenha.value
+        senha: cadSenha.value,
+        cargo: cadCargo.value,
+        barbeariaId: cadCargo.value === 'Administrador' ? Number(cadBarbeariaId.value) : null
     };
 
-    // Adiciona na lista e salva no navegador
+    // Adiciona na lista e salva no local storage
     listaUsuarios.push(novoUsuario);
-    localStorage.setItem('trimly_usuarios', JSON.stringify(listaUsuarios));
+    saveUsuarios(listaUsuarios);
 
     alert("Cadastro realizado com sucesso! Faça seu login.");
     
     // Limpa os campos e volta para a tela de login
-    cadNome.value = ''; cadTelefone.value = ''; cadEmail.value = ''; cadSenha.value = '';
+    cadNome.value = ''; 
+    cadTelefone.value = ''; 
+    cadEmail.value = ''; 
+    cadSenha.value = '';
+    cadCargo.value = 'Cliente';
+    cadBarbeariaId.value = '';
     isCadastro.value = false; 
 }
 
 // FUNÇÃO 2: Validar o Login
 function fazerLogin() {
-    // Puxa a lista de usuários do banco
-    const usuariosSalvos = localStorage.getItem('trimly_usuarios');
-    const listaUsuarios = usuariosSalvos ? JSON.parse(usuariosSalvos) : [];
+    const listaUsuarios = getUsuarios();
 
     // Procura alguém que tenha o mesmo email E a mesma senha
-    const usuarioValido = listaUsuarios.find(user => user.email === logEmail.value && user.senha === logSenha.value);
+    const usuarioValido = listaUsuarios.find(
+        user => user.email.toLowerCase() === logEmail.value.toLowerCase() && user.senha === logSenha.value
+    );
 
     if (usuarioValido) {
-        // Se achou, salva o NOME da pessoa como logado e avisa a página Home
+        // Salva o objeto do usuário completo no local storage
+        localStorage.setItem('trimly_logado_user', JSON.stringify(usuarioValido));
+        
+        // Também mantém o legado 'trimly_logado' para compatibilidade básica
         localStorage.setItem('trimly_logado', usuarioValido.nome);
-        emit('loginSucesso', usuarioValido.nome);
+        
+        emit('loginSucesso', usuarioValido);
     } else {
         alert("E-mail ou senha incorretos!");
     }
 }
-</script>
+</script>

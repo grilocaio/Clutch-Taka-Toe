@@ -1,5 +1,5 @@
 <template>
-    <section class="imagens">
+    <section id="nossas-barbearias" class="imagens">
         <SectionTitles subtitle="Barbearias Cadastradas em nosso Sistema" title="Nossas Barbearias" />
         
         <nav class="flex justify-center gap-4">

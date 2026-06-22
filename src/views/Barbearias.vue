@@ -31,7 +31,8 @@
             <div 
                 v-for="barbearia in barbeariasFiltradas" 
                 :key="barbearia.id" 
-                class="group relative overflow-hidden bg-gray-100 cursor-pointer shadow-md"
+                @click="$emit('selecionarBarbearia', barbearia)"
+                class="group relative overflow-hidden bg-gray-100 cursor-pointer shadow-md rounded-xl hover:shadow-2xl transition-all duration-300"
             >
                 <img 
                     :src="barbearia.imagem" 
@@ -62,7 +63,9 @@
 </template>
 
 <script setup>
-import { ref, computed, defineProps } from 'vue';
+import { ref, computed, defineProps, defineEmits } from 'vue';
+
+const emit = defineEmits(['voltar', 'selecionarBarbearia']);
 
 // Recebe a cidade e o estado da tela Home
 const props = defineProps({

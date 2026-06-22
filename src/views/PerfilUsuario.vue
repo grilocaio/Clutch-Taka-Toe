@@ -1,0 +1,146 @@
+<template>
+    <div class="bg-gray-50 py-12 px-4 lg:px-16 w-full min-h-screen">
+        <div class="max-w-md mx-auto bg-white rounded-2xl shadow-xl overflow-hidden p-8 lg:p-10">
+            
+            <div class="text-center mb-8">
+                <span class="text-xs uppercase font-extrabold tracking-wider text-red-700 bg-red-50 px-3 py-1 rounded-full">
+                    Meu Perfil
+                </span>
+                <h1 class="text-2xl font-extrabold text-gray-900 mt-3">Editar Informações</h1>
+                <p class="text-gray-500 text-xs mt-1">Atualize seus dados de contato e credenciais de acesso.</p>
+            </div>
+
+            <form @submit.prevent="salvarPerfil" class="space-y-5">
+                
+                <!-- Informações Não Editáveis -->
+                <div class="space-y-3 bg-gray-50 p-4 rounded-xl border border-gray-100 mb-6">
+                    <div>
+                        <span class="block text-[10px] font-bold uppercase text-gray-400">Nome Completo</span>
+                        <span class="text-sm font-semibold text-gray-800">{{ usuarioLogado.nome }}</span>
+                    </div>
+                    <div>
+                        <span class="block text-[10px] font-bold uppercase text-gray-400">E-mail (Login)</span>
+                        <span class="text-sm font-semibold text-gray-800">{{ usuarioLogado.email }}</span>
+                    </div>
+                    <div>
+                        <span class="block text-[10px] font-bold uppercase text-gray-400">Cargo / Função</span>
+                        <span class="text-sm font-semibold text-gray-800 uppercase tracking-wide text-red-800">{{ usuarioLogado.cargo }}</span>
+                    </div>
+                </div>
+
+                <!-- Campo Telefone (Editável) -->
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">Telefone / WhatsApp</label>
+                    <input required type="tel" v-model="form.telefone" placeholder="Ex: 11999999999"
+                        class="w-full px-3 py-2.5 border rounded-lg text-sm focus:ring-1 focus:ring-red-500 focus:outline-none bg-white text-gray-900">
+                </div>
+
+                <!-- Campo Senha Atual -->
+                <div>
+                    <label class="block text-xs font-bold text-gray-700 mb-1">Senha Atual (Para confirmação)</label>
+                    <input required type="password" v-model="form.senhaAtual" placeholder="Digite sua senha atual"
+                        class="w-full px-3 py-2.5 border rounded-lg text-sm focus:ring-1 focus:ring-red-500 focus:outline-none bg-white text-gray-900">
+                </div>
+
+                <!-- Campos de Nova Senha (Opcional) -->
+                <div class="border-t pt-4 space-y-4">
+                    <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider">Alterar Senha (Opcional)</p>
+                    
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Nova Senha</label>
+                        <input type="password" v-model="form.novaSenha" placeholder="Digite a nova senha se desejar mudar"
+                            class="w-full px-3 py-2.5 border rounded-lg text-sm focus:ring-1 focus:ring-red-500 focus:outline-none bg-white text-gray-900">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 mb-1">Confirmar Nova Senha</label>
+                        <input type="password" v-model="form.confirmarNovaSenha" placeholder="Confirme a nova senha"
+                            class="w-full px-3 py-2.5 border rounded-lg text-sm focus:ring-1 focus:ring-red-500 focus:outline-none bg-white text-gray-900">
+                    </div>
+                </div>
+
+                <!-- Botões de Ação -->
+                <div class="pt-6 border-t flex flex-col gap-3">
+                    <button type="submit" class="w-full py-3 bg-black hover:bg-red-800 transition-colors text-white font-bold rounded-lg text-xs cursor-pointer shadow">
+                        Salvar Alterações
+                    </button>
+                    <button type="button" @click="$emit('voltar')" class="w-full py-3 border border-gray-300 hover:bg-gray-50 transition-colors text-gray-700 font-bold rounded-lg text-xs cursor-pointer">
+                        Cancelar
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</template>
+
+<script setup>
+import { ref, reactive, onMounted, defineProps, defineEmits } from 'vue';
+import { getUsuarios, saveUsuarios } from '@/utils/storage';
+
+const props = defineProps({
+    usuarioLogado: Object
+});
+
+const emit = defineEmits(['voltar', 'perfilAtualizado']);
+
+const form = reactive({
+    telefone: '',
+    senhaAtual: '',
+    novaSenha: '',
+    confirmarNovaSenha: ''
+});
+
+onMounted(() => {
+    form.telefone = props.usuarioLogado.telefone || '';
+});
+
+function salvarPerfil() {
+    // Validar senha atual
+    if (form.senhaAtual !== props.usuarioLogado.senha) {
+        alert("Erro: A senha atual digitada está incorreta.");
+        return;
+    }
+
+    // Validar nova senha se digitada
+    if (form.novaSenha) {
+        if (form.novaSenha.length < 3) {
+            alert("Erro: A nova senha deve ter pelo menos 3 caracteres.");
+            return;
+        }
+        if (form.novaSenha !== form.confirmarNovaSenha) {
+            alert("Erro: A confirmação da nova senha não confere.");
+            return;
+        }
+    }
+
+    const usuarios = getUsuarios();
+    const index = usuarios.findIndex(u => u.id === props.usuarioLogado.id);
+    
+    if (index === -1) {
+        alert("Erro: Usuário não encontrado no banco de dados.");
+        return;
+    }
+
+    // Atualiza telefone
+    usuarios[index].telefone = form.telefone;
+
+    // Atualiza senha se fornecido
+    if (form.novaSenha) {
+        usuarios[index].senha = form.novaSenha;
+    }
+
+    // Salvar no local storage
+    saveUsuarios(usuarios);
+
+    // Atualiza sessão ativa
+    const usuarioAtualizado = usuarios[index];
+    localStorage.setItem('trimly_logado_user', JSON.stringify(usuarioAtualizado));
+    localStorage.setItem('trimly_logado', usuarioAtualizado.nome);
+
+    alert("Perfil atualizado com sucesso!");
+    
+    emit('perfilAtualizado', usuarioAtualizado);
+    emit('voltar');
+}
+</script>
