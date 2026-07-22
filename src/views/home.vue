@@ -313,8 +313,8 @@
 
     <!-- GUESS MODAL -->
     <div v-if="showModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm animate-fade-in">
-      <div class="bg-[#12171c] border border-[#1b2228] w-full max-w-md rounded-xl shadow-2xl overflow-hidden animate-scale-up relative">
-        <div class="absolute top-0 left-0 w-full h-[3px] bg-[#de9b35]"></div>
+      <div class="bg-[#12171c] border border-[#1b2228] w-full max-w-md rounded-xl shadow-2xl overflow-visible animate-scale-up relative">
+        <div class="absolute top-0 left-0 w-full h-[3px] bg-[#de9b35] rounded-t-xl"></div>
 
         <div class="p-6">
           <div class="flex justify-between items-start">
@@ -367,7 +367,7 @@
             />
 
             <!-- Dropdown de Sugestões -->
-            <ul v-if="suggestions.length > 0" class="absolute left-0 w-full mt-1 bg-[#1b2228] border border-[#2b353e] rounded-lg overflow-hidden shadow-2xl z-50 divide-y divide-[#252e37]">
+            <ul v-if="suggestions.length > 0" ref="suggestionsList" class="absolute left-0 w-full mt-1 bg-[#1b2228] border border-[#2b353e] rounded-lg overflow-y-auto max-h-60 shadow-2xl z-50 divide-y divide-[#252e37]">
               <li 
                 v-for="(player, idx) in suggestions" 
                 :key="player.id"
@@ -451,6 +451,7 @@ const selectedPlayerObject = ref(null);
 const searchFeedback = ref('');
 const isStealAttempt = ref(false);
 const searchInput = ref(null);
+const suggestionsList = ref(null);
 
 // Sons
 const soundEnabled = ref(true);
@@ -781,18 +782,43 @@ function onSearchInput() {
            player.name.toLowerCase().includes(query);
   });
 
-  suggestions.value = filtered.slice(0, 6);
+  // Mostrar até 50 sugestões com scroll habilitado
+  suggestions.value = filtered.slice(0, 50);
   activeSuggestionIndex.value = 0;
 }
 
-// Move o índice ativo nas sugestões
+// Move o índice ativo nas sugestões permitindo navegação circular
 function moveActiveSuggestion(direction) {
   if (suggestions.value.length === 0) return;
   const newIndex = activeSuggestionIndex.value + direction;
   if (newIndex >= 0 && newIndex < suggestions.value.length) {
     activeSuggestionIndex.value = newIndex;
+  } else if (newIndex < 0) {
+    activeSuggestionIndex.value = suggestions.value.length - 1;
+  } else if (newIndex >= suggestions.value.length) {
+    activeSuggestionIndex.value = 0;
   }
 }
+
+// Watcher para sincronizar o scroll da lista com o teclado
+watch(activeSuggestionIndex, (newIdx) => {
+  if (suggestionsList.value) {
+    const listEl = suggestionsList.value;
+    const activeEl = listEl.children[newIdx];
+    if (activeEl) {
+      const containerTop = listEl.scrollTop;
+      const containerBottom = containerTop + listEl.clientHeight;
+      const elemTop = activeEl.offsetTop;
+      const elemBottom = elemTop + activeEl.offsetHeight;
+
+      if (elemTop < containerTop) {
+        listEl.scrollTop = elemTop;
+      } else if (elemBottom > containerBottom) {
+        listEl.scrollTop = elemBottom - listEl.clientHeight;
+      }
+    }
+  }
+});
 
 // Seleciona a sugestão ativa com Enter
 function selectActiveSuggestion() {
@@ -819,6 +845,14 @@ function submitGuess() {
   // Obter critérios da linha e da coluna
   const rowCriterion = activeCriteria.value.rows[Math.floor(cellIdx / 3)];
   const colCriterion = activeCriteria.value.cols[cellIdx % 3];
+
+  // BUG DO JOGO: Roubar casa utilizando o mesmo jogador
+  const currentCell = board.value[cellIdx];
+  if (isStealAttempt.value && currentCell && currentCell.playerId === player.id) {
+    searchFeedback.value = `Você não pode roubar utilizando o mesmo jogador (${player.nickname})!`;
+    playSound('incorrect');
+    return;
+  }
 
   // 2. Valida a resposta contra os critérios
   if (isValidAnswer(player, rowCriterion, colCriterion)) {

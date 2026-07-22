@@ -1,4 +1,4 @@
-// Base de dados local expandida com jogadores marcantes de Counter-Strike (1.6, CS:GO e CS2)
+// Base de dados local com jogadores de Counter-Strike revisados e corrigidos
 export const PLAYERS = [
   {
     "id": "s1mple",
@@ -36,7 +36,9 @@ export const PLAYERS = [
       "karrigan",
       "frozen",
       "skullz",
-      "iM"
+      "iM",
+      "ropz",
+      "sdy"
     ],
     "coaches": [
       "blade",
@@ -83,7 +85,9 @@ export const PLAYERS = [
       "arT",
       "drop",
       "VINI",
-      "chelo"
+      "chelo",
+      "latto",
+      "skullz"
     ],
     "coaches": [
       "zews",
@@ -131,7 +135,8 @@ export const PLAYERS = [
       "jks",
       "es3tag",
       "latto",
-      "NEKIZ"
+      "NEKIZ",
+      "karrigan"
     ],
     "coaches": [
       "zews",
@@ -155,7 +160,8 @@ export const PLAYERS = [
     "teams": [
       "Astralis",
       "Ninjas in Pyjamas",
-      "100 Thieves"
+      "TSM",
+      "Dignitas"
     ],
     "teammates": [
       "dupreeh",
@@ -163,12 +169,19 @@ export const PLAYERS = [
       "gla1ve",
       "Magisk",
       "Kjaerbye",
-      "REZ",
       "es3tag",
+      "Bubzkji",
+      "blameF",
       "stavn",
       "jabbi",
-      "rain",
-      "blameF"
+      "cadiaN",
+      "REZ",
+      "hampus",
+      "Krimbo",
+      "dennis",
+      "mezii",
+      "k0nfig",
+      "Lucky"
     ],
     "coaches": [
       "zonic"
@@ -176,7 +189,7 @@ export const PLAYERS = [
     "majorChampion": true,
     "majorsCount": 4,
     "katowiceChampion": true,
-    "cologneChampion": true,
+    "cologneChampion": false,
     "grandSlamWinner": true,
     "majorMvp": true,
     "hltvTop20": true,
@@ -202,18 +215,21 @@ export const PLAYERS = [
       "flameZ",
       "Brollan",
       "SunPayus",
-      "ropz"
+      "ropz",
+      "ALEX",
+      "AmaNEk",
+      "Spinx"
     ],
     "coaches": [
       "zonic",
       "peacemaker"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
+    "majorsCount": 3,
     "katowiceChampion": true,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
-    "majorMvp": false,
+    "majorMvp": true,
     "hltvTop20": true,
     "hltvTop1": true,
     "cs16": false
@@ -226,7 +242,7 @@ export const PLAYERS = [
     "teams": [
       "FaZe Clan",
       "G2 Esports",
-      "mousesports",
+      "MOUZ",
       "Team Falcons"
     ],
     "teammates": [
@@ -247,23 +263,30 @@ export const PLAYERS = [
       "Aleksib",
       "Brollan",
       "mezii",
-      "maden",
       "SunPayus",
       "w0nderful",
-      "Magisk"
+      "Magisk",
+      "Bymas",
+      "Krimbo",
+      "shox",
+      "kennyS",
+      "frozen",
+      "HObbit",
+      "AdreN",
+      "kyousuke"
     ],
     "coaches": [
       "RobbaN",
       "peacemaker"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": true,
     "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
-    "hltvTop1": true,
+    "hltvTop1": false,
     "cs16": false
   },
   {
@@ -273,10 +296,10 @@ export const PLAYERS = [
     "nationality": "Dinamarca",
     "teams": [
       "FaZe Clan",
-      "mousesports",
+      "MOUZ",
       "Astralis",
-      "Cloud9",
-      "MOUZ"
+      "Fnatic",
+      "Team Falcons"
     ],
     "teammates": [
       "NiKo",
@@ -292,6 +315,15 @@ export const PLAYERS = [
       "jimpphat",
       "s1mple",
       "skullz",
+      "Bymas",
+      "Krimbo",
+      "blameF",
+      "woxic",
+      "chrisJ",
+      "AdreN",
+      "allu",
+      "jks",
+      "kyousuke",
       "EliGE"
     ],
     "coaches": [
@@ -299,14 +331,14 @@ export const PLAYERS = [
       "rejin"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
+    "majorsCount": 2,
     "katowiceChampion": true,
     "cologneChampion": true,
-    "grandSlamWinner": false,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": true,
     "hltvTop1": false,
-    "cs16": false
+    "cs16": true
   },
   {
     "id": "ropz",
@@ -314,10 +346,9 @@ export const PLAYERS = [
     "name": "Robin Kool",
     "nationality": "Estônia",
     "teams": [
-      "FaZe Clan",
-      "mousesports",
       "MOUZ",
-      "Team Vitality"
+      "FaZe Clan",
+      "Vitality"
     ],
     "teammates": [
       "NiKo",
@@ -333,14 +364,19 @@ export const PLAYERS = [
       "apEX",
       "ZywOo",
       "flameZ",
-      "mezii"
+      "mezii",
+      "Krimbo",
+      "Golden",
+      "suNny",
+      "hallzerk",
+      "dexter"
     ],
     "coaches": [
       "RobbaN",
       "rejin"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
+    "majorsCount": 3,
     "katowiceChampion": true,
     "cologneChampion": true,
     "grandSlamWinner": false,
@@ -355,9 +391,8 @@ export const PLAYERS = [
     "name": "Russel Van Dulken",
     "nationality": "Canadá",
     "teams": [
-      "FaZe Clan",
       "Team Liquid",
-      "100 Thieves"
+      "FaZe Clan"
     ],
     "teammates": [
       "NiKo",
@@ -371,7 +406,16 @@ export const PLAYERS = [
       "Stewie2K",
       "oSee",
       "junior",
-      "frozen"
+      "frozen",
+      "Bymas",
+      "Krimbo",
+      "blameF",
+      "YEKINDAR",
+      "Grim",
+      "daps",
+      "jks",
+      "hiko",
+      "pimp"
     ],
     "coaches": [
       "RobbaN",
@@ -381,7 +425,7 @@ export const PLAYERS = [
     "majorsCount": 1,
     "katowiceChampion": true,
     "cologneChampion": true,
-    "grandSlamWinner": false,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": true,
     "hltvTop1": false,
@@ -394,7 +438,7 @@ export const PLAYERS = [
     "nationality": "Noruega",
     "teams": [
       "FaZe Clan",
-      "Cloud9",
+      "G2 Esports",
       "100 Thieves"
     ],
     "teammates": [
@@ -411,6 +455,13 @@ export const PLAYERS = [
       "s1mple",
       "skullz",
       "frozen",
+      "Krimbo",
+      "Xizt",
+      "es3tag",
+      "blameF",
+      "AdreN",
+      "allu",
+      "hallzerk",
       "EliGE"
     ],
     "coaches": [
@@ -420,8 +471,8 @@ export const PLAYERS = [
     "majorsCount": 1,
     "katowiceChampion": true,
     "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
+    "grandSlamWinner": true,
+    "majorMvp": true,
     "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
@@ -443,7 +494,9 @@ export const PLAYERS = [
       "coldzera",
       "jks",
       "blameF",
-      "Krimbo"
+      "Krimbo",
+      "Bymas",
+      "frozen"
     ],
     "coaches": [
       "RobbaN"
@@ -462,7 +515,7 @@ export const PLAYERS = [
     "id": "m0NESY",
     "nickname": "m0NESY",
     "name": "Ilya Osipov",
-    "nationality": "França",
+    "nationality": "Rússia",
     "teams": [
       "G2 Esports",
       "Team Falcons"
@@ -474,23 +527,25 @@ export const PLAYERS = [
       "jks",
       "Brollan",
       "mezii",
-      "maden",
       "SunPayus",
       "w0nderful",
-      "Magisk"
+      "Magisk",
+      "nexa",
+      "HeavyGod",
+      "kyousuke"
     ],
     "coaches": [
       "RobbaN",
       "peacemaker"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
     "cologneChampion": true,
     "grandSlamWinner": false,
-    "majorMvp": false,
+    "majorMvp": true,
     "hltvTop20": true,
-    "hltvTop1": true,
+    "hltvTop1": false,
     "cs16": false
   },
   {
@@ -500,8 +555,8 @@ export const PLAYERS = [
     "nationality": "Lituânia",
     "teams": [
       "FaZe Clan",
-      "mousesports",
-      "NIP",
+      "MOUZ",
+      "Ninjas in Pyjamas",
       "Eternal Fire"
     ],
     "teammates": [
@@ -511,7 +566,8 @@ export const PLAYERS = [
       "karrigan",
       "Twistzz",
       "frozen",
-      "ropz"
+      "ropz",
+      "chrisJ"
     ],
     "coaches": [
       "RobbaN"
@@ -529,8 +585,8 @@ export const PLAYERS = [
   {
     "id": "Krimbo",
     "nickname": "Krimbo",
-    "name": "Kristoffer Borup",
-    "nationality": "Dinamarca",
+    "name": "Karim Moussa",
+    "nationality": "Alemanha",
     "teams": [
       "FaZe Clan",
       "Astralis",
@@ -576,17 +632,18 @@ export const PLAYERS = [
       "sh1ro",
       "s1ren",
       "but1k",
-      "Ax1Le"
+      "Ax1Le",
+      "nafany"
     ],
     "coaches": [
       "hObbit"
     ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
-    "majorMvp": true,
+    "majorMvp": false,
     "hltvTop20": true,
     "hltvTop1": true,
     "cs16": false
@@ -610,15 +667,16 @@ export const PLAYERS = [
       "nafany",
       "interz",
       "HObbit",
-      "Ax1Le"
+      "Ax1Le",
+      "FL1T"
     ],
     "coaches": [
       "hObbit"
     ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -646,10 +704,10 @@ export const PLAYERS = [
     "coaches": [
       "hObbit"
     ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
@@ -670,15 +728,16 @@ export const PLAYERS = [
       "sh1ro",
       "chopper",
       "s1ren",
-      "but1k"
+      "but1k",
+      "Ax1Le"
     ],
     "coaches": [
       "hObbit"
     ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
@@ -688,7 +747,7 @@ export const PLAYERS = [
   {
     "id": "s1ren",
     "nickname": "s1ren",
-    "name": "Valeriy Vakhovskiy",
+    "name": "Pavel Ogloblin",
     "nationality": "Ucrânia",
     "teams": [
       "Team Spirit",
@@ -700,13 +759,14 @@ export const PLAYERS = [
       "chopper",
       "magixx",
       "sh1ro",
-      "but1k"
+      "but1k",
+      "Ax1Le"
     ],
     "coaches": [
       "hObbit"
     ],
-    "majorChampion": true,
-    "majorsCount": 1,
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -758,8 +818,7 @@ export const PLAYERS = [
       "NEO",
       "TaZ",
       "Snax",
-      "byali",
-      "MICHU"
+      "byali"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -786,8 +845,7 @@ export const PLAYERS = [
       "TaZ",
       "Snax",
       "pashaBiceps",
-      "byali",
-      "MICHU"
+      "byali"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -813,8 +871,7 @@ export const PLAYERS = [
       "NEO",
       "Snax",
       "pashaBiceps",
-      "byali",
-      "MICHU"
+      "byali"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -842,7 +899,7 @@ export const PLAYERS = [
       "TaZ",
       "pashaBiceps",
       "byali",
-      "MICHU"
+      "HeavyGod"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -869,8 +926,7 @@ export const PLAYERS = [
       "NEO",
       "TaZ",
       "Snax",
-      "pashaBiceps",
-      "MICHU"
+      "pashaBiceps"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -881,7 +937,7 @@ export const PLAYERS = [
     "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
-    "cs16": true
+    "cs16": false
   },
   {
     "id": "f0rest",
@@ -890,7 +946,6 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Ninjas in Pyjamas",
-      "NIP",
       "Dignitas"
     ],
     "teammates": [
@@ -902,13 +957,17 @@ export const PLAYERS = [
       "REZ",
       "Brollan",
       "lekr0",
-      "nicoodoz"
+      "nicoodoz",
+      "Golden",
+      "dennis",
+      "twist",
+      "Kjaerbye"
     ],
     "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -922,7 +981,6 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Ninjas in Pyjamas",
-      "NIP",
       "Dignitas"
     ],
     "teammates": [
@@ -934,13 +992,17 @@ export const PLAYERS = [
       "REZ",
       "Brollan",
       "lekr0",
-      "nicoodoz"
+      "nicoodoz",
+      "Golden",
+      "dennis",
+      "twist",
+      "Kjaerbye"
     ],
     "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -954,13 +1016,13 @@ export const PLAYERS = [
     "nationality": "EUA",
     "teams": [
       "Cloud9",
-      "CompLexity"
+      "Complexity"
     ],
     "teammates": [
       "shroud",
       "skadoodle",
       "Stewie2K",
-      "tarik",
+      "Tarik",
       "autimatic",
       "RUSH"
     ],
@@ -987,7 +1049,7 @@ export const PLAYERS = [
       "n0thing",
       "skadoodle",
       "Stewie2K",
-      "tarik",
+      "Tarik",
       "autimatic",
       "RUSH"
     ],
@@ -1010,7 +1072,7 @@ export const PLAYERS = [
     "teams": [
       "Fnatic",
       "FaZe Clan",
-      "Godsent"
+      "GODSENT"
     ],
     "teammates": [
       "flusha",
@@ -1021,13 +1083,16 @@ export const PLAYERS = [
       "NiKo",
       "rain",
       "karrigan",
-      "GuardiaN"
+      "GuardiaN",
+      "coldzera",
+      "Xizt",
+      "AdreN"
     ],
     "coaches": [
       "RobbaN"
     ],
     "majorChampion": true,
-    "majorsCount": 3,
+    "majorsCount": 2,
     "katowiceChampion": true,
     "cologneChampion": true,
     "grandSlamWinner": false,
@@ -1054,7 +1119,10 @@ export const PLAYERS = [
       "pronax",
       "dennis",
       "Golden",
-      "twist"
+      "twist",
+      "REZ",
+      "hampus",
+      "Brollan"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -1074,7 +1142,7 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Fnatic",
-      "Godsent"
+      "GODSENT"
     ],
     "teammates": [
       "olofmeister",
@@ -1083,7 +1151,10 @@ export const PLAYERS = [
       "pronax",
       "dennis",
       "Golden",
-      "twist"
+      "twist",
+      "sergej",
+      "ALEX",
+      "mezii"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -1103,7 +1174,7 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Fnatic",
-      "Godsent"
+      "GODSENT"
     ],
     "teammates": [
       "olofmeister",
@@ -1113,7 +1184,14 @@ export const PLAYERS = [
       "dennis",
       "Golden",
       "twist",
-      "sergej"
+      "sergej",
+      "ALEX",
+      "mezii",
+      "lekr0",
+      "REZ",
+      "hampus",
+      "nicoodoz",
+      "Brollan"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -1160,7 +1238,7 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Fnatic",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Cloud9",
       "MOUZ"
     ],
@@ -1191,7 +1269,7 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Fnatic",
-      "NIP",
+      "Ninjas in Pyjamas",
       "GODSENT",
       "Astralis"
     ],
@@ -1203,7 +1281,10 @@ export const PLAYERS = [
       "f0rest",
       "GeT_RiGhT",
       "gla1ve",
-      "dev1ce"
+      "dev1ce",
+      "pronax",
+      "twist",
+      "lekr0"
     ],
     "coaches": [
       "zonic"
@@ -1225,7 +1306,7 @@ export const PLAYERS = [
     "nationality": "Suécia",
     "teams": [
       "Fnatic",
-      "NIP",
+      "Ninjas in Pyjamas",
       "GODSENT",
       "Dignitas"
     ],
@@ -1256,7 +1337,7 @@ export const PLAYERS = [
     "nationality": "Finlândia",
     "teams": [
       "ENCE",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Fnatic"
     ],
     "teammates": [
@@ -1266,7 +1347,10 @@ export const PLAYERS = [
       "Aerial",
       "dycha",
       "KRIMZ",
-      "JW"
+      "JW",
+      "flameZ",
+      "Snappi",
+      "NertZ"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -1288,7 +1372,7 @@ export const PLAYERS = [
       "Vitality",
       "Cloud9",
       "Fnatic",
-      "Liquid"
+      "Team Liquid"
     ],
     "teammates": [
       "ZywOo",
@@ -1297,7 +1381,8 @@ export const PLAYERS = [
       "NBK",
       "misutaaa",
       "KRIMZ",
-      "JW"
+      "JW",
+      "mezii"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -1316,11 +1401,9 @@ export const PLAYERS = [
     "name": "William Merriman",
     "nationality": "Reino Unido",
     "teams": [
+      "Vitality",
       "Fnatic",
-      "Complexity",
-      "Astralis",
-      "G2 Esports",
-      "Team Vitality"
+      "Cloud9"
     ],
     "teammates": [
       "KRIMZ",
@@ -1338,13 +1421,14 @@ export const PLAYERS = [
       "ZywOo",
       "apEX",
       "flameZ",
-      "ropz"
+      "ropz",
+      "Spinx"
     ],
     "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
@@ -1357,7 +1441,7 @@ export const PLAYERS = [
     "name": "Jonas Olofsson",
     "nationality": "Suécia",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "Fnatic",
       "GODSENT",
       "Tricked"
@@ -1368,7 +1452,9 @@ export const PLAYERS = [
       "Brollan",
       "hampus",
       "dennis",
-      "KRIMZ"
+      "KRIMZ",
+      "Xizt",
+      "REZ"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -1387,7 +1473,7 @@ export const PLAYERS = [
     "name": "Richard Landström",
     "nationality": "Suécia",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "FaZe Clan",
       "GODSENT",
       "HellRaisers"
@@ -1403,10 +1489,10 @@ export const PLAYERS = [
       "olofmeister"
     ],
     "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
@@ -1419,7 +1505,7 @@ export const PLAYERS = [
     "name": "Fredrik Sterner",
     "nationality": "Suécia",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "Fnatic",
       "GODSENT"
     ],
@@ -1430,7 +1516,9 @@ export const PLAYERS = [
       "hampus",
       "lekr0",
       "flusha",
-      "KRIMZ"
+      "KRIMZ",
+      "dev1ce",
+      "nicoodoz"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -1449,7 +1537,7 @@ export const PLAYERS = [
     "name": "Hampus Poser",
     "nationality": "Suécia",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "Fnatic",
       "GODSENT"
     ],
@@ -1460,7 +1548,10 @@ export const PLAYERS = [
       "REZ",
       "lekr0",
       "flusha",
-      "KRIMZ"
+      "KRIMZ",
+      "dev1ce",
+      "Xizt",
+      "nicoodoz"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -1479,7 +1570,7 @@ export const PLAYERS = [
     "name": "Adam Friberg",
     "nationality": "Suécia",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "Astralis",
       "OpTic Gaming",
       "Tricked"
@@ -1492,15 +1583,15 @@ export const PLAYERS = [
       "gla1ve"
     ],
     "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
-    "cs16": true
+    "cs16": false
   },
   {
     "id": "nicoodoz",
@@ -1508,7 +1599,7 @@ export const PLAYERS = [
     "name": "Nicolai Fejskov",
     "nationality": "Dinamarca",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "Copenhagen Flames",
       "Fnatic"
     ],
@@ -1537,7 +1628,7 @@ export const PLAYERS = [
     "name": "Ludvig Brolin",
     "nationality": "Suécia",
     "teams": [
-      "NIP",
+      "Ninjas in Pyjamas",
       "Fnatic",
       "G2 Esports"
     ],
@@ -1555,7 +1646,18 @@ export const PLAYERS = [
       "Aleksib",
       "jks",
       "AmaNEk",
-      "mezii"
+      "mezii",
+      "ZywOo",
+      "twist",
+      "Xizt",
+      "nicoodoz",
+      "apEX",
+      "flameZ",
+      "jL",
+      "siuhy",
+      "jimpphat",
+      "torzsi",
+      "xertioN"
     ],
     "coaches": [
       "RobbaN"
@@ -1595,14 +1697,20 @@ export const PLAYERS = [
       "NBK",
       "stavn",
       "cadiaN",
-      "jabbi"
+      "jabbi",
+      "es3tag",
+      "Bubzkji",
+      "Lucky",
+      "flameZ",
+      "SunPayus",
+      "Spinx"
     ],
     "coaches": [
       "zonic",
       "peacemaker"
     ],
     "majorChampion": true,
-    "majorsCount": 4,
+    "majorsCount": 5,
     "katowiceChampion": true,
     "cologneChampion": true,
     "grandSlamWinner": true,
@@ -1617,7 +1725,10 @@ export const PLAYERS = [
     "name": "Lukas Rossander",
     "nationality": "Dinamarca",
     "teams": [
-      "Astralis"
+      "Astralis",
+      "Heroic",
+      "ENCE",
+      "100 Thieves"
     ],
     "teammates": [
       "dev1ce",
@@ -1625,7 +1736,12 @@ export const PLAYERS = [
       "xyp9x",
       "Magisk",
       "Kjaerbye",
-      "es3tag"
+      "es3tag",
+      "dennis",
+      "friberg",
+      "Bubzkji",
+      "k0nfig",
+      "Lucky"
     ],
     "coaches": [
       "zonic"
@@ -1653,7 +1769,9 @@ export const PLAYERS = [
       "dupreeh",
       "gla1ve",
       "Magisk",
-      "Kjaerbye"
+      "Kjaerbye",
+      "es3tag",
+      "Bubzkji"
     ],
     "coaches": [
       "zonic"
@@ -1694,14 +1812,18 @@ export const PLAYERS = [
       "NiKo",
       "m0NESY",
       "huNter-",
-      "maden"
+      "es3tag",
+      "Bubzkji",
+      "flameZ",
+      "iM",
+      "Spinx"
     ],
     "coaches": [
       "zonic",
       "peacemaker"
     ],
     "majorChampion": true,
-    "majorsCount": 3,
+    "majorsCount": 4,
     "katowiceChampion": true,
     "cologneChampion": true,
     "grandSlamWinner": true,
@@ -1717,7 +1839,7 @@ export const PLAYERS = [
     "nationality": "Dinamarca",
     "teams": [
       "Astralis",
-      "NIP",
+      "Ninjas in Pyjamas",
       "North"
     ],
     "teammates": [
@@ -1749,7 +1871,7 @@ export const PLAYERS = [
     "nationality": "Dinamarca",
     "teams": [
       "Astralis",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Heroic",
       "FaZe Clan",
       "Cloud9",
@@ -1805,8 +1927,8 @@ export const PLAYERS = [
     "coaches": [
       "zonic"
     ],
-    "majorChampion": true,
-    "majorsCount": 1,
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -1821,9 +1943,10 @@ export const PLAYERS = [
     "name": "Casper Møller",
     "nationality": "Dinamarca",
     "teams": [
+      "Team Liquid",
       "Heroic",
-      "NIP",
-      "Optic Gaming"
+      "Astralis",
+      "OG"
     ],
     "teammates": [
       "stavn",
@@ -1833,7 +1956,13 @@ export const PLAYERS = [
       "TeSeS",
       "niko_dk",
       "es3tag",
-      "Bubzkji"
+      "Bubzkji",
+      "dev1ce",
+      "Krimbo",
+      "dupreeh",
+      "Lucky",
+      "dycha",
+      "refrezh"
     ],
     "coaches": [
       "valens",
@@ -1855,7 +1984,9 @@ export const PLAYERS = [
     "name": "Jonas Stein",
     "nationality": "Dinamarca",
     "teams": [
-      "Heroic"
+      "Heroic",
+      "Astralis",
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "cadiaN",
@@ -1864,7 +1995,14 @@ export const PLAYERS = [
       "k0nfig",
       "TeSeS",
       "niko_dk",
-      "es3tag"
+      "es3tag",
+      "dev1ce",
+      "Krimbo",
+      "dupreeh",
+      "Bubzkji",
+      "Lucky",
+      "dycha",
+      "refrezh"
     ],
     "coaches": [
       "valens"
@@ -1887,7 +2025,7 @@ export const PLAYERS = [
     "teams": [
       "Heroic",
       "Astralis",
-      "NIP"
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "cadiaN",
@@ -1896,7 +2034,12 @@ export const PLAYERS = [
       "k0nfig",
       "TeSeS",
       "niko_dk",
-      "dev1ce"
+      "dev1ce",
+      "Krimbo",
+      "dupreeh",
+      "es3tag",
+      "Bubzkji",
+      "Lucky"
     ],
     "coaches": [
       "valens",
@@ -1918,10 +2061,11 @@ export const PLAYERS = [
     "name": "Benjamin Bremer",
     "nationality": "Dinamarca",
     "teams": [
-      "Complexity",
-      "FaZe Clan",
       "Astralis",
-      "OpTic Gaming"
+      "Complexity",
+      "Heroic",
+      "Fnatic",
+      "BIG"
     ],
     "teammates": [
       "coldzera",
@@ -1930,13 +2074,20 @@ export const PLAYERS = [
       "JT",
       "rain",
       "broky",
-      "NiKo",
+      "niko_dk",
       "karrigan",
       "Twistzz",
       "dev1ce",
       "cadiaN",
       "stavn",
-      "jabbi"
+      "jabbi",
+      "mezii",
+      "es3tag",
+      "k0nfig",
+      "TeSeS",
+      "hallzerk",
+      "NEKIZ",
+      "latto"
     ],
     "coaches": [
       "RobbaN",
@@ -1959,7 +2110,7 @@ export const PLAYERS = [
     "nationality": "Dinamarca",
     "teams": [
       "Astralis",
-      "Optic Gaming",
+      "OpTic Gaming",
       "Heroic"
     ],
     "teammates": [
@@ -1968,7 +2119,9 @@ export const PLAYERS = [
       "jabbi",
       "blameF",
       "dev1ce",
-      "gla1ve"
+      "gla1ve",
+      "TeSeS",
+      "niko_dk"
     ],
     "coaches": [
       "zonic",
@@ -1991,7 +2144,7 @@ export const PLAYERS = [
     "nationality": "Dinamarca",
     "teams": [
       "Heroic",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Copenhagen Flames"
     ],
     "teammates": [
@@ -1999,14 +2152,17 @@ export const PLAYERS = [
       "stavn",
       "jabbi",
       "blameF",
-      "k0nfig"
+      "k0nfig",
+      "niko_dk",
+      "kyousuke",
+      "refrezh"
     ],
     "coaches": [
       "zonic",
       "valens"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2022,7 +2178,11 @@ export const PLAYERS = [
     "nationality": "Dinamarca",
     "teams": [
       "Heroic",
-      "Copenhagen Flames"
+      "OG",
+      "North",
+      "OpTic Gaming",
+      "Rogue",
+      "Sashi Esport"
     ],
     "teammates": [
       "cadiaN",
@@ -2062,7 +2222,11 @@ export const PLAYERS = [
       "cadiaN",
       "stavn",
       "jabbi",
-      "gla1ve"
+      "gla1ve",
+      "nexa",
+      "AmaNEk",
+      "JaCkz",
+      "huNter-"
     ],
     "coaches": [
       "zonic"
@@ -2084,8 +2248,8 @@ export const PLAYERS = [
     "nationality": "França",
     "teams": [
       "G2 Esports",
-      "Team Vitality",
-      "Ldlc",
+      "Vitality",
+      "LDLC",
       "Titan",
       "EnVyUs"
     ],
@@ -2096,23 +2260,26 @@ export const PLAYERS = [
       "Happy",
       "NiKo",
       "nexa",
-      "huNter",
+      "huNter-",
       "AmaNEk",
       "JaCkz",
-      "ZywOo"
+      "ZywOo",
+      "ALEX",
+      "dupreeh",
+      "misutaaa"
     ],
     "coaches": [
       "peacemaker",
       "RobbaN"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
-    "hltvTop1": true,
+    "hltvTop1": false,
     "cs16": false
   },
   {
@@ -2122,9 +2289,9 @@ export const PLAYERS = [
     "nationality": "França",
     "teams": [
       "G2 Esports",
-      "Team Vitality",
+      "Vitality",
       "EnVyUs",
-      "Team LDLC",
+      "LDLC",
       "Titan"
     ],
     "teammates": [
@@ -2132,10 +2299,9 @@ export const PLAYERS = [
       "NBK",
       "apEX",
       "Happy",
-      "SmithZz",
       "NiKo",
       "nexa",
-      "huNter",
+      "huNter-",
       "AmaNEk",
       "JaCkz"
     ],
@@ -2166,12 +2332,15 @@ export const PLAYERS = [
     ],
     "teammates": [
       "NiKo",
-      "huNter",
+      "huNter-",
       "m0NESY",
       "AmaNEk",
       "JaCkz",
-      "Lucky_dk",
-      "Aleksib"
+      "Lucky",
+      "Aleksib",
+      "shox",
+      "kennyS",
+      "HObbit"
     ],
     "coaches": [
       "RobbaN",
@@ -2201,11 +2370,14 @@ export const PLAYERS = [
     "teammates": [
       "NiKo",
       "nexa",
-      "huNter",
+      "huNter-",
       "JaCkz",
-      "Lucky_dk",
+      "Lucky",
       "shox",
-      "ZywOo"
+      "ZywOo",
+      "Brollan",
+      "kennyS",
+      "jks"
     ],
     "coaches": [
       "RobbaN",
@@ -2235,11 +2407,12 @@ export const PLAYERS = [
     "teammates": [
       "NiKo",
       "nexa",
-      "huNter",
+      "huNter-",
       "AmaNEk",
-      "Lucky_dk",
+      "Lucky",
       "kennyS",
-      "shox"
+      "shox",
+      "Aleksib"
     ],
     "coaches": [
       "RobbaN",
@@ -2261,9 +2434,7 @@ export const PLAYERS = [
     "name": "Nemanja Kovač",
     "nationality": "Bósnia e Herzegovina",
     "teams": [
-      "G2 Esports",
-      "Valiance",
-      "CR4ZY"
+      "G2 Esports"
     ],
     "teammates": [
       "NiKo",
@@ -2271,9 +2442,17 @@ export const PLAYERS = [
       "m0NESY",
       "AmaNEk",
       "JaCkz",
-      "Lucky_dk",
+      "Lucky",
       "Aleksib",
-      "jks"
+      "jks",
+      "mezii",
+      "Brollan",
+      "Magisk",
+      "shox",
+      "kennyS",
+      "SunPayus",
+      "HObbit",
+      "HeavyGod"
     ],
     "coaches": [
       "RobbaN",
@@ -2281,8 +2460,8 @@ export const PLAYERS = [
     ],
     "majorChampion": false,
     "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -2312,16 +2491,18 @@ export const PLAYERS = [
       "mezii",
       "Brollan",
       "SunPayus",
-      "ropz"
+      "ropz",
+      "ALEX",
+      "Spinx"
     ],
     "coaches": [
       "zonic",
       "peacemaker"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorsCount": 4,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -2345,7 +2526,9 @@ export const PLAYERS = [
       "shox",
       "NBK",
       "dupreeh",
-      "Magisk"
+      "Magisk",
+      "ALEX",
+      "SunPayus"
     ],
     "coaches": [
       "zonic",
@@ -2379,14 +2562,16 @@ export const PLAYERS = [
       "shox",
       "kennyS",
       "Happy",
-      "SmithZz"
+      "ALEX",
+      "dupreeh",
+      "misutaaa"
     ],
     "coaches": [
       "peacemaker",
       "zonic"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
+    "majorsCount": 2,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2403,22 +2588,20 @@ export const PLAYERS = [
     "teams": [
       "EnVyUs",
       "G2 Esports",
-      "Team Vitality",
+      "Vitality",
       "Windigo"
     ],
     "teammates": [
       "kennyS",
       "NBK",
       "apEX",
-      "shox",
-      "SmithZz",
-      "KQLY"
+      "shox"
     ],
     "coaches": [
       "peacemaker"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
+    "majorsCount": 2,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2434,8 +2617,7 @@ export const PLAYERS = [
     "nationality": "Israel",
     "teams": [
       "Vitality",
-      "Copenhagen Flames",
-      "ENCE"
+      "OG"
     ],
     "teammates": [
       "ZywOo",
@@ -2447,15 +2629,16 @@ export const PLAYERS = [
       "sergej",
       "Snappi",
       "ropz",
-      "Brollan"
+      "Brollan",
+      "Spinx"
     ],
     "coaches": [
       "zonic"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
@@ -2469,7 +2652,9 @@ export const PLAYERS = [
     "nationality": "Rússia",
     "teams": [
       "NAVI",
-      "B8"
+      "Cloud9",
+      "Virtus.pro",
+      "BC.Game Esports"
     ],
     "teammates": [
       "s1mple",
@@ -2480,7 +2665,12 @@ export const PLAYERS = [
       "GuardiaN",
       "Edward",
       "Zeus",
-      "sdy"
+      "sdy",
+      "w0nderful",
+      "iM",
+      "nafany",
+      "dosia",
+      "mou"
     ],
     "coaches": [
       "blade"
@@ -2513,13 +2703,13 @@ export const PLAYERS = [
       "iM",
       "Aleksib",
       "jL",
-      "makazze"
+      "sdy"
     ],
     "coaches": [
       "blade"
     ],
     "majorChampion": true,
-    "majorsCount": 1,
+    "majorsCount": 2,
     "katowiceChampion": true,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2542,7 +2732,9 @@ export const PLAYERS = [
       "electronic",
       "b1t",
       "Boombl4",
-      "flamie"
+      "flamie",
+      "iM",
+      "sdy"
     ],
     "coaches": [
       "blade"
@@ -2578,13 +2770,13 @@ export const PLAYERS = [
       "m0NESY",
       "Aleksib",
       "jL",
-      "makazze"
+      "NiKo"
     ],
     "coaches": [
       "blade"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2597,7 +2789,7 @@ export const PLAYERS = [
     "id": "iM",
     "nickname": "iM",
     "name": "Ismail Aliev",
-    "nationality": "Azerbaijão",
+    "nationality": "Romênia",
     "teams": [
       "NAVI",
       "Virtus.pro",
@@ -2616,13 +2808,13 @@ export const PLAYERS = [
     "coaches": [
       "blade"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
@@ -2669,7 +2861,7 @@ export const PLAYERS = [
     "teams": [
       "NAVI",
       "FaZe Clan",
-      "mousesports"
+      "MOUZ"
     ],
     "teammates": [
       "s1mple",
@@ -2680,7 +2872,8 @@ export const PLAYERS = [
       "NiKo",
       "rain",
       "olofmeister",
-      "karrigan"
+      "karrigan",
+      "AdreN"
     ],
     "coaches": [
       "blade",
@@ -2775,7 +2968,9 @@ export const PLAYERS = [
       "electronic",
       "b1t",
       "Perfecto",
-      "flamie"
+      "flamie",
+      "sdy",
+      "HeavyGod"
     ],
     "coaches": [
       "blade"
@@ -2793,7 +2988,7 @@ export const PLAYERS = [
   {
     "id": "sdy",
     "nickname": "sdy",
-    "name": "Denis Sharipov",
+    "name": "Viktor Orudzhev",
     "nationality": "Ucrânia",
     "teams": [
       "NAVI",
@@ -2828,7 +3023,7 @@ export const PLAYERS = [
     "teams": [
       "G2 Esports",
       "ENCE",
-      "NIP",
+      "Ninjas in Pyjamas",
       "OG",
       "NAVI"
     ],
@@ -2846,13 +3041,15 @@ export const PLAYERS = [
       "Aerial",
       "b1t",
       "jL",
-      "w0nderful"
+      "w0nderful",
+      "nexa",
+      "dycha"
     ],
     "coaches": [
       "RobbaN"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2867,10 +3064,10 @@ export const PLAYERS = [
     "name": "Marco Pfeiffer",
     "nationality": "Dinamarca",
     "teams": [
-      "ENCE",
-      "NIP",
       "Team Falcons",
-      "BC.Game Esports"
+      "ENCE",
+      "Heroic",
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "dycha",
@@ -2879,7 +3076,10 @@ export const PLAYERS = [
       "SunPayus",
       "s1mple",
       "w0nderful",
-      "Magisk"
+      "Magisk",
+      "flameZ",
+      "iM",
+      "NertZ"
     ],
     "coaches": [
       "peacemaker"
@@ -2901,9 +3101,9 @@ export const PLAYERS = [
     "nationality": "Espanha",
     "teams": [
       "Team Falcons",
-      "BC.Game Esports",
       "ENCE",
-      "Vitality"
+      "Heroic",
+      "G2 Esports"
     ],
     "teammates": [
       "s1mple",
@@ -2917,7 +3117,8 @@ export const PLAYERS = [
       "NiKo",
       "m0NESY",
       "huNter-",
-      "maden"
+      "apEX",
+      "NertZ"
     ],
     "coaches": [
       "peacemaker",
@@ -2937,11 +3138,10 @@ export const PLAYERS = [
     "id": "jL",
     "nickname": "jL",
     "name": "Jonathan Muñoz",
-    "nationality": "Espanha",
+    "nationality": "Lituânia",
     "teams": [
       "MOUZ",
-      "mousesports",
-      "NIP",
+      "Ninjas in Pyjamas",
       "NAVI"
     ],
     "teammates": [
@@ -2954,18 +3154,17 @@ export const PLAYERS = [
       "NertZ",
       "Aleksib",
       "b1t",
-      "w0nderful",
-      "makazze"
+      "w0nderful"
     ],
     "coaches": [
       "rejin"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
-    "majorMvp": false,
+    "majorMvp": true,
     "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
@@ -2977,7 +3176,6 @@ export const PLAYERS = [
     "nationality": "Eslováquia",
     "teams": [
       "FaZe Clan",
-      "mousesports",
       "MOUZ"
     ],
     "teammates": [
@@ -2994,7 +3192,17 @@ export const PLAYERS = [
       "Bymas",
       "s1mple",
       "skullz",
-      "EliGE"
+      "EliGE",
+      "Krimbo",
+      "Golden",
+      "jL",
+      "NertZ",
+      "torzsi",
+      "xertioN",
+      "faveN",
+      "suNny",
+      "dexter",
+      "cNed"
     ],
     "coaches": [
       "rejin"
@@ -3016,8 +3224,7 @@ export const PLAYERS = [
     "nationality": "Islândia",
     "teams": [
       "MOUZ",
-      "mousesports",
-      "Astralis"
+      "Team Liquid"
     ],
     "teammates": [
       "frozen",
@@ -3026,7 +3233,10 @@ export const PLAYERS = [
       "jL",
       "xertioN",
       "NertZ",
-      "Brollan"
+      "Brollan",
+      "karrigan",
+      "faveN",
+      "cNed"
     ],
     "coaches": [
       "rejin"
@@ -3047,8 +3257,7 @@ export const PLAYERS = [
     "name": "Jimi Väyrynen",
     "nationality": "Finlândia",
     "teams": [
-      "MOUZ",
-      "mousesports"
+      "MOUZ"
     ],
     "teammates": [
       "frozen",
@@ -3057,7 +3266,8 @@ export const PLAYERS = [
       "jL",
       "xertioN",
       "NertZ",
-      "Brollan"
+      "Brollan",
+      "karrigan"
     ],
     "coaches": [
       "rejin"
@@ -3078,10 +3288,10 @@ export const PLAYERS = [
     "name": "Fredrik Sjöström",
     "nationality": "Suécia",
     "teams": [
-      "MOUZ",
-      "mousesports",
+      "Heroic",
       "ENCE",
-      "NIP"
+      "Team Liquid",
+      "G2 Esports"
     ],
     "teammates": [
       "frozen",
@@ -3090,8 +3300,11 @@ export const PLAYERS = [
       "torzsi",
       "jL",
       "xertioN",
-      "Brollan",
-      "sergej"
+      "sergej",
+      "Aerial",
+      "dycha",
+      "Snappi",
+      "SunPayus"
     ],
     "coaches": [
       "rejin"
@@ -3102,7 +3315,7 @@ export const PLAYERS = [
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
@@ -3113,7 +3326,7 @@ export const PLAYERS = [
     "nationality": "Hungria",
     "teams": [
       "MOUZ",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Entropiq"
     ],
     "teammates": [
@@ -3122,7 +3335,8 @@ export const PLAYERS = [
       "jimpphat",
       "xertioN",
       "Brollan",
-      "NertZ"
+      "NertZ",
+      "jL"
     ],
     "coaches": [
       "rejin"
@@ -3144,7 +3358,7 @@ export const PLAYERS = [
     "nationality": "Eslováquia",
     "teams": [
       "MOUZ",
-      "NIP"
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "frozen",
@@ -3152,7 +3366,8 @@ export const PLAYERS = [
       "jimpphat",
       "torzsi",
       "Brollan",
-      "NertZ"
+      "NertZ",
+      "jL"
     ],
     "coaches": [
       "rejin"
@@ -3173,11 +3388,10 @@ export const PLAYERS = [
     "name": "Özgür Eker",
     "nationality": "Turquia",
     "teams": [
-      "mousesports",
+      "MOUZ",
       "HellRaisers",
       "Cloud9",
-      "Eternal Fire",
-      "MOUZ"
+      "Eternal Fire"
     ],
     "teammates": [
       "XANTARES",
@@ -3187,7 +3401,9 @@ export const PLAYERS = [
       "chrisJ",
       "frozen",
       "dexter",
-      "karrigan"
+      "karrigan",
+      "ropz",
+      "suNny"
     ],
     "coaches": [
       "rejin"
@@ -3208,7 +3424,6 @@ export const PLAYERS = [
     "name": "Chris de Jong",
     "nationality": "Holanda",
     "teams": [
-      "mousesports",
       "MOUZ",
       "BIG"
     ],
@@ -3218,7 +3433,9 @@ export const PLAYERS = [
       "woxic",
       "karrigan",
       "Bymas",
-      "tabseN"
+      "tabseN",
+      "suNny",
+      "dexter"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -3237,15 +3454,15 @@ export const PLAYERS = [
     "name": "Johannes Wodarz",
     "nationality": "Alemanha",
     "teams": [
-      "BIG",
-      "Sprout"
+      "BIG"
     ],
     "teammates": [
       "XANTARES",
       "tiziaN",
       "syrsoN",
       "faveN",
-      "chrisJ"
+      "chrisJ",
+      "suNny"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -3264,10 +3481,9 @@ export const PLAYERS = [
     "name": "Ismailcan Dörtkardeş",
     "nationality": "Turquia",
     "teams": [
-      "Eternal Fire",
-      "Space Soldiers",
       "BIG",
-      "Sangal"
+      "Eternal Fire",
+      "Aurora Gaming"
     ],
     "teammates": [
       "woxic",
@@ -3380,7 +3596,7 @@ export const PLAYERS = [
     "teams": [
       "Virtus.pro",
       "Outsiders",
-      "HellRaisers"
+      "PARIVISION"
     ],
     "teammates": [
       "Ax1Le",
@@ -3393,8 +3609,8 @@ export const PLAYERS = [
     "coaches": [
       "jR"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -3428,12 +3644,14 @@ export const PLAYERS = [
       "sh1ro",
       "s1ren",
       "HObbit",
-      "nafany"
+      "nafany",
+      "interz",
+      "HeavyGod"
     ],
     "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
@@ -3459,13 +3677,16 @@ export const PLAYERS = [
       "SANJI",
       "qikert",
       "nafany",
-      "sh1ro"
+      "sh1ro",
+      "HObbit",
+      "interz",
+      "Patsi"
     ],
     "coaches": [
       "jR"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -3480,10 +3701,9 @@ export const PLAYERS = [
     "name": "Mareks Gaļinskis",
     "nationality": "Letônia",
     "teams": [
-      "Virtus.pro",
       "Team Liquid",
-      "NAVI",
-      "Team Falcons"
+      "Virtus.pro",
+      "FURIA"
     ],
     "teammates": [
       "Jame",
@@ -3495,7 +3715,9 @@ export const PLAYERS = [
       "EliGE",
       "NAF",
       "Twistzz",
-      "s1mple"
+      "oSee",
+      "skullz",
+      "cNed"
     ],
     "coaches": [
       "jR"
@@ -3564,8 +3786,8 @@ export const PLAYERS = [
     "coaches": [
       "jR"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -3590,13 +3812,14 @@ export const PLAYERS = [
       "FL1T",
       "YEKINDAR",
       "fame",
-      "SANJI"
+      "SANJI",
+      "Patsi"
     ],
     "coaches": [
       "jR"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -3624,7 +3847,9 @@ export const PLAYERS = [
       "FL1T",
       "NiKo",
       "nexa",
-      "huNter"
+      "huNter-",
+      "dosia",
+      "mou"
     ],
     "coaches": [
       "RobbaN"
@@ -3648,7 +3873,7 @@ export const PLAYERS = [
       "Gambit",
       "Cloud9",
       "NAVI",
-      "NIP"
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "sh1ro",
@@ -3662,9 +3887,9 @@ export const PLAYERS = [
     "coaches": [
       "blade"
     ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
@@ -3687,12 +3912,13 @@ export const PLAYERS = [
       "nafany",
       "HObbit",
       "Ax1Le",
-      "FL1T"
+      "FL1T",
+      "HeavyGod"
     ],
     "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
@@ -3794,7 +4020,7 @@ export const PLAYERS = [
     "nationality": "Finlândia",
     "teams": [
       "ENCE",
-      "NIP",
+      "Ninjas in Pyjamas",
       "FaZe Clan",
       "Cloud9"
     ],
@@ -3806,7 +4032,9 @@ export const PLAYERS = [
       "f0rest",
       "GeT_RiGhT",
       "rain",
-      "karrigan"
+      "karrigan",
+      "friberg",
+      "dycha"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -3826,7 +4054,7 @@ export const PLAYERS = [
     "nationality": "Finlândia",
     "teams": [
       "ENCE",
-      "mousesports",
+      "MOUZ",
       "BIG",
       "G2 Esports"
     ],
@@ -3838,7 +4066,8 @@ export const PLAYERS = [
       "ropz",
       "woxic",
       "chrisJ",
-      "tabseN"
+      "tabseN",
+      "Aerial"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -3867,7 +4096,9 @@ export const PLAYERS = [
       "allu",
       "suNny",
       "dycha",
-      "Snappi"
+      "Snappi",
+      "flameZ",
+      "NertZ"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -3887,7 +4118,7 @@ export const PLAYERS = [
     "nationality": "Israel",
     "teams": [
       "ENCE",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Heroic"
     ],
     "teammates": [
@@ -3897,7 +4128,8 @@ export const PLAYERS = [
       "Snappi",
       "NertZ",
       "cadiaN",
-      "stavn"
+      "stavn",
+      "Aerial"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -3924,12 +4156,19 @@ export const PLAYERS = [
       "n0thing",
       "shroud",
       "skadoodle",
-      "tarik",
+      "Tarik",
       "autimatic",
       "RUSH",
       "EliGE",
       "NAF",
-      "FalleN"
+      "FalleN",
+      "Twistzz",
+      "CerQ",
+      "nitr0",
+      "daps",
+      "TACO",
+      "hiko",
+      "pimp"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -3959,7 +4198,10 @@ export const PLAYERS = [
       "skadoodle",
       "Stewie2K",
       "autimatic",
-      "RUSH"
+      "RUSH",
+      "CerQ",
+      "daps",
+      "stanislaw"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -3985,8 +4227,12 @@ export const PLAYERS = [
       "shroud",
       "skadoodle",
       "Stewie2K",
-      "tarik",
-      "RUSH"
+      "Tarik",
+      "RUSH",
+      "CerQ",
+      "nitr0",
+      "daps",
+      "hiko"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -4013,8 +4259,12 @@ export const PLAYERS = [
       "shroud",
       "skadoodle",
       "Stewie2K",
-      "tarik",
-      "autimatic"
+      "Tarik",
+      "autimatic",
+      "CerQ",
+      "nitr0",
+      "daps",
+      "hiko"
     ],
     "coaches": [],
     "majorChampion": true,
@@ -4038,7 +4288,7 @@ export const PLAYERS = [
     ],
     "teammates": [
       "Stewie2K",
-      "tarik",
+      "Tarik",
       "autimatic",
       "RUSH",
       "n0thing",
@@ -4050,7 +4300,7 @@ export const PLAYERS = [
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
-    "majorMvp": true,
+    "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
     "cs16": false
@@ -4063,11 +4313,11 @@ export const PLAYERS = [
     "teams": [
       "Evil Geniuses",
       "NAVI",
-      "NIP"
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "Stewie2K",
-      "tarik",
+      "Tarik",
       "autimatic",
       "RUSH",
       "EliGE",
@@ -4110,7 +4360,17 @@ export const PLAYERS = [
       "karrigan",
       "frozen",
       "rain",
-      "skullz"
+      "skullz",
+      "Krimbo",
+      "CerQ",
+      "stanislaw",
+      "floppy",
+      "JT",
+      "hallzerk",
+      "Liazz",
+      "cNed",
+      "pimp",
+      "jdm64"
     ],
     "coaches": [
       "peacemaker"
@@ -4143,7 +4403,16 @@ export const PLAYERS = [
       "oSee",
       "junior",
       "FalleN",
-      "TACO"
+      "TACO",
+      "CerQ",
+      "Grim",
+      "daps",
+      "stanislaw",
+      "floppy",
+      "skullz",
+      "Liazz",
+      "hiko",
+      "pimp"
     ],
     "coaches": [
       "peacemaker"
@@ -4179,7 +4448,10 @@ export const PLAYERS = [
       "daps",
       "FalleN",
       "TACO",
-      "jdm64"
+      "jdm64",
+      "oSee",
+      "Grim",
+      "pimp"
     ],
     "coaches": [
       "peacemaker"
@@ -4192,7 +4464,7 @@ export const PLAYERS = [
     "majorMvp": false,
     "hltvTop20": true,
     "hltvTop1": false,
-    "cs16": true
+    "cs16": false
   },
   {
     "id": "oSee",
@@ -4211,7 +4483,8 @@ export const PLAYERS = [
       "YEKINDAR",
       "nitr0",
       "floppy",
-      "JT"
+      "JT",
+      "Grim"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4236,9 +4509,7 @@ export const PLAYERS = [
     "teammates": [
       "EliGE",
       "NAF",
-      "Twistzz",
-      "YEKINDAR",
-      "oSee"
+      "Twistzz"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4298,12 +4569,13 @@ export const PLAYERS = [
       "NAF",
       "Stewie2K",
       "Twistzz",
-      "tarik",
+      "Tarik",
       "autimatic",
       "nitr0",
       "hiko",
       "s1mple",
-      "RUSH"
+      "RUSH",
+      "jdm64"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4329,7 +4601,7 @@ export const PLAYERS = [
     "teammates": [
       "EliGE",
       "NAF",
-      "tarik"
+      "Tarik"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4357,7 +4629,12 @@ export const PLAYERS = [
       "NAF",
       "hallzerk",
       "Grim",
-      "blameF"
+      "blameF",
+      "mezii",
+      "oSee",
+      "NEKIZ",
+      "latto",
+      "jks"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4385,7 +4662,8 @@ export const PLAYERS = [
       "EliGE",
       "blameF",
       "hallzerk",
-      "oSee"
+      "oSee",
+      "jks"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4405,7 +4683,7 @@ export const PLAYERS = [
     "nationality": "Noruega",
     "teams": [
       "Complexity",
-      "NIP",
+      "Ninjas in Pyjamas",
       "Team Liquid"
     ],
     "teammates": [
@@ -4443,7 +4721,9 @@ export const PLAYERS = [
       "KSCERATO",
       "yuurih",
       "floppy",
-      "blameF"
+      "blameF",
+      "latto",
+      "mzinho"
     ],
     "coaches": [
       "guerri"
@@ -4492,8 +4772,8 @@ export const PLAYERS = [
     "nationality": "Brasil",
     "teams": [
       "FURIA",
-      "Imperial",
-      "paiN Gaming"
+      "Fluxo",
+      "Legacy"
     ],
     "teammates": [
       "KSCERATO",
@@ -4503,7 +4783,8 @@ export const PLAYERS = [
       "chelo",
       "drop",
       "saffee",
-      "felps"
+      "felps",
+      "skullz"
     ],
     "coaches": [
       "guerri"
@@ -4534,7 +4815,10 @@ export const PLAYERS = [
       "chelo",
       "drop",
       "saffee",
-      "skullz"
+      "skullz",
+      "NEKIZ",
+      "boltz",
+      "felps"
     ],
     "coaches": [
       "guerri"
@@ -4565,7 +4849,10 @@ export const PLAYERS = [
       "chelo",
       "drop",
       "saffee",
-      "skullz"
+      "skullz",
+      "NEKIZ",
+      "boltz",
+      "felps"
     ],
     "coaches": [
       "guerri"
@@ -4596,7 +4883,8 @@ export const PLAYERS = [
       "FalleN",
       "chelo",
       "drop",
-      "saffee"
+      "saffee",
+      "skullz"
     ],
     "coaches": [
       "guerri"
@@ -4699,7 +4987,8 @@ export const PLAYERS = [
       "arT",
       "VINI",
       "chelo",
-      "saffee"
+      "saffee",
+      "skullz"
     ],
     "coaches": [
       "guerri"
@@ -4830,7 +5119,8 @@ export const PLAYERS = [
       "nitr0",
       "NAF",
       "EliGE",
-      "Stewie2K"
+      "Stewie2K",
+      "boltz"
     ],
     "coaches": [
       "zews",
@@ -4871,8 +5161,8 @@ export const PLAYERS = [
       "zews",
       "guerri"
     ],
-    "majorChampion": true,
-    "majorsCount": 1,
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -4917,80 +5207,15 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "zews",
-    "nickname": "zews",
-    "name": "Epitácio de Melo Jr",
-    "nationality": "Brasil",
-    "teams": [
-      "MIBR",
-      "SK Gaming",
-      "Team Liquid",
-      "Luminosity"
-    ],
-    "teammates": [
-      "FalleN",
-      "coldzera",
-      "fer",
-      "fnx",
-      "TACO",
-      "EliGE",
-      "NAF"
-    ],
-    "coaches": [
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "hunter_g2",
-    "nickname": "hunter",
-    "name": "Robert Bobek",
-    "nationality": "Eslovênia",
-    "teams": [
-      "FURIA",
-      "paiN Gaming",
-      "Complexity"
-    ],
-    "teammates": [
-      "arT",
-      "KSCERATO",
-      "yuurih",
-      "FalleN",
-      "floppy",
-      "JT"
-    ],
-    "coaches": [
-      "guerri"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
     "id": "jks",
     "nickname": "jks",
     "name": "Justin Savage",
     "nationality": "Austrália",
     "teams": [
+      "G2 Esports",
       "Complexity",
-      "FaZe Clan",
-      "Cloud9",
-      "RENEGADES",
-      "G2 Esports"
+      "Team Liquid",
+      "FlyQuest"
     ],
     "teammates": [
       "coldzera",
@@ -5007,15 +5232,19 @@ export const PLAYERS = [
       "Aleksib",
       "Brollan",
       "AmaNEk",
-      "mezii"
+      "mezii",
+      "dexter",
+      "Liazz",
+      "AZR",
+      "Gratisfaction"
     ],
     "coaches": [
       "RobbaN"
     ],
     "majorChampion": false,
     "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -5029,7 +5258,6 @@ export const PLAYERS = [
     "nationality": "Austrália",
     "teams": [
       "MOUZ",
-      "mousesports",
       "Cloud9",
       "RENEGADES"
     ],
@@ -5040,7 +5268,8 @@ export const PLAYERS = [
       "chrisJ",
       "jks",
       "Liazz",
-      "AZR"
+      "AZR",
+      "Gratisfaction"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5114,7 +5343,7 @@ export const PLAYERS = [
     "nationality": "Austrália",
     "teams": [
       "RENEGADES",
-      "NIP"
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
       "jks",
@@ -5141,7 +5370,6 @@ export const PLAYERS = [
     "teams": [
       "Eternal Fire",
       "MOUZ",
-      "mousesports",
       "Team Liquid"
     ],
     "teammates": [
@@ -5169,11 +5397,11 @@ export const PLAYERS = [
     "id": "Spinx",
     "nickname": "Spinx",
     "name": "Tomas Niemelä",
-    "nationality": "Finlândia",
+    "nationality": "Israel",
     "teams": [
       "Vitality",
-      "NIP",
-      "Entropiq"
+      "ENCE",
+      "MOUZ"
     ],
     "teammates": [
       "ZywOo",
@@ -5186,10 +5414,10 @@ export const PLAYERS = [
     "coaches": [
       "zonic"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": false,
@@ -5318,7 +5546,6 @@ export const PLAYERS = [
       "Senzu",
       "SleepY",
       "Techno4K",
-      "dgt",
       "NEKIZ"
     ],
     "coaches": [],
@@ -5368,9 +5595,7 @@ export const PLAYERS = [
     ],
     "teammates": [
       "7ckngMad",
-      "Krad",
-      "HeavyGod",
-      "Qikert",
+      "qikert",
       "FL1T"
     ],
     "coaches": [],
@@ -5394,9 +5619,7 @@ export const PLAYERS = [
       "forZe"
     ],
     "teammates": [
-      "Patsi",
-      "Krad",
-      "HeavyGod"
+      "Patsi"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5504,9 +5727,102 @@ export const PLAYERS = [
       "nitr0",
       "EliGE",
       "hiko",
-      "daps"
+      "daps",
+      "pimp"
     ],
     "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "HeavyGod",
+    "nickname": "HeavyGod",
+    "name": "Nikita Martynenko",
+    "nationality": "Israel",
+    "teams": [
+      "Endpoint",
+      "OG",
+      "Cloud9",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "huNter-",
+      "m0NESY",
+      "Snax",
+      "Boombl4",
+      "Ax1Le",
+      "interz"
+    ],
+    "coaches": [
+      "TaZ"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "kyousuke",
+    "nickname": "kyousuke",
+    "name": "Maksim Lukin",
+    "nationality": "Rússia",
+    "teams": [
+      "Team Spirit Academy",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "NiKo",
+      "m0NESY",
+      "TeSeS",
+      "karrigan"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "refrezh",
+    "nickname": "refrezh",
+    "name": "Ismail Ali",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Heroic",
+      "Cloud9",
+      "OpTic Gaming",
+      "MAD Lions",
+      "9INE",
+      "Sprout",
+      "Preasy"
+    ],
+    "teammates": [
+      "cadiaN",
+      "stavn",
+      "TeSeS"
+    ],
+    "coaches": [
+      "Xizt"
+    ],
     "majorChampion": false,
     "majorsCount": 0,
     "katowiceChampion": false,
