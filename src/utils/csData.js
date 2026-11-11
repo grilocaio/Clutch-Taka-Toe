@@ -1,4 +1,4 @@
-// Base de dados local com jogadores de Counter-Strike revisados e corrigidos
+// Base de dados local com jogadores de Counter-Strike revisados e validados por elencos históricos (220 jogadores)
 export const PLAYERS = [
   {
     "id": "s1mple",
@@ -6,2643 +6,60 @@ export const PLAYERS = [
     "name": "Oleksandr Kostyliev",
     "nationality": "Ucrânia",
     "teams": [
-      "NAVI",
-      "Team Liquid",
       "FlipSid3",
       "HellRaisers",
+      "NAVI",
+      "FaZe Clan",
       "Team Falcons",
-      "FaZe Clan",
-      "BC.Game Esports"
-    ],
-    "teammates": [
-      "electronic",
-      "b1t",
-      "Boombl4",
-      "Perfecto",
-      "flamie",
-      "Edward",
-      "Zeus",
-      "GuardiaN",
-      "EliGE",
-      "nitr0",
-      "hiko",
-      "daps",
-      "jdm64",
-      "w0nderful",
-      "Snappi",
-      "SunPayus",
-      "Magisk",
-      "rain",
-      "karrigan",
-      "frozen",
-      "skullz",
-      "iM",
-      "ropz",
-      "sdy"
-    ],
-    "coaches": [
-      "blade",
-      "peacemaker",
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": true,
-    "cs16": false
-  },
-  {
-    "id": "FalleN",
-    "nickname": "FalleN",
-    "name": "Gabriel Toledo",
-    "nationality": "Brasil",
-    "teams": [
-      "Luminosity",
-      "SK Gaming",
-      "MIBR",
-      "Team Liquid",
-      "Imperial",
-      "FURIA"
-    ],
-    "teammates": [
-      "coldzera",
-      "fer",
-      "fnx",
-      "TACO",
-      "felps",
-      "boltz",
-      "saffee",
-      "nitr0",
-      "NAF",
-      "EliGE",
-      "Stewie2K",
-      "KSCERATO",
-      "yuurih",
-      "arT",
-      "drop",
-      "VINI",
-      "chelo",
-      "latto",
-      "skullz"
-    ],
-    "coaches": [
-      "zews",
-      "peacemaker",
-      "guerri"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "coldzera",
-    "nickname": "coldzera",
-    "name": "Marcelo David",
-    "nationality": "Brasil",
-    "teams": [
-      "Luminosity",
-      "SK Gaming",
-      "MIBR",
-      "FaZe Clan",
-      "Complexity",
-      "00Nation",
-      "RED Canids",
-      "Legacy",
-      "ODDIK"
-    ],
-    "teammates": [
-      "FalleN",
-      "fer",
-      "fnx",
-      "TACO",
-      "felps",
-      "boltz",
-      "NiKo",
-      "rain",
-      "olofmeister",
-      "broky",
-      "blameF",
-      "jks",
-      "es3tag",
-      "latto",
-      "NEKIZ",
-      "karrigan"
-    ],
-    "coaches": [
-      "zews",
-      "RobbaN"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": true,
-    "cs16": false
-  },
-  {
-    "id": "dev1ce",
-    "nickname": "dev1ce",
-    "name": "Nicolai Reedtz",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Ninjas in Pyjamas",
-      "TSM",
-      "Dignitas"
-    ],
-    "teammates": [
-      "dupreeh",
-      "xyp9x",
-      "gla1ve",
-      "Magisk",
-      "Kjaerbye",
-      "es3tag",
-      "Bubzkji",
-      "blameF",
-      "stavn",
-      "jabbi",
-      "cadiaN",
-      "REZ",
-      "hampus",
-      "Krimbo",
-      "dennis",
-      "mezii",
-      "k0nfig",
-      "Lucky"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 4,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": true,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "ZywOo",
-    "nickname": "ZywOo",
-    "name": "Mathieu Herbaut",
-    "nationality": "França",
-    "teams": [
-      "Vitality"
-    ],
-    "teammates": [
-      "apEX",
-      "shox",
-      "NBK",
-      "misutaaa",
-      "dupreeh",
-      "Magisk",
-      "mezii",
-      "flameZ",
-      "Brollan",
-      "SunPayus",
-      "ropz",
-      "ALEX",
-      "AmaNEk",
-      "Spinx"
-    ],
-    "coaches": [
-      "zonic",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 3,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": true,
-    "cs16": false
-  },
-  {
-    "id": "NiKo",
-    "nickname": "NiKo",
-    "name": "Nikola Kovač",
-    "nationality": "Bósnia e Herzegovina",
-    "teams": [
-      "FaZe Clan",
-      "G2 Esports",
-      "MOUZ",
-      "Team Falcons"
-    ],
-    "teammates": [
-      "rain",
-      "broky",
-      "karrigan",
-      "Twistzz",
-      "ropz",
-      "coldzera",
-      "olofmeister",
-      "GuardiaN",
-      "m0NESY",
-      "huNter-",
-      "nexa",
-      "AmaNEk",
-      "JaCkz",
-      "jks",
-      "Aleksib",
-      "Brollan",
-      "mezii",
-      "SunPayus",
-      "w0nderful",
-      "Magisk",
-      "Bymas",
-      "Krimbo",
-      "shox",
-      "kennyS",
-      "frozen",
-      "HObbit",
-      "AdreN",
-      "kyousuke"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "karrigan",
-    "nickname": "karrigan",
-    "name": "Finn Andersen",
-    "nationality": "Dinamarca",
-    "teams": [
-      "FaZe Clan",
-      "MOUZ",
-      "Astralis",
-      "Fnatic",
-      "Team Falcons"
-    ],
-    "teammates": [
-      "NiKo",
-      "rain",
-      "broky",
-      "Twistzz",
-      "ropz",
-      "olofmeister",
-      "coldzera",
-      "GuardiaN",
-      "frozen",
-      "siuhy",
-      "jimpphat",
-      "s1mple",
-      "skullz",
-      "Bymas",
-      "Krimbo",
-      "blameF",
-      "woxic",
-      "chrisJ",
-      "AdreN",
-      "allu",
-      "jks",
-      "kyousuke",
-      "EliGE"
-    ],
-    "coaches": [
-      "RobbaN",
-      "rejin"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "ropz",
-    "nickname": "ropz",
-    "name": "Robin Kool",
-    "nationality": "Estônia",
-    "teams": [
-      "MOUZ",
-      "FaZe Clan",
-      "Vitality"
-    ],
-    "teammates": [
-      "NiKo",
-      "rain",
-      "broky",
-      "karrigan",
-      "Twistzz",
-      "frozen",
-      "woxic",
-      "chrisJ",
-      "Bymas",
-      "s1mple",
-      "apEX",
-      "ZywOo",
-      "flameZ",
-      "mezii",
-      "Krimbo",
-      "Golden",
-      "suNny",
-      "hallzerk",
-      "dexter"
-    ],
-    "coaches": [
-      "RobbaN",
-      "rejin"
-    ],
-    "majorChampion": true,
-    "majorsCount": 3,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Twistzz",
-    "nickname": "Twistzz",
-    "name": "Russel Van Dulken",
-    "nationality": "Canadá",
-    "teams": [
-      "Team Liquid",
-      "FaZe Clan"
-    ],
-    "teammates": [
-      "NiKo",
-      "rain",
-      "broky",
-      "karrigan",
-      "ropz",
-      "EliGE",
-      "NAF",
-      "nitr0",
-      "Stewie2K",
-      "oSee",
-      "junior",
-      "frozen",
-      "Bymas",
-      "Krimbo",
-      "blameF",
-      "YEKINDAR",
-      "Grim",
-      "daps",
-      "jks",
-      "hiko",
-      "pimp"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "rain",
-    "nickname": "rain",
-    "name": "Håvard Nygaard",
-    "nationality": "Noruega",
-    "teams": [
-      "FaZe Clan",
-      "G2 Esports",
-      "100 Thieves"
-    ],
-    "teammates": [
-      "NiKo",
-      "broky",
-      "karrigan",
-      "Twistzz",
-      "ropz",
-      "coldzera",
-      "olofmeister",
-      "GuardiaN",
-      "Bymas",
-      "jks",
-      "s1mple",
-      "skullz",
-      "frozen",
-      "Krimbo",
-      "Xizt",
-      "es3tag",
-      "blameF",
-      "AdreN",
-      "allu",
-      "hallzerk",
-      "EliGE"
-    ],
-    "coaches": [
-      "RobbaN"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "broky",
-    "nickname": "broky",
-    "name": "Helvijs Saukants",
-    "nationality": "Letônia",
-    "teams": [
-      "FaZe Clan"
-    ],
-    "teammates": [
-      "NiKo",
-      "rain",
-      "karrigan",
-      "Twistzz",
-      "ropz",
-      "coldzera",
-      "jks",
-      "blameF",
-      "Krimbo",
-      "Bymas",
-      "frozen"
-    ],
-    "coaches": [
-      "RobbaN"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "m0NESY",
-    "nickname": "m0NESY",
-    "name": "Ilya Osipov",
-    "nationality": "Rússia",
-    "teams": [
-      "G2 Esports",
-      "Team Falcons"
-    ],
-    "teammates": [
-      "NiKo",
-      "huNter-",
-      "Aleksib",
-      "jks",
-      "Brollan",
-      "mezii",
-      "SunPayus",
-      "w0nderful",
-      "Magisk",
-      "nexa",
-      "HeavyGod",
-      "kyousuke"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Bymas",
-    "nickname": "Bymas",
-    "name": "Eimantas Ščerbauskas",
-    "nationality": "Lituânia",
-    "teams": [
-      "FaZe Clan",
-      "MOUZ",
-      "Ninjas in Pyjamas",
-      "Eternal Fire"
-    ],
-    "teammates": [
-      "NiKo",
-      "rain",
-      "broky",
-      "karrigan",
-      "Twistzz",
-      "frozen",
-      "ropz",
-      "chrisJ"
-    ],
-    "coaches": [
-      "RobbaN"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Krimbo",
-    "nickname": "Krimbo",
-    "name": "Karim Moussa",
-    "nationality": "Alemanha",
-    "teams": [
-      "FaZe Clan",
-      "Astralis",
-      "Team Liquid",
-      "Heroic"
-    ],
-    "teammates": [
-      "rain",
-      "broky",
-      "karrigan",
-      "Twistzz",
-      "ropz",
-      "NiKo",
-      "dev1ce",
-      "frozen",
-      "EliGE",
-      "cadiaN",
-      "stavn",
-      "jabbi"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "donk",
-    "nickname": "donk",
-    "name": "Danil Kryshkovets",
-    "nationality": "Rússia",
-    "teams": [
-      "Team Spirit"
-    ],
-    "teammates": [
-      "chopper",
-      "magixx",
-      "sh1ro",
-      "s1ren",
-      "but1k",
-      "Ax1Le",
-      "nafany"
-    ],
-    "coaches": [
-      "hObbit"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": true,
-    "cs16": false
-  },
-  {
-    "id": "sh1ro",
-    "nickname": "sh1ro",
-    "name": "Dmitry Sokolov",
-    "nationality": "Rússia",
-    "teams": [
-      "Team Spirit",
-      "Gambit",
-      "Cloud9"
-    ],
-    "teammates": [
-      "donk",
-      "chopper",
-      "magixx",
-      "s1ren",
-      "but1k",
-      "nafany",
-      "interz",
-      "HObbit",
-      "Ax1Le",
-      "FL1T"
-    ],
-    "coaches": [
-      "hObbit"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "chopper",
-    "nickname": "chopper",
-    "name": "Leonid Vishnyakov",
-    "nationality": "Rússia",
-    "teams": [
-      "Team Spirit",
-      "Virtus.pro"
-    ],
-    "teammates": [
-      "donk",
-      "sh1ro",
-      "magixx",
-      "s1ren",
-      "but1k",
-      "Ax1Le",
-      "SANJI"
-    ],
-    "coaches": [
-      "hObbit"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "magixx",
-    "nickname": "magixx",
-    "name": "Boris Vorobiev",
-    "nationality": "Rússia",
-    "teams": [
-      "Team Spirit",
-      "NAVI Junior"
-    ],
-    "teammates": [
-      "donk",
-      "sh1ro",
-      "chopper",
-      "s1ren",
-      "but1k",
-      "Ax1Le"
-    ],
-    "coaches": [
-      "hObbit"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "s1ren",
-    "nickname": "s1ren",
-    "name": "Pavel Ogloblin",
-    "nationality": "Ucrânia",
-    "teams": [
-      "Team Spirit",
-      "Entropiq",
-      "NAVI Junior"
-    ],
-    "teammates": [
-      "donk",
-      "chopper",
-      "magixx",
-      "sh1ro",
-      "but1k",
-      "Ax1Le"
-    ],
-    "coaches": [
-      "hObbit"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "but1k",
-    "nickname": "but1k",
-    "name": "Kamil Sultanov",
-    "nationality": "Cazaquistão",
-    "teams": [
-      "Team Spirit",
-      "NAVI Junior"
-    ],
-    "teammates": [
-      "donk",
-      "chopper",
-      "magixx",
-      "sh1ro",
-      "s1ren"
-    ],
-    "coaches": [
-      "hObbit"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "pashaBiceps",
-    "nickname": "pashaBiceps",
-    "name": "Jarosław Jarząbkowski",
-    "nationality": "Polônia",
-    "teams": [
-      "Virtus.pro",
-      "LDLC",
-      "Titan"
-    ],
-    "teammates": [
-      "NEO",
-      "TaZ",
-      "Snax",
-      "byali"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "NEO",
-    "nickname": "NEO",
-    "name": "Filip Kubski",
-    "nationality": "Polônia",
-    "teams": [
-      "Virtus.pro",
-      "FaZe Clan",
-      "AGO"
-    ],
-    "teammates": [
-      "TaZ",
-      "Snax",
-      "pashaBiceps",
-      "byali"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "TaZ",
-    "nickname": "TaZ",
-    "name": "Wiktor Wojtas",
-    "nationality": "Polônia",
-    "teams": [
-      "Virtus.pro",
-      "AGO"
-    ],
-    "teammates": [
-      "NEO",
-      "Snax",
-      "pashaBiceps",
-      "byali"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "Snax",
-    "nickname": "Snax",
-    "name": "Janusz Pogorzelski",
-    "nationality": "Polônia",
-    "teams": [
-      "Virtus.pro",
-      "FaZe Clan",
-      "AGO"
-    ],
-    "teammates": [
-      "NEO",
-      "TaZ",
-      "pashaBiceps",
-      "byali",
-      "HeavyGod"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "byali",
-    "nickname": "byali",
-    "name": "Pawel Bieliński",
-    "nationality": "Polônia",
-    "teams": [
-      "Virtus.pro",
-      "G2 Esports",
-      "Kinguin"
-    ],
-    "teammates": [
-      "NEO",
-      "TaZ",
-      "Snax",
-      "pashaBiceps"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "f0rest",
-    "nickname": "f0rest",
-    "name": "Patrik Lindberg",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Dignitas"
-    ],
-    "teammates": [
-      "GeT_RiGhT",
-      "Xizt",
-      "friberg",
-      "allu",
-      "hampus",
-      "REZ",
-      "Brollan",
-      "lekr0",
-      "nicoodoz",
-      "Golden",
-      "dennis",
-      "twist",
-      "Kjaerbye"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "GeT_RiGhT",
-    "nickname": "GeT_RiGhT",
-    "name": "Christopher Alesund",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Dignitas"
-    ],
-    "teammates": [
-      "f0rest",
-      "Xizt",
-      "friberg",
-      "allu",
-      "hampus",
-      "REZ",
-      "Brollan",
-      "lekr0",
-      "nicoodoz",
-      "Golden",
-      "dennis",
-      "twist",
-      "Kjaerbye"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": true,
-    "cs16": true
-  },
-  {
-    "id": "n0thing",
-    "nickname": "n0thing",
-    "name": "Jordan Gilbert",
-    "nationality": "EUA",
-    "teams": [
-      "Cloud9",
-      "Complexity"
-    ],
-    "teammates": [
-      "shroud",
-      "skadoodle",
-      "Stewie2K",
-      "Tarik",
-      "autimatic",
-      "RUSH"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "shroud",
-    "nickname": "shroud",
-    "name": "Michael Grzesiek",
-    "nationality": "Canadá",
-    "teams": [
-      "Cloud9"
-    ],
-    "teammates": [
-      "n0thing",
-      "skadoodle",
-      "Stewie2K",
-      "Tarik",
-      "autimatic",
-      "RUSH"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "olofmeister",
-    "nickname": "olofmeister",
-    "name": "Olof Kajbjer",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "FaZe Clan",
-      "GODSENT"
-    ],
-    "teammates": [
-      "flusha",
-      "JW",
-      "KRIMZ",
-      "pronax",
-      "dennis",
-      "NiKo",
-      "rain",
-      "karrigan",
-      "GuardiaN",
-      "coldzera",
-      "Xizt",
-      "AdreN"
-    ],
-    "coaches": [
-      "RobbaN"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": true,
-    "cs16": false
-  },
-  {
-    "id": "flusha",
-    "nickname": "flusha",
-    "name": "Robin Rönnquist",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "Cloud9",
-      "GORILLAZ",
-      "EYEBALLERS"
-    ],
-    "teammates": [
-      "olofmeister",
-      "JW",
-      "KRIMZ",
-      "pronax",
-      "dennis",
-      "Golden",
-      "twist",
-      "REZ",
-      "hampus",
-      "Brollan"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 3,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "JW",
-    "nickname": "JW",
-    "name": "Jesper Wecksell",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "GODSENT"
-    ],
-    "teammates": [
-      "olofmeister",
-      "flusha",
-      "KRIMZ",
-      "pronax",
-      "dennis",
-      "Golden",
-      "twist",
-      "sergej",
-      "ALEX",
-      "mezii"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 3,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "KRIMZ",
-    "nickname": "KRIMZ",
-    "name": "Freddy Johansson",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "GODSENT"
-    ],
-    "teammates": [
-      "olofmeister",
-      "flusha",
-      "JW",
-      "pronax",
-      "dennis",
-      "Golden",
-      "twist",
-      "sergej",
-      "ALEX",
-      "mezii",
-      "lekr0",
-      "REZ",
-      "hampus",
-      "nicoodoz",
-      "Brollan"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 3,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "pronax",
-    "nickname": "pronax",
-    "name": "Markus Wallsten",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "GODSENT"
-    ],
-    "teammates": [
-      "olofmeister",
-      "flusha",
-      "JW",
-      "KRIMZ",
-      "dennis"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 3,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "Golden",
-    "nickname": "Golden",
-    "name": "Maikil Selim",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "Ninjas in Pyjamas",
-      "Cloud9",
-      "MOUZ"
-    ],
-    "teammates": [
-      "KRIMZ",
-      "JW",
-      "flusha",
-      "f0rest",
-      "GeT_RiGhT",
-      "ropz",
-      "frozen"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "dennis",
-    "nickname": "dennis",
-    "name": "Dennis Edman",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "Ninjas in Pyjamas",
-      "GODSENT",
-      "Astralis"
-    ],
-    "teammates": [
-      "olofmeister",
-      "flusha",
-      "JW",
-      "KRIMZ",
-      "f0rest",
-      "GeT_RiGhT",
-      "gla1ve",
-      "dev1ce",
-      "pronax",
-      "twist",
-      "lekr0"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "twist",
-    "nickname": "twist",
-    "name": "Simon Eliasson",
-    "nationality": "Suécia",
-    "teams": [
-      "Fnatic",
-      "Ninjas in Pyjamas",
-      "GODSENT",
-      "Dignitas"
-    ],
-    "teammates": [
-      "KRIMZ",
-      "JW",
-      "flusha",
-      "f0rest",
-      "GeT_RiGhT",
-      "Brollan",
-      "dennis"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "sergej",
-    "nickname": "sergej",
-    "name": "Jere Salo",
-    "nationality": "Finlândia",
-    "teams": [
-      "ENCE",
-      "Ninjas in Pyjamas",
-      "Fnatic"
-    ],
-    "teammates": [
-      "Aleksib",
-      "allu",
-      "suNny",
-      "Aerial",
-      "dycha",
-      "KRIMZ",
-      "JW",
-      "flameZ",
-      "Snappi",
-      "NertZ"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "ALEX",
-    "nickname": "ALEX",
-    "name": "William Mugridge",
-    "nationality": "Reino Unido",
-    "teams": [
-      "Vitality",
-      "Cloud9",
-      "Fnatic",
       "Team Liquid"
     ],
     "teammates": [
-      "ZywOo",
-      "apEX",
-      "shox",
-      "NBK",
-      "misutaaa",
-      "KRIMZ",
-      "JW",
-      "mezii"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "mezii",
-    "nickname": "mezii",
-    "name": "William Merriman",
-    "nationality": "Reino Unido",
-    "teams": [
-      "Vitality",
-      "Fnatic",
-      "Cloud9"
-    ],
-    "teammates": [
-      "KRIMZ",
-      "JW",
-      "ALEX",
-      "blameF",
-      "floppy",
-      "dev1ce",
-      "NiKo",
-      "m0NESY",
-      "huNter-",
+      "Edward",
+      "GuardiaN",
+      "seized",
+      "flamie",
+      "electronic",
+      "Zeus",
+      "Boombl4",
+      "Perfecto",
+      "b1t",
+      "sdy",
       "Aleksib",
-      "jks",
-      "Brollan",
-      "ZywOo",
-      "apEX",
-      "flameZ",
-      "ropz",
-      "Spinx"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "lekr0",
-    "nickname": "lekr0",
-    "name": "Jonas Olofsson",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Fnatic",
-      "GODSENT",
-      "Tricked"
-    ],
-    "teammates": [
-      "f0rest",
-      "GeT_RiGhT",
-      "Brollan",
-      "hampus",
-      "dennis",
-      "KRIMZ",
-      "Xizt",
-      "REZ"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Xizt",
-    "nickname": "Xizt",
-    "name": "Richard Landström",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "FaZe Clan",
-      "GODSENT",
-      "HellRaisers"
-    ],
-    "teammates": [
-      "f0rest",
-      "GeT_RiGhT",
-      "Brollan",
-      "hampus",
-      "lekr0",
-      "friberg",
-      "rain",
-      "olofmeister"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "REZ",
-    "nickname": "REZ",
-    "name": "Fredrik Sterner",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Fnatic",
-      "GODSENT"
-    ],
-    "teammates": [
-      "f0rest",
-      "GeT_RiGhT",
-      "Brollan",
-      "hampus",
-      "lekr0",
-      "flusha",
-      "KRIMZ",
-      "dev1ce",
-      "nicoodoz"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "hampus",
-    "nickname": "hampus",
-    "name": "Hampus Poser",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Fnatic",
-      "GODSENT"
-    ],
-    "teammates": [
-      "f0rest",
-      "GeT_RiGhT",
-      "Brollan",
-      "REZ",
-      "lekr0",
-      "flusha",
-      "KRIMZ",
-      "dev1ce",
-      "Xizt",
-      "nicoodoz"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "friberg",
-    "nickname": "friberg",
-    "name": "Adam Friberg",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Astralis",
-      "OpTic Gaming",
-      "Tricked"
-    ],
-    "teammates": [
-      "f0rest",
-      "GeT_RiGhT",
-      "Xizt",
-      "allu",
-      "gla1ve"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "nicoodoz",
-    "nickname": "nicoodoz",
-    "name": "Nicolai Fejskov",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Copenhagen Flames",
-      "Fnatic"
-    ],
-    "teammates": [
-      "hampus",
-      "REZ",
-      "Brollan",
-      "GeT_RiGhT",
-      "f0rest",
-      "KRIMZ"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Brollan",
-    "nickname": "Brollan",
-    "name": "Ludvig Brolin",
-    "nationality": "Suécia",
-    "teams": [
-      "Ninjas in Pyjamas",
-      "Fnatic",
-      "G2 Esports"
-    ],
-    "teammates": [
-      "f0rest",
-      "GeT_RiGhT",
-      "hampus",
-      "REZ",
-      "lekr0",
-      "flusha",
-      "KRIMZ",
-      "NiKo",
-      "m0NESY",
-      "huNter-",
-      "Aleksib",
-      "jks",
-      "AmaNEk",
-      "mezii",
-      "ZywOo",
-      "twist",
-      "Xizt",
-      "nicoodoz",
-      "apEX",
-      "flameZ",
       "jL",
-      "siuhy",
-      "jimpphat",
-      "torzsi",
-      "xertioN"
-    ],
-    "coaches": [
-      "RobbaN"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "dupreeh",
-    "nickname": "dupreeh",
-    "name": "Peter Rasmussen",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Vitality",
-      "Heroic",
-      "Team Falcons",
-      "Preasy"
-    ],
-    "teammates": [
-      "dev1ce",
-      "xyp9x",
-      "gla1ve",
-      "Magisk",
-      "Kjaerbye",
-      "ZywOo",
-      "apEX",
-      "misutaaa",
-      "shox",
-      "NBK",
-      "stavn",
-      "cadiaN",
-      "jabbi",
-      "es3tag",
-      "Bubzkji",
-      "Lucky",
-      "flameZ",
-      "SunPayus",
-      "Spinx"
-    ],
-    "coaches": [
-      "zonic",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 5,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "gla1ve",
-    "nickname": "gla1ve",
-    "name": "Lukas Rossander",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Heroic",
-      "ENCE",
-      "100 Thieves"
-    ],
-    "teammates": [
-      "dev1ce",
-      "dupreeh",
-      "xyp9x",
-      "Magisk",
-      "Kjaerbye",
-      "es3tag",
-      "dennis",
-      "friberg",
-      "Bubzkji",
-      "k0nfig",
-      "Lucky"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 4,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "xyp9x",
-    "nickname": "xyp9x",
-    "name": "Andreas Højsleth",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis"
-    ],
-    "teammates": [
-      "dev1ce",
-      "dupreeh",
-      "gla1ve",
-      "Magisk",
-      "Kjaerbye",
-      "es3tag",
-      "Bubzkji"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 4,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Magisk",
-    "nickname": "Magisk",
-    "name": "Emil Reif",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Vitality",
-      "Team Falcons"
-    ],
-    "teammates": [
-      "dev1ce",
-      "dupreeh",
-      "gla1ve",
-      "xyp9x",
-      "Kjaerbye",
-      "ZywOo",
-      "apEX",
-      "misutaaa",
-      "s1mple",
-      "w0nderful",
-      "SunPayus",
-      "Snappi",
-      "NiKo",
-      "m0NESY",
-      "huNter-",
-      "es3tag",
-      "Bubzkji",
-      "flameZ",
       "iM",
-      "Spinx"
-    ],
-    "coaches": [
-      "zonic",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 4,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": true,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Kjaerbye",
-    "nickname": "Kjaerbye",
-    "name": "Markus Kjærbye",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Ninjas in Pyjamas",
-      "North"
-    ],
-    "teammates": [
-      "dev1ce",
-      "dupreeh",
-      "xyp9x",
-      "gla1ve",
-      "Magisk",
-      "f0rest",
-      "GeT_RiGhT"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": true,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "es3tag",
-    "nickname": "es3tag",
-    "name": "Patrick Hansen",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Ninjas in Pyjamas",
-      "Heroic",
-      "FaZe Clan",
-      "Cloud9",
-      "100 Thieves"
-    ],
-    "teammates": [
-      "dev1ce",
-      "dupreeh",
-      "xyp9x",
-      "gla1ve",
-      "Magisk",
-      "cadiaN",
-      "stavn",
-      "jabbi",
-      "blameF",
-      "coldzera",
-      "rain"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Bubzkji",
-    "nickname": "Bubzkji",
-    "name": "Lucas Andersen",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Heroic",
-      "North",
-      "Team Falcons"
-    ],
-    "teammates": [
-      "dev1ce",
-      "dupreeh",
-      "xyp9x",
-      "gla1ve",
-      "Magisk",
-      "cadiaN",
-      "stavn",
-      "jabbi"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "cadiaN",
-    "nickname": "cadiaN",
-    "name": "Casper Møller",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Team Liquid",
-      "Heroic",
-      "Astralis",
-      "OG"
-    ],
-    "teammates": [
-      "stavn",
-      "jabbi",
-      "blameF",
-      "k0nfig",
-      "TeSeS",
-      "niko_dk",
-      "es3tag",
-      "Bubzkji",
-      "dev1ce",
-      "Krimbo",
-      "dupreeh",
-      "Lucky",
-      "dycha",
-      "refrezh"
-    ],
-    "coaches": [
-      "valens",
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "stavn",
-    "nickname": "stavn",
-    "name": "Jonas Stein",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Heroic",
-      "Astralis",
-      "Ninjas in Pyjamas"
-    ],
-    "teammates": [
-      "cadiaN",
-      "jabbi",
-      "blameF",
-      "k0nfig",
-      "TeSeS",
-      "niko_dk",
-      "es3tag",
-      "dev1ce",
-      "Krimbo",
-      "dupreeh",
-      "Bubzkji",
-      "Lucky",
-      "dycha",
-      "refrezh"
-    ],
-    "coaches": [
-      "valens"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "jabbi",
-    "nickname": "jabbi",
-    "name": "Joakim Bjergø",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Heroic",
-      "Astralis",
-      "Ninjas in Pyjamas"
-    ],
-    "teammates": [
-      "cadiaN",
-      "stavn",
-      "blameF",
-      "k0nfig",
-      "TeSeS",
-      "niko_dk",
-      "dev1ce",
-      "Krimbo",
-      "dupreeh",
-      "es3tag",
-      "Bubzkji",
-      "Lucky"
-    ],
-    "coaches": [
-      "valens",
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "blameF",
-    "nickname": "blameF",
-    "name": "Benjamin Bremer",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Complexity",
-      "Heroic",
-      "Fnatic",
-      "BIG"
-    ],
-    "teammates": [
-      "coldzera",
-      "jks",
-      "floppy",
-      "JT",
+      "markeloff",
+      "dosia",
+      "AdreN",
+      "mou",
+      "karrigan",
       "rain",
       "broky",
-      "niko_dk",
-      "karrigan",
-      "Twistzz",
-      "dev1ce",
-      "cadiaN",
-      "stavn",
-      "jabbi",
-      "mezii",
-      "es3tag",
-      "k0nfig",
-      "TeSeS",
-      "hallzerk",
-      "NEKIZ",
-      "latto"
-    ],
-    "coaches": [
-      "RobbaN",
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "k0nfig",
-    "nickname": "k0nfig",
-    "name": "Kristian Wienecke",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "OpTic Gaming",
-      "Heroic"
-    ],
-    "teammates": [
-      "cadiaN",
-      "stavn",
-      "jabbi",
-      "blameF",
-      "dev1ce",
-      "gla1ve",
-      "TeSeS",
-      "niko_dk"
-    ],
-    "coaches": [
-      "zonic",
-      "valens"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "TeSeS",
-    "nickname": "TeSeS",
-    "name": "René Holm",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Heroic",
-      "Ninjas in Pyjamas",
-      "Copenhagen Flames"
-    ],
-    "teammates": [
-      "cadiaN",
-      "stavn",
-      "jabbi",
-      "blameF",
-      "k0nfig",
-      "niko_dk",
-      "kyousuke",
-      "refrezh"
-    ],
-    "coaches": [
-      "zonic",
-      "valens"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "niko_dk",
-    "nickname": "niko",
-    "name": "Nikolaj Kristensen",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Heroic",
-      "OG",
-      "North",
-      "OpTic Gaming",
-      "Rogue",
-      "Sashi Esport"
-    ],
-    "teammates": [
-      "cadiaN",
-      "stavn",
-      "jabbi",
-      "blameF",
-      "k0nfig",
-      "TeSeS"
-    ],
-    "coaches": [
-      "valens"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Lucky_dk",
-    "nickname": "Lucky",
-    "name": "Philip Ewald",
-    "nationality": "Dinamarca",
-    "teams": [
-      "Astralis",
-      "Heroic",
-      "North",
-      "G2 Esports"
-    ],
-    "teammates": [
-      "dev1ce",
+      "frozen",
+      "EliGE",
+      "skullz",
+      "Snappi",
+      "Magisk",
+      "SunPayus",
+      "Maden",
       "dupreeh",
-      "cadiaN",
-      "stavn",
-      "jabbi",
-      "gla1ve",
-      "nexa",
-      "AmaNEk",
-      "JaCkz",
-      "huNter-"
+      "nitr0",
+      "hiko",
+      "jdm64",
+      "pimp"
     ],
     "coaches": [
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "shox",
-    "nickname": "shox",
-    "name": "Richard Papillon",
-    "nationality": "França",
-    "teams": [
-      "G2 Esports",
-      "Vitality",
-      "LDLC",
-      "Titan",
-      "EnVyUs"
-    ],
-    "teammates": [
-      "kennyS",
-      "NBK",
-      "apEX",
-      "Happy",
-      "NiKo",
-      "nexa",
-      "huNter-",
-      "AmaNEk",
-      "JaCkz",
-      "ZywOo",
-      "ALEX",
-      "dupreeh",
-      "misutaaa"
-    ],
-    "coaches": [
-      "peacemaker",
-      "RobbaN"
+      "blade",
+      "zonic",
+      "peacemaker"
     ],
     "majorChampion": true,
     "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "kennyS",
-    "nickname": "kennyS",
-    "name": "Kenny Schrub",
-    "nationality": "França",
-    "teams": [
-      "G2 Esports",
-      "Vitality",
-      "EnVyUs",
-      "LDLC",
-      "Titan"
-    ],
-    "teammates": [
-      "shox",
-      "NBK",
-      "apEX",
-      "Happy",
-      "NiKo",
-      "nexa",
-      "huNter-",
-      "AmaNEk",
-      "JaCkz"
-    ],
-    "coaches": [
-      "peacemaker",
-      "RobbaN"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
     "majorMvp": true,
     "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "nexa",
-    "nickname": "nexa",
-    "name": "Nemanja Isaković",
-    "nationality": "Sérvia",
-    "teams": [
-      "G2 Esports",
-      "OG",
-      "Apeks",
-      "BC.Game Esports"
-    ],
-    "teammates": [
-      "NiKo",
-      "huNter-",
-      "m0NESY",
-      "AmaNEk",
-      "JaCkz",
-      "Lucky",
-      "Aleksib",
-      "shox",
-      "kennyS",
-      "HObbit"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "AmaNEk",
-    "nickname": "AmaNEk",
-    "name": "François Delaunay",
-    "nationality": "França",
-    "teams": [
-      "G2 Esports",
-      "HEET",
-      "Team Falcons",
-      "Team Heretics"
-    ],
-    "teammates": [
-      "NiKo",
-      "nexa",
-      "huNter-",
-      "JaCkz",
-      "Lucky",
-      "shox",
-      "ZywOo",
-      "Brollan",
-      "kennyS",
-      "jks"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "JaCkz",
-    "nickname": "JaCkz",
-    "name": "Audric Jug",
-    "nationality": "França",
-    "teams": [
-      "G2 Esports",
-      "HEET",
-      "Team Falcons",
-      "3DMAX"
-    ],
-    "teammates": [
-      "NiKo",
-      "nexa",
-      "huNter-",
-      "AmaNEk",
-      "Lucky",
-      "kennyS",
-      "shox",
-      "Aleksib"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "huNter",
-    "nickname": "huNter-",
-    "name": "Nemanja Kovač",
-    "nationality": "Bósnia e Herzegovina",
-    "teams": [
-      "G2 Esports"
-    ],
-    "teammates": [
-      "NiKo",
-      "nexa",
-      "m0NESY",
-      "AmaNEk",
-      "JaCkz",
-      "Lucky",
-      "Aleksib",
-      "jks",
-      "mezii",
-      "Brollan",
-      "Magisk",
-      "shox",
-      "kennyS",
-      "SunPayus",
-      "HObbit",
-      "HeavyGod"
-    ],
-    "coaches": [
-      "RobbaN",
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "apEX",
-    "nickname": "apEX",
-    "name": "Dan Madesclaire",
-    "nationality": "França",
-    "teams": [
-      "Vitality",
-      "EnVyUs",
-      "LDLC"
-    ],
-    "teammates": [
-      "ZywOo",
-      "shox",
-      "NBK",
-      "misutaaa",
-      "kennyS",
-      "Happy",
-      "dupreeh",
-      "Magisk",
-      "flameZ",
-      "mezii",
-      "Brollan",
-      "SunPayus",
-      "ropz",
-      "ALEX",
-      "Spinx"
-    ],
-    "coaches": [
-      "zonic",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 4,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "misutaaa",
-    "nickname": "misutaaa",
-    "name": "Kévin Rabier",
-    "nationality": "França",
-    "teams": [
-      "Vitality",
-      "Team Falcons",
-      "3DMAX",
-      "HEET"
-    ],
-    "teammates": [
-      "ZywOo",
-      "apEX",
-      "shox",
-      "NBK",
-      "dupreeh",
-      "Magisk",
-      "ALEX",
-      "SunPayus"
-    ],
-    "coaches": [
-      "zonic",
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "NBK",
-    "nickname": "NBK",
-    "name": "Nathan Schmitt",
-    "nationality": "França",
-    "teams": [
-      "Vitality",
-      "G2 Esports",
-      "OG",
-      "Team Liquid",
-      "EnVyUs"
-    ],
-    "teammates": [
-      "ZywOo",
-      "apEX",
-      "shox",
-      "kennyS",
-      "Happy",
-      "ALEX",
-      "dupreeh",
-      "misutaaa"
-    ],
-    "coaches": [
-      "peacemaker",
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Happy",
-    "nickname": "Happy",
-    "name": "Vincent Schopenhauer",
-    "nationality": "França",
-    "teams": [
-      "EnVyUs",
-      "G2 Esports",
-      "Vitality",
-      "Windigo"
-    ],
-    "teammates": [
-      "kennyS",
-      "NBK",
-      "apEX",
-      "shox"
-    ],
-    "coaches": [
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "flameZ",
-    "nickname": "flameZ",
-    "name": "Shahar Shushan",
-    "nationality": "Israel",
-    "teams": [
-      "Vitality",
-      "OG"
-    ],
-    "teammates": [
-      "ZywOo",
-      "apEX",
-      "dupreeh",
-      "Magisk",
-      "mezii",
-      "Aerial",
-      "sergej",
-      "Snappi",
-      "ropz",
-      "Brollan",
-      "Spinx"
-    ],
-    "coaches": [
-      "zonic"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": true,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
+    "hltvTop1": true,
     "cs16": false
   },
   {
@@ -2651,26 +68,32 @@ export const PLAYERS = [
     "name": "Denis Sharipov",
     "nationality": "Rússia",
     "teams": [
+      "FlipSid3",
       "NAVI",
-      "Cloud9",
       "Virtus.pro",
-      "BC.Game Esports"
+      "Cloud9"
     ],
     "teammates": [
       "s1mple",
-      "b1t",
-      "Boombl4",
-      "Perfecto",
       "flamie",
-      "GuardiaN",
       "Edward",
       "Zeus",
+      "Boombl4",
+      "GuardiaN",
+      "Perfecto",
+      "b1t",
       "sdy",
-      "w0nderful",
-      "iM",
-      "nafany",
-      "dosia",
-      "mou"
+      "markeloff",
+      "seized",
+      "Jame",
+      "qikert",
+      "FL1T",
+      "fame",
+      "n0rb3r7",
+      "mir",
+      "sh1ro",
+      "Ax1Le",
+      "HObbit"
     ],
     "coaches": [
       "blade"
@@ -2678,8 +101,8 @@ export const PLAYERS = [
     "majorChampion": true,
     "majorsCount": 1,
     "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": true,
     "hltvTop1": false,
@@ -2688,7 +111,7 @@ export const PLAYERS = [
   {
     "id": "b1t",
     "nickname": "b1t",
-    "name": "Valeriy Vakhovskiy",
+    "name": "Valerii Vakhovskyi",
     "nationality": "Ucrânia",
     "teams": [
       "NAVI"
@@ -2699,22 +122,59 @@ export const PLAYERS = [
       "Boombl4",
       "Perfecto",
       "flamie",
-      "w0nderful",
-      "iM",
+      "sdy",
       "Aleksib",
       "jL",
-      "sdy"
+      "iM",
+      "w0nderful"
     ],
     "coaches": [
       "blade"
     ],
     "majorChampion": true,
     "majorsCount": 2,
-    "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Boombl4",
+    "nickname": "Boombl4",
+    "name": "Kirill Mikhailov",
+    "nationality": "Rússia",
+    "teams": [
+      "Winstrike",
+      "BetBoom",
+      "NAVI",
+      "Cloud9"
+    ],
+    "teammates": [
+      "s1mple",
+      "electronic",
+      "flamie",
+      "GuardiaN",
+      "Perfecto",
+      "b1t",
+      "sh1ro",
+      "Ax1Le",
+      "HObbit",
+      "HeavyGod",
+      "interz"
+    ],
+    "coaches": [
+      "blade"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": false,
     "hltvTop1": false,
     "cs16": false
   },
@@ -2724,17 +184,20 @@ export const PLAYERS = [
     "name": "Ilya Zalutskiy",
     "nationality": "Rússia",
     "teams": [
+      "Syman",
       "NAVI",
-      "BetBoom"
+      "Cloud9"
     ],
     "teammates": [
       "s1mple",
       "electronic",
-      "b1t",
-      "Boombl4",
       "flamie",
-      "iM",
-      "sdy"
+      "Boombl4",
+      "b1t",
+      "sdy",
+      "sh1ro",
+      "Ax1Le",
+      "HObbit"
     ],
     "coaches": [
       "blade"
@@ -2742,79 +205,10 @@ export const PLAYERS = [
     "majorChampion": true,
     "majorsCount": 1,
     "katowiceChampion": true,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "w0nderful",
-    "nickname": "w0nderful",
-    "name": "Mykhailo Chernyshev",
-    "nationality": "Ucrânia",
-    "teams": [
-      "NAVI",
-      "Team Falcons",
-      "BC.Game Esports"
-    ],
-    "teammates": [
-      "s1mple",
-      "b1t",
-      "electronic",
-      "Snappi",
-      "SunPayus",
-      "Magisk",
-      "iM",
-      "m0NESY",
-      "Aleksib",
-      "jL",
-      "NiKo"
-    ],
-    "coaches": [
-      "blade"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "iM",
-    "nickname": "iM",
-    "name": "Ismail Aliev",
-    "nationality": "Romênia",
-    "teams": [
-      "NAVI",
-      "Virtus.pro",
-      "Team Falcons"
-    ],
-    "teammates": [
-      "s1mple",
-      "electronic",
-      "b1t",
-      "Perfecto",
-      "w0nderful",
-      "Snappi",
-      "SunPayus",
-      "Magisk"
-    ],
-    "coaches": [
-      "blade"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
@@ -2824,29 +218,28 @@ export const PLAYERS = [
     "name": "Egor Vasilyev",
     "nationality": "Rússia",
     "teams": [
-      "NAVI",
-      "Entropiq",
-      "Virtus.pro",
-      "Sprout"
+      "HellRaisers",
+      "dAT Team",
+      "NAVI"
     ],
     "teammates": [
+      "Zeus",
+      "Edward",
+      "GuardiaN",
+      "seized",
       "s1mple",
       "electronic",
-      "b1t",
-      "GuardiaN",
-      "Edward",
-      "Zeus",
       "Boombl4",
-      "Perfecto"
+      "Perfecto",
+      "b1t"
     ],
     "coaches": [
-      "blade",
-      "starix"
+      "blade"
     ],
     "majorChampion": false,
     "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -2859,25 +252,28 @@ export const PLAYERS = [
     "name": "Ladislav Kovács",
     "nationality": "Eslováquia",
     "teams": [
+      "Virtus.pro",
       "NAVI",
-      "FaZe Clan",
-      "MOUZ"
+      "FaZe Clan"
     ],
     "teammates": [
-      "s1mple",
-      "flamie",
-      "electronic",
-      "Edward",
       "Zeus",
-      "NiKo",
-      "rain",
-      "olofmeister",
+      "Edward",
+      "seized",
+      "flamie",
+      "s1mple",
+      "electronic",
+      "Boombl4",
       "karrigan",
-      "AdreN"
+      "rain",
+      "NiKo",
+      "olofmeister",
+      "Xizt",
+      "AdreN",
+      "NEO"
     ],
     "coaches": [
       "blade",
-      "starix",
       "RobbaN"
     ],
     "majorChampion": false,
@@ -2896,26 +292,29 @@ export const PLAYERS = [
     "name": "Ioann Sukhariev",
     "nationality": "Ucrânia",
     "teams": [
+      "Astana Dragons",
+      "FlipSid3",
       "NAVI"
     ],
     "teammates": [
-      "s1mple",
-      "flamie",
-      "GuardiaN",
       "Zeus",
+      "markeloff",
+      "seized",
+      "GuardiaN",
+      "flamie",
+      "s1mple",
       "electronic"
     ],
     "coaches": [
-      "starix",
       "blade"
     ],
     "majorChampion": false,
     "majorsCount": 0,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": true
   },
@@ -2926,25 +325,63 @@ export const PLAYERS = [
     "nationality": "Ucrânia",
     "teams": [
       "NAVI",
-      "Gambit",
-      "HellRaisers"
+      "Gambit"
     ],
     "teammates": [
-      "s1mple",
-      "flamie",
-      "GuardiaN",
       "Edward",
+      "markeloff",
+      "seized",
+      "GuardiaN",
+      "flamie",
+      "s1mple",
       "electronic",
       "AdreN",
+      "dosia",
       "mou",
-      "dosia"
+      "HObbit"
     ],
     "coaches": [
-      "starix",
       "blade"
     ],
     "majorChampion": true,
     "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "seized",
+    "nickname": "seized",
+    "name": "Denis Kostin",
+    "nationality": "Rússia",
+    "teams": [
+      "FlipSid3",
+      "NAVI",
+      "Gambit"
+    ],
+    "teammates": [
+      "Zeus",
+      "Edward",
+      "markeloff",
+      "GuardiaN",
+      "flamie",
+      "s1mple",
+      "electronic",
+      "AdreN",
+      "dosia",
+      "mou",
+      "HObbit",
+      "mir"
+    ],
+    "coaches": [
+      "blade"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
@@ -2954,36 +391,38 @@ export const PLAYERS = [
     "cs16": true
   },
   {
-    "id": "Boombl4",
-    "nickname": "Boombl4",
-    "name": "Kirill Mikhailov",
-    "nationality": "Rússia",
+    "id": "markeloff",
+    "nickname": "markeloff",
+    "name": "Yegor Markelov",
+    "nationality": "Ucrânia",
     "teams": [
-      "NAVI",
-      "BetBoom",
-      "GamerLegion"
+      "Astana Dragons",
+      "FlipSid3",
+      "HellRaisers",
+      "NAVI"
     ],
     "teammates": [
+      "Zeus",
+      "Edward",
+      "seized",
       "s1mple",
       "electronic",
-      "b1t",
-      "Perfecto",
-      "flamie",
-      "sdy",
-      "HeavyGod"
+      "dosia",
+      "AdreN",
+      "mou"
     ],
     "coaches": [
       "blade"
     ],
-    "majorChampion": true,
-    "majorsCount": 1,
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": true
   },
   {
     "id": "sdy",
@@ -2991,16 +430,24 @@ export const PLAYERS = [
     "name": "Viktor Orudzhev",
     "nationality": "Ucrânia",
     "teams": [
+      "Monte",
       "NAVI",
-      "BetBoom",
-      "Entropiq"
+      "Team Spirit",
+      "ENCE"
     ],
     "teammates": [
       "s1mple",
       "electronic",
       "b1t",
       "Perfecto",
-      "Boombl4"
+      "chopper",
+      "magixx",
+      "mir",
+      "degster",
+      "Patsi",
+      "gla1ve",
+      "dycha",
+      "hades"
     ],
     "coaches": [
       "blade"
@@ -3016,37 +463,28 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "Aleksib",
-    "nickname": "Aleksib",
-    "name": "Aleksi Virolainen",
-    "nationality": "Finlândia",
+    "id": "w0nderful",
+    "nickname": "w0nderful",
+    "name": "Ihor Zhdanov",
+    "nationality": "Ucrânia",
     "teams": [
-      "G2 Esports",
-      "ENCE",
-      "Ninjas in Pyjamas",
-      "OG",
-      "NAVI"
+      "Sprout",
+      "NAVI",
+      "Team Spirit"
     ],
     "teammates": [
-      "NiKo",
-      "huNter-",
-      "m0NESY",
-      "JaCkz",
-      "Brollan",
-      "mezii",
-      "jks",
-      "sergej",
-      "allu",
-      "suNny",
-      "Aerial",
       "b1t",
+      "Aleksib",
       "jL",
-      "w0nderful",
-      "nexa",
-      "dycha"
+      "iM",
+      "chopper",
+      "magixx",
+      "degster",
+      "Patsi",
+      "s1ren"
     ],
     "coaches": [
-      "RobbaN"
+      "blade"
     ],
     "majorChampion": true,
     "majorsCount": 1,
@@ -3054,110 +492,61 @@ export const PLAYERS = [
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
   {
-    "id": "Snappi",
-    "nickname": "Snappi",
-    "name": "Marco Pfeiffer",
-    "nationality": "Dinamarca",
+    "id": "iM",
+    "nickname": "iM",
+    "name": "Mihai Ivan",
+    "nationality": "Romênia",
     "teams": [
-      "Team Falcons",
-      "ENCE",
-      "Heroic",
-      "Ninjas in Pyjamas"
+      "GamerLegion",
+      "NAVI"
     ],
     "teammates": [
-      "dycha",
-      "sergej",
-      "Aerial",
-      "SunPayus",
       "s1mple",
+      "b1t",
+      "Aleksib",
+      "jL",
       "w0nderful",
-      "Magisk",
-      "flameZ",
-      "iM",
-      "NertZ"
+      "siuhy",
+      "acoR",
+      "Snax"
     ],
     "coaches": [
-      "peacemaker"
+      "blade"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "majorChampion": true,
+    "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "SunPayus",
-    "nickname": "SunPayus",
-    "name": "Óscar Palomares",
-    "nationality": "Espanha",
-    "teams": [
-      "Team Falcons",
-      "ENCE",
-      "Heroic",
-      "G2 Esports"
-    ],
-    "teammates": [
-      "s1mple",
-      "w0nderful",
-      "Magisk",
-      "Snappi",
-      "iM",
-      "ZywOo",
-      "dupreeh",
-      "misutaaa",
-      "NiKo",
-      "m0NESY",
-      "huNter-",
-      "apEX",
-      "NertZ"
-    ],
-    "coaches": [
-      "peacemaker",
-      "zonic"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
   {
     "id": "jL",
     "nickname": "jL",
-    "name": "Jonathan Muñoz",
+    "name": "Justinas Lekavicius",
     "nationality": "Lituânia",
     "teams": [
-      "MOUZ",
-      "Ninjas in Pyjamas",
+      "Apeks",
+      "MAD Lions",
       "NAVI"
     ],
     "teammates": [
-      "frozen",
-      "siuhy",
-      "jimpphat",
-      "torzsi",
-      "Brollan",
-      "xertioN",
-      "NertZ",
-      "Aleksib",
+      "s1mple",
       "b1t",
+      "Aleksib",
+      "iM",
       "w0nderful"
     ],
     "coaches": [
-      "rejin"
+      "blade"
     ],
     "majorChampion": true,
     "majorsCount": 1,
@@ -3170,47 +559,59 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "frozen",
-    "nickname": "frozen",
-    "name": "David Čerňanský",
-    "nationality": "Eslováquia",
+    "id": "donk",
+    "nickname": "donk",
+    "name": "Danil Kryshkovets",
+    "nationality": "Rússia",
     "teams": [
-      "FaZe Clan",
-      "MOUZ"
+      "Team Spirit"
     ],
     "teammates": [
-      "NiKo",
-      "rain",
-      "broky",
-      "karrigan",
-      "Twistzz",
-      "ropz",
-      "siuhy",
-      "jimpphat",
-      "woxic",
-      "chrisJ",
-      "Bymas",
-      "s1mple",
-      "skullz",
-      "EliGE",
-      "Krimbo",
-      "Golden",
-      "jL",
-      "NertZ",
-      "torzsi",
-      "xertioN",
-      "faveN",
-      "suNny",
-      "dexter",
-      "cNed"
+      "chopper",
+      "magixx",
+      "zont1x",
+      "sh1ro"
     ],
-    "coaches": [
-      "rejin"
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": false
+  },
+  {
+    "id": "sh1ro",
+    "nickname": "sh1ro",
+    "name": "Dmitry Sokolov",
+    "nationality": "Rússia",
+    "teams": [
+      "Gambit",
+      "Cloud9",
+      "Team Spirit"
     ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "teammates": [
+      "nafany",
+      "Ax1Le",
+      "interz",
+      "HObbit",
+      "buster",
+      "electronic",
+      "Perfecto",
+      "Boombl4",
+      "chopper",
+      "magixx",
+      "donk",
+      "zont1x"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
     "hltvTop20": true,
@@ -3218,404 +619,240 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "siuhy",
-    "nickname": "siuhy",
-    "name": "Aron Hjartarson",
-    "nationality": "Islândia",
+    "id": "chopper",
+    "nickname": "chopper",
+    "name": "Leonid Vishnyakov",
+    "nationality": "Rússia",
     "teams": [
-      "MOUZ",
+      "Vega Squadron",
+      "Team Spirit"
+    ],
+    "teammates": [
+      "magixx",
+      "mir",
+      "sdy",
+      "degster",
+      "Patsi",
+      "s1ren",
+      "w0nderful",
+      "donk",
+      "zont1x",
+      "sh1ro"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "magixx",
+    "nickname": "magixx",
+    "name": "Boris Vorobiev",
+    "nationality": "Rússia",
+    "teams": [
+      "Team Spirit"
+    ],
+    "teammates": [
+      "chopper",
+      "mir",
+      "sdy",
+      "degster",
+      "Patsi",
+      "s1ren",
+      "w0nderful",
+      "donk",
+      "zont1x",
+      "sh1ro"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "zont1x",
+    "nickname": "zont1x",
+    "name": "Myroslav Plakhotia",
+    "nationality": "Ucrânia",
+    "teams": [
+      "Team Spirit"
+    ],
+    "teammates": [
+      "chopper",
+      "magixx",
+      "donk",
+      "sh1ro"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "s1ren",
+    "nickname": "s1ren",
+    "name": "Pavel Ogloblin",
+    "nationality": "Rússia",
+    "teams": [
+      "BetBoom",
+      "Team Spirit"
+    ],
+    "teammates": [
+      "chopper",
+      "magixx",
+      "degster",
+      "Patsi",
+      "w0nderful"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Patsi",
+    "nickname": "Patsi",
+    "name": "Robert Isyanov",
+    "nationality": "Rússia",
+    "teams": [
+      "PARIVISION",
+      "Team Spirit",
       "Team Liquid"
     ],
     "teammates": [
-      "frozen",
-      "jimpphat",
-      "torzsi",
-      "jL",
-      "xertioN",
-      "NertZ",
-      "Brollan",
-      "karrigan",
-      "faveN",
-      "cNed"
-    ],
-    "coaches": [
-      "rejin"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "jimpphat",
-    "nickname": "jimpphat",
-    "name": "Jimi Väyrynen",
-    "nationality": "Finlândia",
-    "teams": [
-      "MOUZ"
-    ],
-    "teammates": [
-      "frozen",
-      "siuhy",
-      "torzsi",
-      "jL",
-      "xertioN",
-      "NertZ",
-      "Brollan",
-      "karrigan"
-    ],
-    "coaches": [
-      "rejin"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "NertZ",
-    "nickname": "NertZ",
-    "name": "Fredrik Sjöström",
-    "nationality": "Suécia",
-    "teams": [
-      "Heroic",
-      "ENCE",
-      "Team Liquid",
-      "G2 Esports"
-    ],
-    "teammates": [
-      "frozen",
-      "siuhy",
-      "jimpphat",
-      "torzsi",
-      "jL",
-      "xertioN",
-      "sergej",
-      "Aerial",
-      "dycha",
-      "Snappi",
-      "SunPayus"
-    ],
-    "coaches": [
-      "rejin"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "torzsi",
-    "nickname": "torzsi",
-    "name": "Márton Törzsök",
-    "nationality": "Hungria",
-    "teams": [
-      "MOUZ",
-      "Ninjas in Pyjamas",
-      "Entropiq"
-    ],
-    "teammates": [
-      "frozen",
-      "siuhy",
-      "jimpphat",
-      "xertioN",
-      "Brollan",
-      "NertZ",
-      "jL"
-    ],
-    "coaches": [
-      "rejin"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "xertioN",
-    "nickname": "xertioN",
-    "name": "David Staňo",
-    "nationality": "Eslováquia",
-    "teams": [
-      "MOUZ",
-      "Ninjas in Pyjamas"
-    ],
-    "teammates": [
-      "frozen",
-      "siuhy",
-      "jimpphat",
-      "torzsi",
-      "Brollan",
-      "NertZ",
-      "jL"
-    ],
-    "coaches": [
-      "rejin"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "woxic",
-    "nickname": "woxic",
-    "name": "Özgür Eker",
-    "nationality": "Turquia",
-    "teams": [
-      "MOUZ",
-      "HellRaisers",
-      "Cloud9",
-      "Eternal Fire"
-    ],
-    "teammates": [
-      "XANTARES",
-      "imoRR",
-      "cNed",
-      "ngiN",
-      "chrisJ",
-      "frozen",
-      "dexter",
-      "karrigan",
-      "ropz",
-      "suNny"
-    ],
-    "coaches": [
-      "rejin"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "chrisJ",
-    "nickname": "chrisJ",
-    "name": "Chris de Jong",
-    "nationality": "Holanda",
-    "teams": [
-      "MOUZ",
-      "BIG"
-    ],
-    "teammates": [
-      "frozen",
-      "ropz",
-      "woxic",
-      "karrigan",
-      "Bymas",
-      "tabseN",
-      "suNny",
-      "dexter"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "tabseN",
-    "nickname": "tabseN",
-    "name": "Johannes Wodarz",
-    "nationality": "Alemanha",
-    "teams": [
-      "BIG"
-    ],
-    "teammates": [
-      "XANTARES",
-      "tiziaN",
-      "syrsoN",
-      "faveN",
-      "chrisJ",
-      "suNny"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "XANTARES",
-    "nickname": "XANTARES",
-    "name": "Ismailcan Dörtkardeş",
-    "nationality": "Turquia",
-    "teams": [
-      "BIG",
-      "Eternal Fire",
-      "Aurora Gaming"
-    ],
-    "teammates": [
-      "woxic",
-      "imoRR",
-      "cNed",
-      "ngiN",
-      "tabseN",
-      "syrsoN",
-      "tiziaN",
-      "faveN"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "tiziaN",
-    "nickname": "tiziaN",
-    "name": "Tizian Feldbusch",
-    "nationality": "Alemanha",
-    "teams": [
-      "BIG",
-      "Sprout"
-    ],
-    "teammates": [
-      "tabseN",
-      "XANTARES",
-      "syrsoN",
-      "faveN"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "syrsoN",
-    "nickname": "syrsoN",
-    "name": "Dominic Becker",
-    "nationality": "Alemanha",
-    "teams": [
-      "BIG",
-      "Sprout",
-      "GamerLegion"
-    ],
-    "teammates": [
-      "tabseN",
-      "XANTARES",
-      "tiziaN",
-      "faveN"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "faveN",
-    "nickname": "faveN",
-    "name": "Björn Budde",
-    "nationality": "Alemanha",
-    "teams": [
-      "BIG",
-      "MOUZ",
-      "Sprout"
-    ],
-    "teammates": [
-      "tabseN",
-      "XANTARES",
-      "tiziaN",
-      "syrsoN",
-      "frozen",
-      "siuhy"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Jame",
-    "nickname": "Jame",
-    "name": "Dzhami Ali",
-    "nationality": "Cazaquistão",
-    "teams": [
-      "Virtus.pro",
-      "Outsiders",
-      "PARIVISION"
-    ],
-    "teammates": [
-      "Ax1Le",
-      "FL1T",
+      "chopper",
+      "magixx",
+      "mir",
+      "sdy",
+      "degster",
+      "s1ren",
+      "w0nderful",
+      "NAF",
       "YEKINDAR",
-      "fame",
-      "SANJI",
-      "qikert"
+      "oSee",
+      "daps"
     ],
-    "coaches": [
-      "jR"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": true,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "degster",
+    "nickname": "degster",
+    "name": "Abdul Gasanov",
+    "nationality": "Rússia",
+    "teams": [
+      "Espada",
+      "Heroic",
+      "Team Falcons",
+      "Team Spirit",
+      "OG"
+    ],
+    "teammates": [
+      "NertZ",
+      "TeSeS",
+      "sjuush",
+      "kyxsan",
+      "nicoodoz",
+      "NiKo",
+      "Magisk",
+      "m0NESY",
+      "kyousuke",
+      "chopper",
+      "magixx",
+      "mir",
+      "sdy",
+      "Patsi",
+      "s1ren",
+      "w0nderful",
+      "nexa",
+      "flameZ",
+      "mantuu",
+      "HeavyGod"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "mir",
+    "nickname": "mir",
+    "name": "Nikolay Bityukov",
+    "nationality": "Rússia",
+    "teams": [
+      "Vega Squadron",
+      "Virtus.pro",
+      "Gambit",
+      "Team Spirit"
+    ],
+    "teammates": [
+      "Jame",
+      "qikert",
+      "FL1T",
+      "fame",
+      "n0rb3r7",
+      "electronic",
+      "AdreN",
+      "dosia",
+      "mou",
+      "HObbit",
+      "seized",
+      "chopper",
+      "magixx",
+      "sdy",
+      "degster",
+      "Patsi"
+    ],
+    "coaches": [
+      "blade"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
     "hltvTop1": false,
     "cs16": false
   },
@@ -3625,27 +862,19 @@ export const PLAYERS = [
     "name": "Sergey Rykhtorov",
     "nationality": "Rússia",
     "teams": [
-      "Virtus.pro",
-      "Team Spirit",
-      "GamerLegion",
+      "BetBoom",
       "Gambit",
       "Cloud9"
     ],
     "teammates": [
-      "Jame",
-      "FL1T",
-      "YEKINDAR",
-      "fame",
-      "SANJI",
-      "qikert",
-      "chopper",
-      "donk",
-      "magixx",
-      "sh1ro",
-      "s1ren",
-      "HObbit",
       "nafany",
+      "sh1ro",
       "interz",
+      "HObbit",
+      "buster",
+      "electronic",
+      "Perfecto",
+      "Boombl4",
       "HeavyGod"
     ],
     "coaches": [],
@@ -3660,233 +889,23 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "FL1T",
-    "nickname": "FL1T",
-    "name": "Evgeny Lebedev",
-    "nationality": "Rússia",
-    "teams": [
-      "Virtus.pro",
-      "Gambit",
-      "HellRaisers"
-    ],
-    "teammates": [
-      "Jame",
-      "Ax1Le",
-      "YEKINDAR",
-      "fame",
-      "SANJI",
-      "qikert",
-      "nafany",
-      "sh1ro",
-      "HObbit",
-      "interz",
-      "Patsi"
-    ],
-    "coaches": [
-      "jR"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "YEKINDAR",
-    "nickname": "YEKINDAR",
-    "name": "Mareks Gaļinskis",
-    "nationality": "Letônia",
-    "teams": [
-      "Team Liquid",
-      "Virtus.pro",
-      "FURIA"
-    ],
-    "teammates": [
-      "Jame",
-      "Ax1Le",
-      "FL1T",
-      "fame",
-      "SANJI",
-      "qikert",
-      "EliGE",
-      "NAF",
-      "Twistzz",
-      "oSee",
-      "skullz",
-      "cNed"
-    ],
-    "coaches": [
-      "jR"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "SANJI",
-    "nickname": "SANJI",
-    "name": "Sanjar Kuliev",
-    "nationality": "Cazaquistão",
-    "teams": [
-      "Virtus.pro",
-      "Team Spirit",
-      "Outsiders"
-    ],
-    "teammates": [
-      "Jame",
-      "Ax1Le",
-      "FL1T",
-      "YEKINDAR",
-      "fame",
-      "qikert",
-      "chopper"
-    ],
-    "coaches": [
-      "jR"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "fame",
-    "nickname": "fame",
-    "name": "Yaroslav Naumov",
-    "nationality": "Rússia",
-    "teams": [
-      "Virtus.pro",
-      "Outsiders",
-      "GamerLegion",
-      "paiN Gaming"
-    ],
-    "teammates": [
-      "Jame",
-      "Ax1Le",
-      "FL1T",
-      "SANJI",
-      "qikert",
-      "YEKINDAR"
-    ],
-    "coaches": [
-      "jR"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "qikert",
-    "nickname": "qikert",
-    "name": "Alexei Golubev",
-    "nationality": "Rússia",
-    "teams": [
-      "Virtus.pro",
-      "Outsiders",
-      "HellRaisers"
-    ],
-    "teammates": [
-      "Jame",
-      "Ax1Le",
-      "FL1T",
-      "YEKINDAR",
-      "fame",
-      "SANJI",
-      "Patsi"
-    ],
-    "coaches": [
-      "jR"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "HObbit",
-    "nickname": "HObbit",
-    "name": "Abay Khassenov",
-    "nationality": "Cazaquistão",
-    "teams": [
-      "Gambit",
-      "Cloud9",
-      "G2 Esports",
-      "HellRaisers"
-    ],
-    "teammates": [
-      "sh1ro",
-      "nafany",
-      "interz",
-      "Ax1Le",
-      "FL1T",
-      "NiKo",
-      "nexa",
-      "huNter-",
-      "dosia",
-      "mou"
-    ],
-    "coaches": [
-      "RobbaN"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
     "id": "nafany",
     "nickname": "nafany",
-    "name": "Kirill Bityukov",
+    "name": "Vladislav Gorshkov",
     "nationality": "Rússia",
     "teams": [
+      "BetBoom",
       "Gambit",
-      "Cloud9",
-      "NAVI",
-      "Ninjas in Pyjamas"
+      "Cloud9"
     ],
     "teammates": [
       "sh1ro",
-      "donk",
       "Ax1Le",
-      "FL1T",
       "interz",
       "HObbit",
-      "electronic"
+      "buster"
     ],
-    "coaches": [
-      "blade"
-    ],
+    "coaches": [],
     "majorChampion": false,
     "majorsCount": 0,
     "katowiceChampion": true,
@@ -3900,19 +919,20 @@ export const PLAYERS = [
   {
     "id": "interz",
     "nickname": "interz",
-    "name": "Danil Salikhov",
-    "nationality": "Cazaquistão",
+    "name": "Timofey Yakushin",
+    "nationality": "Rússia",
     "teams": [
+      "TSM",
       "Gambit",
-      "Cloud9",
-      "HellRaisers"
+      "Cloud9"
     ],
     "teammates": [
-      "sh1ro",
       "nafany",
-      "HObbit",
+      "sh1ro",
       "Ax1Le",
-      "FL1T",
+      "HObbit",
+      "buster",
+      "Boombl4",
       "HeavyGod"
     ],
     "coaches": [],
@@ -3927,32 +947,47 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "dosia",
-    "nickname": "dosia",
-    "name": "Mikhail Stolyarov",
-    "nationality": "Rússia",
+    "id": "HObbit",
+    "nickname": "HObbit",
+    "name": "Abay Khassenov",
+    "nationality": "Cazaquistão",
     "teams": [
-      "Gambit",
       "HellRaisers",
-      "Virtus.pro"
+      "Winstrike",
+      "Gambit",
+      "Cloud9"
     ],
     "teammates": [
+      "oskar",
+      "STYKO",
+      "woxic",
       "Zeus",
       "AdreN",
+      "dosia",
       "mou",
+      "seized",
+      "mir",
+      "nafany",
+      "sh1ro",
+      "Ax1Le",
+      "interz",
+      "buster",
       "electronic",
-      "HObbit"
+      "Perfecto",
+      "Boombl4"
     ],
-    "coaches": [],
+    "coaches": [
+      "blade"
+    ],
     "majorChampion": true,
     "majorsCount": 1,
-    "katowiceChampion": false,
+    "katowiceChampion": true,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
-    "cs16": true
+    "cs16": false
   },
   {
     "id": "AdreN",
@@ -3960,29 +995,75 @@ export const PLAYERS = [
     "name": "Dauren Kystaubayev",
     "nationality": "Cazaquistão",
     "teams": [
-      "Gambit",
+      "HellRaisers",
+      "Astana Dragons",
       "FaZe Clan",
       "Virtus.pro",
-      "HellRaisers"
+      "Gambit"
     ],
     "teammates": [
-      "Zeus",
+      "s1mple",
+      "markeloff",
       "dosia",
       "mou",
-      "GuardiaN",
       "NiKo",
       "rain",
       "olofmeister",
-      "karrigan"
+      "GuardiaN",
+      "NEO",
+      "Jame",
+      "qikert",
+      "buster",
+      "SANJI",
+      "YEKINDAR",
+      "Zeus",
+      "HObbit",
+      "seized",
+      "mir"
     ],
-    "coaches": [],
+    "coaches": [
+      "blade"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "dosia",
+    "nickname": "dosia",
+    "name": "Mikhail Stolyarov",
+    "nationality": "Rússia",
+    "teams": [
+      "HellRaisers",
+      "Astana Dragons",
+      "Gambit"
+    ],
+    "teammates": [
+      "s1mple",
+      "markeloff",
+      "AdreN",
+      "mou",
+      "Zeus",
+      "HObbit",
+      "seized",
+      "mir"
+    ],
+    "coaches": [
+      "blade"
+    ],
     "majorChampion": true,
     "majorsCount": 1,
     "katowiceChampion": false,
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": true
   },
@@ -3992,14 +1073,87 @@ export const PLAYERS = [
     "name": "Rustem Telepov",
     "nationality": "Cazaquistão",
     "teams": [
-      "Gambit",
-      "HellRaisers"
+      "HellRaisers",
+      "Gambit"
     ],
     "teammates": [
-      "Zeus",
+      "s1mple",
+      "markeloff",
       "dosia",
       "AdreN",
+      "Zeus",
       "HObbit",
+      "seized",
+      "mir"
+    ],
+    "coaches": [
+      "blade"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "Jame",
+    "nickname": "Jame",
+    "name": "Dzhami Ali",
+    "nationality": "Rússia",
+    "teams": [
+      "AVANGAR",
+      "PARIVISION",
+      "Virtus.pro",
+      "Outsiders"
+    ],
+    "teammates": [
+      "qikert",
+      "buster",
+      "SANJI",
+      "AdreN",
+      "YEKINDAR",
+      "FL1T",
+      "fame",
+      "n0rb3r7",
+      "mir",
+      "electronic"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "qikert",
+    "nickname": "qikert",
+    "name": "Alexey Golubev",
+    "nationality": "Cazaquistão",
+    "teams": [
+      "AVANGAR",
+      "PARIVISION",
+      "Virtus.pro",
+      "Outsiders"
+    ],
+    "teammates": [
+      "Jame",
+      "buster",
+      "SANJI",
+      "AdreN",
+      "YEKINDAR",
+      "FL1T",
+      "fame",
+      "n0rb3r7",
+      "mir",
       "electronic"
     ],
     "coaches": [],
@@ -4011,94 +1165,127 @@ export const PLAYERS = [
     "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
-    "cs16": true
+    "cs16": false
   },
   {
-    "id": "allu",
-    "nickname": "allu",
-    "name": "Aleksi Jalli",
-    "nationality": "Finlândia",
+    "id": "FL1T",
+    "nickname": "FL1T",
+    "name": "Evgenii Lebedev",
+    "nationality": "Rússia",
     "teams": [
-      "ENCE",
-      "Ninjas in Pyjamas",
-      "FaZe Clan",
+      "forZe",
+      "Virtus.pro",
+      "Outsiders"
+    ],
+    "teammates": [
+      "Jame",
+      "qikert",
+      "buster",
+      "YEKINDAR",
+      "fame",
+      "n0rb3r7",
+      "mir",
+      "electronic"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "fame",
+    "nickname": "fame",
+    "name": "Pyotr Bolyshev",
+    "nationality": "Rússia",
+    "teams": [
+      "K23",
+      "Outsiders",
+      "Virtus.pro"
+    ],
+    "teammates": [
+      "Jame",
+      "qikert",
+      "FL1T",
+      "n0rb3r7",
+      "YEKINDAR",
+      "buster",
+      "mir",
+      "electronic"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "n0rb3r7",
+    "nickname": "n0rb3r7",
+    "name": "David Danielyan",
+    "nationality": "Armênia",
+    "teams": [
+      "K23",
+      "Winstrike",
+      "Outsiders",
+      "Virtus.pro"
+    ],
+    "teammates": [
+      "Jame",
+      "qikert",
+      "FL1T",
+      "fame",
+      "YEKINDAR",
+      "buster",
+      "mir",
+      "electronic"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "buster",
+    "nickname": "buster",
+    "name": "Timur Tulepov",
+    "nationality": "Cazaquistão",
+    "teams": [
+      "AVANGAR",
+      "Virtus.pro",
+      "Outsiders",
       "Cloud9"
     ],
     "teammates": [
-      "Aleksib",
-      "sergej",
-      "suNny",
-      "Aerial",
-      "f0rest",
-      "GeT_RiGhT",
-      "rain",
-      "karrigan",
-      "friberg",
-      "dycha"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": true
-  },
-  {
-    "id": "suNny",
-    "nickname": "suNny",
-    "name": "Miikka Kemppi",
-    "nationality": "Finlândia",
-    "teams": [
-      "ENCE",
-      "MOUZ",
-      "BIG",
-      "G2 Esports"
-    ],
-    "teammates": [
-      "Aleksib",
-      "sergej",
-      "allu",
-      "frozen",
-      "ropz",
-      "woxic",
-      "chrisJ",
-      "tabseN",
-      "Aerial"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Aerial",
-    "nickname": "Aerial",
-    "name": "Juhani Jokinen",
-    "nationality": "Finlândia",
-    "teams": [
-      "ENCE",
-      "HAVU",
-      "SJ"
-    ],
-    "teammates": [
-      "Aleksib",
-      "sergej",
-      "allu",
-      "suNny",
-      "dycha",
-      "Snappi",
-      "flameZ",
-      "NertZ"
+      "Jame",
+      "qikert",
+      "SANJI",
+      "AdreN",
+      "YEKINDAR",
+      "FL1T",
+      "fame",
+      "n0rb3r7",
+      "nafany",
+      "sh1ro",
+      "Ax1Le",
+      "interz",
+      "HObbit"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4112,26 +1299,104 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "dycha",
-    "nickname": "dycha",
-    "name": "Daniel Dotan",
-    "nationality": "Israel",
+    "id": "SANJI",
+    "nickname": "SANJI",
+    "name": "Sanjar Kuliev",
+    "nationality": "Cazaquistão",
     "teams": [
-      "ENCE",
-      "Ninjas in Pyjamas",
-      "Heroic"
+      "AVANGAR",
+      "Virtus.pro"
     ],
     "teammates": [
-      "Aleksib",
-      "sergej",
-      "allu",
-      "Snappi",
-      "NertZ",
+      "Jame",
+      "qikert",
+      "buster",
+      "AdreN",
+      "YEKINDAR"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "YEKINDAR",
+    "nickname": "YEKINDAR",
+    "name": "Mareks Gaļinskis",
+    "nationality": "Letônia",
+    "teams": [
+      "pro100",
+      "FURIA",
+      "Virtus.pro",
+      "Outsiders",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "FalleN",
+      "yuurih",
+      "KSCERATO",
+      "skullz",
+      "chelo",
+      "Jame",
+      "qikert",
+      "buster",
+      "SANJI",
+      "AdreN",
+      "FL1T",
+      "fame",
+      "n0rb3r7",
+      "EliGE",
+      "NAF",
+      "nitr0",
+      "oSee",
+      "shox",
+      "daps",
+      "Patsi",
+      "Twistzz",
       "cadiaN",
-      "stavn",
-      "Aerial"
+      "jks",
+      "NertZ",
+      "siuhy"
     ],
-    "coaches": [],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "kyousuke",
+    "nickname": "kyousuke",
+    "name": "Maxim Lukin",
+    "nationality": "Rússia",
+    "teams": [
+      "Team Spirit Academy",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "NiKo",
+      "Magisk",
+      "TeSeS",
+      "degster",
+      "kyxsan",
+      "m0NESY"
+    ],
+    "coaches": [
+      "zonic"
+    ],
     "majorChampion": false,
     "majorsCount": 0,
     "katowiceChampion": false,
@@ -4143,589 +1408,380 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "Stewie2K",
-    "nickname": "Stewie2K",
-    "name": "Jake Yip",
-    "nationality": "EUA",
+    "id": "FalleN",
+    "nickname": "FalleN",
+    "name": "Gabriel Toledo",
+    "nationality": "Brasil",
     "teams": [
-      "Cloud9",
-      "Team Liquid",
-      "MIBR"
+      "Luminosity",
+      "Keyd Stars",
+      "MIBR",
+      "SK Gaming",
+      "FURIA",
+      "Imperial",
+      "Team Liquid"
     ],
     "teammates": [
-      "n0thing",
-      "shroud",
-      "skadoodle",
-      "Tarik",
-      "autimatic",
-      "RUSH",
-      "EliGE",
-      "NAF",
-      "FalleN",
-      "Twistzz",
-      "CerQ",
-      "nitr0",
-      "daps",
+      "cogu",
+      "fnx",
+      "fer",
+      "steel",
+      "boltz",
+      "coldzera",
       "TACO",
-      "hiko",
-      "pimp"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Tarik",
-    "nickname": "Tarik",
-    "name": "Tarik Celik",
-    "nationality": "EUA",
-    "teams": [
-      "Cloud9",
-      "NRG",
-      "Evil Geniuses",
-      "OpTic Gaming"
-    ],
-    "teammates": [
-      "n0thing",
-      "shroud",
-      "skadoodle",
-      "Stewie2K",
-      "autimatic",
-      "RUSH",
-      "CerQ",
-      "daps",
-      "stanislaw"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": true,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "autimatic",
-    "nickname": "autimatic",
-    "name": "Timothy Ta",
-    "nationality": "EUA",
-    "teams": [
-      "Cloud9"
-    ],
-    "teammates": [
-      "n0thing",
-      "shroud",
-      "skadoodle",
+      "felps",
       "Stewie2K",
       "Tarik",
-      "RUSH",
-      "CerQ",
-      "nitr0",
-      "daps",
-      "hiko"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "RUSH",
-    "nickname": "RUSH",
-    "name": "William Wierzba",
-    "nationality": "EUA",
-    "teams": [
-      "Cloud9",
-      "100 Thieves"
-    ],
-    "teammates": [
-      "n0thing",
-      "shroud",
-      "skadoodle",
-      "Stewie2K",
-      "Tarik",
-      "autimatic",
-      "CerQ",
-      "nitr0",
-      "daps",
-      "hiko"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "skadoodle",
-    "nickname": "skadoodle",
-    "name": "Tyler Latham",
-    "nationality": "EUA",
-    "teams": [
-      "Cloud9",
-      "iBUYPOWER"
-    ],
-    "teammates": [
-      "Stewie2K",
-      "Tarik",
-      "autimatic",
-      "RUSH",
-      "n0thing",
-      "shroud"
-    ],
-    "coaches": [],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "CerQ",
-    "nickname": "CerQ",
-    "name": "Tsvetelin Dimitrov",
-    "nationality": "Bulgária",
-    "teams": [
-      "Evil Geniuses",
-      "NAVI",
-      "Ninjas in Pyjamas"
-    ],
-    "teammates": [
-      "Stewie2K",
-      "Tarik",
-      "autimatic",
-      "RUSH",
-      "EliGE",
-      "NAF"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "EliGE",
-    "nickname": "EliGE",
-    "name": "Jonathan Jablonowski",
-    "nationality": "EUA",
-    "teams": [
-      "Team Liquid",
-      "FaZe Clan"
-    ],
-    "teammates": [
-      "NAF",
-      "Stewie2K",
-      "nitr0",
-      "Twistzz",
-      "YEKINDAR",
-      "oSee",
-      "junior",
-      "Grim",
-      "hiko",
-      "s1mple",
-      "daps",
-      "FalleN",
-      "TACO",
-      "karrigan",
-      "frozen",
-      "rain",
+      "LUCAS1",
+      "kNgV-",
+      "chelo",
+      "yuurih",
+      "KSCERATO",
+      "arT",
       "skullz",
-      "Krimbo",
-      "CerQ",
-      "stanislaw",
-      "floppy",
-      "JT",
-      "hallzerk",
-      "Liazz",
-      "cNed",
-      "pimp",
-      "jdm64"
-    ],
-    "coaches": [
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "NAF",
-    "nickname": "NAF",
-    "name": "Keith Markovic",
-    "nationality": "Canadá",
-    "teams": [
-      "Team Liquid",
-      "100 Thieves"
-    ],
-    "teammates": [
-      "EliGE",
-      "Stewie2K",
-      "nitr0",
-      "Twistzz",
       "YEKINDAR",
-      "oSee",
-      "junior",
-      "FalleN",
-      "TACO",
-      "CerQ",
-      "Grim",
-      "daps",
-      "stanislaw",
-      "floppy",
-      "skullz",
-      "Liazz",
-      "hiko",
-      "pimp"
-    ],
-    "coaches": [
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "nitr0",
-    "nickname": "nitr0",
-    "name": "Nick Cannella",
-    "nationality": "EUA",
-    "teams": [
-      "Team Liquid",
-      "100 Thieves"
-    ],
-    "teammates": [
+      "VINI",
       "EliGE",
       "NAF",
-      "Stewie2K",
-      "Twistzz",
-      "autimatic",
-      "RUSH",
-      "s1mple",
-      "hiko",
-      "daps",
-      "FalleN",
-      "TACO",
-      "jdm64",
-      "oSee",
-      "Grim",
-      "pimp"
-    ],
-    "coaches": [
-      "peacemaker"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "oSee",
-    "nickname": "oSee",
-    "name": "Omar Dabhelia",
-    "nationality": "EUA",
-    "teams": [
-      "Team Liquid",
-      "Complexity",
-      "Party Astronauts"
-    ],
-    "teammates": [
-      "EliGE",
-      "NAF",
-      "Twistzz",
-      "YEKINDAR",
-      "nitr0",
-      "floppy",
-      "JT",
       "Grim"
     ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
+    "coaches": [
+      "zews",
+      "guerri",
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
     "katowiceChampion": false,
-    "cologneChampion": false,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
-    "cs16": false
+    "cs16": true
   },
   {
-    "id": "junior",
-    "nickname": "junior",
-    "name": "Noah Jelen",
-    "nationality": "EUA",
+    "id": "coldzera",
+    "nickname": "coldzera",
+    "name": "Marcelo David",
+    "nationality": "Brasil",
     "teams": [
-      "Team Liquid",
-      "1win"
-    ],
-    "teammates": [
-      "EliGE",
-      "NAF",
-      "Twistzz"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Grim",
-    "nickname": "Grim",
-    "name": "Rahul Nemani",
-    "nationality": "EUA",
-    "teams": [
-      "Team Liquid",
-      "Triumph",
+      "Luminosity",
+      "00Nation",
+      "Legacy",
+      "RED Canids",
+      "SK Gaming",
+      "MIBR",
+      "FaZe Clan",
       "Complexity"
     ],
     "teammates": [
-      "EliGE",
-      "NAF",
-      "Twistzz",
-      "nitr0",
-      "floppy",
-      "oSee"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "daps",
-    "nickname": "daps",
-    "name": "Damian Steele",
-    "nationality": "EUA",
-    "teams": [
-      "NRG",
-      "OpTic Gaming",
-      "Team Liquid",
-      "Evil Geniuses",
-      "NRG Esports",
-      "Ghost Gaming"
-    ],
-    "teammates": [
-      "EliGE",
-      "NAF",
+      "FalleN",
+      "fer",
+      "steel",
+      "boltz",
+      "fnx",
+      "TACO",
+      "felps",
       "Stewie2K",
-      "Twistzz",
       "Tarik",
-      "autimatic",
-      "nitr0",
-      "hiko",
-      "s1mple",
-      "RUSH",
-      "jdm64"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "stanislaw",
-    "nickname": "stanislaw",
-    "name": "Peter Jarguz",
-    "nationality": "EUA",
-    "teams": [
-      "Complexity",
-      "OpTic Gaming",
-      "Team Liquid"
-    ],
-    "teammates": [
-      "EliGE",
-      "NAF",
-      "Tarik"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "floppy",
-    "nickname": "floppy",
-    "name": "Ricky Kemery",
-    "nationality": "EUA",
-    "teams": [
-      "Complexity",
-      "Team Liquid"
-    ],
-    "teammates": [
-      "JT",
-      "EliGE",
-      "NAF",
-      "hallzerk",
-      "Grim",
-      "blameF",
-      "mezii",
-      "oSee",
+      "kNgV-",
+      "HEN1",
+      "LUCAS1",
+      "malbsMd",
+      "dumau",
+      "latto",
+      "nqz",
       "NEKIZ",
-      "latto",
-      "jks"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "JT",
-    "nickname": "JT",
-    "name": "Jonathan Tran",
-    "nationality": "EUA",
-    "teams": [
-      "Complexity",
-      "Team Liquid",
-      "Evil Geniuses"
-    ],
-    "teammates": [
-      "floppy",
-      "EliGE",
-      "blameF",
-      "hallzerk",
-      "oSee",
-      "jks"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "hallzerk",
-    "nickname": "hallzerk",
-    "name": "Joakim Flom",
-    "nationality": "Noruega",
-    "teams": [
-      "Complexity",
-      "Ninjas in Pyjamas",
-      "Team Liquid"
-    ],
-    "teammates": [
-      "floppy",
-      "JT",
-      "EliGE",
-      "blameF",
+      "lux",
+      "NiKo",
       "rain",
-      "ropz"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "NEKIZ",
-    "nickname": "NEKIZ",
-    "name": "Gustavo Oliveira",
-    "nationality": "Brasil",
-    "teams": [
-      "Complexity",
-      "FURIA",
-      "paiN Gaming",
-      "Sharks"
-    ],
-    "teammates": [
-      "coldzera",
-      "KSCERATO",
-      "yuurih",
-      "floppy",
+      "broky",
+      "olofmeister",
+      "Bymas",
+      "Kjaerbye",
+      "karrigan",
+      "Twistzz",
       "blameF",
-      "latto",
-      "mzinho"
+      "k0nfig",
+      "RUSH",
+      "jks",
+      "es3tag"
     ],
     "coaches": [
+      "zews",
+      "RobbaN",
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": false
+  },
+  {
+    "id": "fer",
+    "nickname": "fer",
+    "name": "Fernando Alvarenga",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "Keyd Stars",
+      "SK Gaming",
+      "MIBR",
+      "Imperial"
+    ],
+    "teammates": [
+      "FalleN",
+      "steel",
+      "boltz",
+      "coldzera",
+      "fnx",
+      "TACO",
+      "felps",
+      "Stewie2K",
+      "Tarik",
+      "LUCAS1",
+      "kNgV-",
+      "VINI",
+      "chelo"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "fnx",
+    "nickname": "fnx",
+    "name": "Lincoln Lau",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "Immortals",
+      "100 Thieves",
+      "MIBR",
+      "SK Gaming",
+      "Imperial"
+    ],
+    "teammates": [
+      "cogu",
+      "FalleN",
+      "fer",
+      "coldzera",
+      "TACO",
+      "HEN1",
+      "LUCAS1",
+      "boltz",
+      "felps",
+      "steel",
+      "kNgV-",
+      "VINI"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "TACO",
+    "nickname": "TACO",
+    "name": "Epitácio de Melo",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "GODSENT",
+      "00Nation",
+      "SK Gaming",
+      "MIBR",
+      "Immortals",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "fnx",
+      "felps",
+      "boltz",
+      "LUCAS1",
+      "kNgV-",
+      "HEN1",
+      "dumau",
+      "latto",
+      "nqz",
+      "NEKIZ",
+      "nitr0",
+      "EliGE",
+      "Twistzz",
+      "NAF",
+      "steel"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "boltz",
+    "nickname": "boltz",
+    "name": "Ricardo Prass",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "Immortals",
+      "Keyd Stars",
+      "SK Gaming",
+      "MIBR",
+      "Imperial"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "steel",
+      "coldzera",
+      "TACO",
+      "Stewie2K",
+      "Tarik",
+      "chelo",
+      "exit",
+      "brnz4n",
+      "HEN1",
+      "LUCAS1",
+      "felps",
+      "fnx",
+      "kNgV-",
+      "NEKIZ",
+      "VINI"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "felps",
+    "nickname": "felps",
+    "name": "João Vasconcellos",
+    "nationality": "Brasil",
+    "teams": [
+      "Immortals",
+      "Luminosity",
+      "GODSENT",
+      "Fluxo",
+      "SK Gaming",
+      "MIBR",
+      "Imperial"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "TACO",
+      "HEN1",
+      "LUCAS1",
+      "boltz",
+      "fnx",
+      "VINI",
+      "dumau",
+      "latto",
+      "lux",
+      "zevy",
+      "arT"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "HEN1",
+    "nickname": "HEN1",
+    "name": "Henrique Teles",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "100 Thieves",
+      "00Nation",
+      "GODSENT",
+      "MIBR",
+      "Immortals",
+      "FURIA",
+      "Imperial"
+    ],
+    "teammates": [
+      "chelo",
+      "boltz",
+      "exit",
+      "brnz4n",
+      "LUCAS1",
+      "felps",
+      "fnx",
+      "TACO",
+      "steel",
+      "kNgV-",
+      "NEKIZ",
+      "arT",
+      "yuurih",
+      "KSCERATO",
+      "VINI",
+      "dumau",
+      "latto",
+      "coldzera",
+      "malbsMd"
+    ],
+    "coaches": [
+      "peacemaker",
+      "zews",
       "guerri"
     ],
     "majorChampion": false,
@@ -4734,25 +1790,143 @@ export const PLAYERS = [
     "cologneChampion": false,
     "grandSlamWinner": false,
     "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "LUCAS1",
+    "nickname": "LUCAS1",
+    "name": "Lucas Teles",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "100 Thieves",
+      "00Nation",
+      "MIBR",
+      "Immortals"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "TACO",
+      "kNgV-",
+      "HEN1",
+      "boltz",
+      "felps",
+      "fnx",
+      "steel",
+      "chelo",
+      "NEKIZ",
+      "coldzera",
+      "malbsMd"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
     "cs16": false
   },
   {
-    "id": "latto",
-    "nickname": "latto",
-    "name": "Christopher Martins",
+    "id": "kNgV-",
+    "nickname": "kNgV-",
+    "name": "Vito Giuseppe",
     "nationality": "Brasil",
     "teams": [
-      "Complexity",
-      "Imperial"
+      "100 Thieves",
+      "00Nation",
+      "MIBR",
+      "Immortals"
     ],
     "teammates": [
-      "coldzera",
-      "floppy",
-      "blameF",
       "FalleN",
-      "NEKIZ"
+      "fer",
+      "TACO",
+      "LUCAS1",
+      "HEN1",
+      "boltz",
+      "steel",
+      "fnx",
+      "coldzera",
+      "malbsMd"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "steel",
+    "nickname": "steel",
+    "name": "Lucas Lopes",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "Keyd Stars",
+      "Movistar Riders",
+      "Immortals",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "boltz",
+      "coldzera",
+      "HEN1",
+      "LUCAS1",
+      "kNgV-",
+      "fnx",
+      "chelo",
+      "NEKIZ",
+      "nitr0",
+      "EliGE",
+      "Twistzz",
+      "NAF",
+      "TACO"
+    ],
+    "coaches": [
+      "zews",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "cogu",
+    "nickname": "cogu",
+    "name": "Raphael Camargo",
+    "nationality": "Brasil",
+    "teams": [
+      "MIBR",
+      "g3x"
+    ],
+    "teammates": [
+      "fnx",
+      "FalleN"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -4763,7 +1937,7 @@ export const PLAYERS = [
     "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
-    "cs16": false
+    "cs16": true
   },
   {
     "id": "arT",
@@ -4771,23 +1945,26 @@ export const PLAYERS = [
     "name": "Andrei Piovezan",
     "nationality": "Brasil",
     "teams": [
-      "FURIA",
       "Fluxo",
-      "Legacy"
+      "FURIA"
     ],
     "teammates": [
-      "KSCERATO",
       "yuurih",
+      "KSCERATO",
       "VINI",
-      "FalleN",
-      "chelo",
+      "HEN1",
+      "junior",
       "drop",
       "saffee",
+      "FalleN",
+      "chelo",
       "felps",
-      "skullz"
+      "lux",
+      "zevy"
     ],
     "coaches": [
-      "guerri"
+      "guerri",
+      "zews"
     ],
     "majorChampion": false,
     "majorsCount": 0,
@@ -4811,14 +1988,14 @@ export const PLAYERS = [
       "arT",
       "yuurih",
       "VINI",
-      "FalleN",
-      "chelo",
+      "HEN1",
+      "junior",
       "drop",
       "saffee",
+      "FalleN",
+      "chelo",
       "skullz",
-      "NEKIZ",
-      "boltz",
-      "felps"
+      "YEKINDAR"
     ],
     "coaches": [
       "guerri"
@@ -4845,14 +2022,14 @@ export const PLAYERS = [
       "arT",
       "KSCERATO",
       "VINI",
-      "FalleN",
-      "chelo",
+      "HEN1",
+      "junior",
       "drop",
       "saffee",
+      "FalleN",
+      "chelo",
       "skullz",
-      "NEKIZ",
-      "boltz",
-      "felps"
+      "YEKINDAR"
     ],
     "coaches": [
       "guerri"
@@ -4878,55 +2055,21 @@ export const PLAYERS = [
     ],
     "teammates": [
       "arT",
-      "KSCERATO",
       "yuurih",
+      "KSCERATO",
+      "HEN1",
+      "junior",
+      "drop",
       "FalleN",
+      "fer",
+      "fnx",
+      "boltz",
       "chelo",
-      "drop",
-      "saffee",
-      "skullz"
+      "felps"
     ],
     "coaches": [
-      "guerri"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "skullz",
-    "nickname": "skullz",
-    "name": "Gabriel Fernandes",
-    "nationality": "Brasil",
-    "teams": [
-      "FURIA",
-      "Team Liquid",
-      "FaZe Clan",
-      "Imperial"
-    ],
-    "teammates": [
-      "FalleN",
-      "KSCERATO",
-      "yuurih",
-      "arT",
-      "VINI",
-      "drop",
-      "YEKINDAR",
-      "EliGE",
-      "NAF",
-      "rain",
-      "karrigan",
-      "frozen",
-      "s1mple"
-    ],
-    "coaches": [
-      "guerri"
+      "guerri",
+      "peacemaker"
     ],
     "majorChampion": false,
     "majorsCount": 0,
@@ -4944,18 +2087,27 @@ export const PLAYERS = [
     "name": "Marcelo Cespedes",
     "nationality": "Brasil",
     "teams": [
-      "Imperial",
+      "Luminosity",
+      "MIBR",
       "FURIA",
-      "paiN Gaming"
+      "Imperial"
     ],
     "teammates": [
+      "boltz",
+      "exit",
+      "brnz4n",
+      "HEN1",
+      "LUCAS1",
+      "steel",
+      "NEKIZ",
       "FalleN",
-      "KSCERATO",
       "yuurih",
+      "KSCERATO",
       "arT",
-      "VINI",
-      "drop",
-      "saffee"
+      "skullz",
+      "YEKINDAR",
+      "fer",
+      "VINI"
     ],
     "coaches": [
       "guerri"
@@ -4973,22 +2125,22 @@ export const PLAYERS = [
   {
     "id": "drop",
     "nickname": "drop",
-    "name": "Alexandre Zanotto",
+    "name": "André Abreu",
     "nationality": "Brasil",
     "teams": [
-      "FURIA",
-      "Imperial",
-      "paiN Gaming"
+      "MIBR",
+      "FURIA"
     ],
     "teammates": [
-      "FalleN",
-      "KSCERATO",
-      "yuurih",
-      "arT",
-      "VINI",
-      "chelo",
+      "exit",
+      "insani",
+      "brnz4n",
       "saffee",
-      "skullz"
+      "arT",
+      "yuurih",
+      "KSCERATO",
+      "VINI",
+      "junior"
     ],
     "coaches": [
       "guerri"
@@ -5009,156 +2161,24 @@ export const PLAYERS = [
     "name": "Rafael Costa",
     "nationality": "Brasil",
     "teams": [
-      "Imperial",
+      "MIBR",
       "FURIA",
-      "RED Canids"
+      "paiN Gaming"
     ],
     "teammates": [
-      "FalleN",
-      "KSCERATO",
+      "exit",
+      "insani",
+      "brnz4n",
+      "drop",
+      "arT",
       "yuurih",
-      "arT",
-      "VINI",
-      "chelo",
-      "drop"
-    ],
-    "coaches": [
-      "guerri"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "fer",
-    "nickname": "fer",
-    "name": "Fernando Alvarenga",
-    "nationality": "Brasil",
-    "teams": [
-      "Luminosity",
-      "SK Gaming",
-      "MIBR"
-    ],
-    "teammates": [
-      "FalleN",
-      "coldzera",
-      "fnx",
-      "TACO",
-      "boltz",
-      "felps"
-    ],
-    "coaches": [
-      "zews",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": true,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "fnx",
-    "nickname": "fnx",
-    "name": "Lincoln Lau",
-    "nationality": "Brasil",
-    "teams": [
-      "Luminosity",
-      "SK Gaming",
-      "MIBR"
-    ],
-    "teammates": [
-      "FalleN",
-      "coldzera",
-      "fer",
-      "TACO",
-      "boltz"
-    ],
-    "coaches": [
-      "zews",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 1,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "TACO",
-    "nickname": "TACO",
-    "name": "Epitácio de Melo",
-    "nationality": "Brasil",
-    "teams": [
-      "Luminosity",
-      "SK Gaming",
-      "MIBR",
-      "Team Liquid",
-      "Imperial"
-    ],
-    "teammates": [
-      "FalleN",
-      "coldzera",
-      "fer",
-      "fnx",
-      "felps",
-      "nitr0",
-      "NAF",
-      "EliGE",
-      "Stewie2K",
-      "boltz"
-    ],
-    "coaches": [
-      "zews",
-      "peacemaker"
-    ],
-    "majorChampion": true,
-    "majorsCount": 2,
-    "katowiceChampion": false,
-    "cologneChampion": true,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "boltz",
-    "nickname": "boltz",
-    "name": "Ricardo Prass",
-    "nationality": "Brasil",
-    "teams": [
-      "SK Gaming",
-      "MIBR",
-      "Imperial",
-      "paiN Gaming",
-      "Luminosity"
-    ],
-    "teammates": [
-      "FalleN",
-      "coldzera",
-      "fer",
-      "fnx",
-      "TACO",
       "KSCERATO",
-      "yuurih"
+      "biguzera",
+      "NEKIZ",
+      "skullz",
+      "zevy"
     ],
     "coaches": [
-      "zews",
       "guerri"
     ],
     "majorChampion": false,
@@ -5172,25 +2192,36 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "felps",
-    "nickname": "felps",
-    "name": "João Vasconcellos",
+    "id": "skullz",
+    "nickname": "skullz",
+    "name": "Felipe Medeiros",
     "nationality": "Brasil",
     "teams": [
-      "SK Gaming",
-      "MIBR",
+      "Luminosity",
       "FURIA",
       "paiN Gaming",
-      "Imperial"
+      "FaZe Clan",
+      "Team Liquid"
     ],
     "teammates": [
       "FalleN",
-      "coldzera",
-      "fer",
-      "TACO",
-      "arT",
+      "chelo",
+      "yuurih",
       "KSCERATO",
-      "yuurih"
+      "YEKINDAR",
+      "biguzera",
+      "NEKIZ",
+      "saffee",
+      "zevy",
+      "karrigan",
+      "rain",
+      "broky",
+      "frozen",
+      "EliGE",
+      "s1mple",
+      "NAF",
+      "Twistzz",
+      "cadiaN"
     ],
     "coaches": [
       "guerri",
@@ -5207,215 +2238,1003 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "jks",
-    "nickname": "jks",
-    "name": "Justin Savage",
-    "nationality": "Austrália",
+    "id": "NEKIZ",
+    "nickname": "NEKIZ",
+    "name": "Gabriel Schenato",
+    "nationality": "Brasil",
     "teams": [
-      "G2 Esports",
-      "Complexity",
-      "Team Liquid",
-      "FlyQuest"
+      "Luminosity",
+      "00Nation",
+      "Legacy",
+      "paiN Gaming"
+    ],
+    "teammates": [
+      "HEN1",
+      "LUCAS1",
+      "boltz",
+      "steel",
+      "chelo",
+      "coldzera",
+      "TACO",
+      "dumau",
+      "latto",
+      "nqz",
+      "lux",
+      "biguzera",
+      "saffee",
+      "skullz",
+      "zevy"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "latto",
+    "nickname": "latto",
+    "name": "Bruno Rebelatto",
+    "nationality": "Brasil",
+    "teams": [
+      "GODSENT",
+      "00Nation",
+      "Legacy"
+    ],
+    "teammates": [
+      "TACO",
+      "felps",
+      "dumau",
+      "HEN1",
+      "coldzera",
+      "nqz",
+      "NEKIZ",
+      "lux"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "dumau",
+    "nickname": "dumau",
+    "name": "Eduardo Wolkmer",
+    "nationality": "Brasil",
+    "teams": [
+      "GODSENT",
+      "00Nation",
+      "Legacy"
+    ],
+    "teammates": [
+      "TACO",
+      "felps",
+      "latto",
+      "HEN1",
+      "coldzera",
+      "nqz",
+      "NEKIZ",
+      "lux"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "biguzera",
+    "nickname": "biguzera",
+    "name": "Rodrigo Bittencourt",
+    "nationality": "Brasil",
+    "teams": [
+      "Luminosity",
+      "paiN Gaming"
+    ],
+    "teammates": [
+      "NEKIZ",
+      "saffee",
+      "skullz",
+      "zevy",
+      "lux",
+      "nqz"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "nqz",
+    "nickname": "nqz",
+    "name": "Lucas Soares",
+    "nationality": "Brasil",
+    "teams": [
+      "00Nation",
+      "Legacy",
+      "9z Team",
+      "paiN Gaming"
     ],
     "teammates": [
       "coldzera",
-      "blameF",
-      "rain",
-      "broky",
-      "NiKo",
-      "karrigan",
-      "Twistzz",
-      "floppy",
-      "JT",
-      "m0NESY",
-      "huNter-",
-      "Aleksib",
-      "Brollan",
-      "AmaNEk",
-      "mezii",
-      "dexter",
-      "Liazz",
-      "AZR",
-      "Gratisfaction"
+      "TACO",
+      "dumau",
+      "latto",
+      "NEKIZ",
+      "lux",
+      "biguzera",
+      "zevy"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "zevy",
+    "nickname": "zevy",
+    "name": "Romeu Rocco",
+    "nationality": "Brasil",
+    "teams": [
+      "Fluxo",
+      "paiN Gaming"
+    ],
+    "teammates": [
+      "biguzera",
+      "NEKIZ",
+      "saffee",
+      "skullz",
+      "lux",
+      "nqz",
+      "felps",
+      "arT"
     ],
     "coaches": [
-      "RobbaN"
+      "zews"
     ],
     "majorChampion": false,
     "majorsCount": 0,
-    "katowiceChampion": true,
-    "cologneChampion": true,
+    "katowiceChampion": false,
+    "cologneChampion": false,
     "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "lux",
+    "nickname": "lux",
+    "name": "Lucas Meneghini",
+    "nationality": "Brasil",
+    "teams": [
+      "Fluxo",
+      "Legacy",
+      "paiN Gaming"
+    ],
+    "teammates": [
+      "coldzera",
+      "dumau",
+      "latto",
+      "NEKIZ",
+      "nqz",
+      "biguzera",
+      "zevy",
+      "felps",
+      "arT"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "insani",
+    "nickname": "insani",
+    "name": "Felipe Yuji",
+    "nationality": "Brasil",
+    "teams": [
+      "MIBR"
+    ],
+    "teammates": [
+      "exit",
+      "brnz4n",
+      "drop",
+      "saffee"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "brnz4n",
+    "nickname": "brnz4n",
+    "name": "Breno Poletto",
+    "nationality": "Brasil",
+    "teams": [
+      "MIBR"
+    ],
+    "teammates": [
+      "chelo",
+      "boltz",
+      "exit",
+      "HEN1",
+      "insani",
+      "drop",
+      "saffee"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "exit",
+    "nickname": "exit",
+    "name": "Raphael Lacerda",
+    "nationality": "Brasil",
+    "teams": [
+      "MIBR"
+    ],
+    "teammates": [
+      "chelo",
+      "boltz",
+      "brnz4n",
+      "HEN1",
+      "insani",
+      "drop",
+      "saffee"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "dev1ce",
+    "nickname": "dev1ce",
+    "name": "Nicolai Reedtz",
+    "nationality": "Dinamarca",
+    "teams": [
+      "TSM",
+      "Copenhagen Wolves",
+      "Dignitas",
+      "Astralis",
+      "Ninjas in Pyjamas"
+    ],
+    "teammates": [
+      "dupreeh",
+      "xyp9x",
+      "cajunb",
+      "aizy",
+      "karrigan",
+      "Kjaerbye",
+      "gla1ve",
+      "dennis",
+      "Magisk",
+      "es3tag",
+      "Bubzkji",
+      "Snappi",
+      "Lucky",
+      "blameF",
+      "staehr",
+      "stavn",
+      "jabbi",
+      "cadiaN",
+      "HooXi",
+      "REZ",
+      "hampus",
+      "Plopski"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 4,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": true,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "dupreeh",
+    "nickname": "dupreeh",
+    "name": "Peter Rasmussen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "TSM",
+      "Copenhagen Wolves",
+      "Preasy",
+      "Dignitas",
+      "Astralis",
+      "Heroic",
+      "Vitality",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "dev1ce",
+      "xyp9x",
+      "cajunb",
+      "aizy",
+      "karrigan",
+      "Kjaerbye",
+      "gla1ve",
+      "dennis",
+      "Magisk",
+      "es3tag",
+      "Bubzkji",
+      "Snappi",
+      "Lucky",
+      "cadiaN",
+      "stavn",
+      "TeSeS",
+      "sjuush",
+      "jabbi",
+      "ZywOo",
+      "apEX",
+      "misutaaa",
+      "Spinx",
+      "SunPayus",
+      "Maden",
+      "s1mple"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 5,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
   {
-    "id": "dexter",
-    "nickname": "dexter",
-    "name": "Aaron Tem",
-    "nationality": "Austrália",
+    "id": "xyp9x",
+    "nickname": "xyp9x",
+    "name": "Andreas Højsleth",
+    "nationality": "Dinamarca",
     "teams": [
-      "MOUZ",
-      "Cloud9",
-      "RENEGADES"
+      "TSM",
+      "Copenhagen Wolves",
+      "Dignitas",
+      "Astralis"
     ],
     "teammates": [
-      "frozen",
-      "ropz",
-      "woxic",
-      "chrisJ",
-      "jks",
-      "Liazz",
-      "AZR",
-      "Gratisfaction"
+      "dev1ce",
+      "dupreeh",
+      "cajunb",
+      "aizy",
+      "karrigan",
+      "Kjaerbye",
+      "gla1ve",
+      "dennis",
+      "Magisk",
+      "es3tag",
+      "Bubzkji",
+      "Snappi",
+      "Lucky",
+      "blameF",
+      "k0nfig",
+      "staehr"
     ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 4,
+    "katowiceChampion": true,
     "cologneChampion": false,
-    "grandSlamWinner": false,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "gla1ve",
+    "nickname": "gla1ve",
+    "name": "Lukas Rossander",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Copenhagen Wolves",
+      "Astralis",
+      "Heroic",
+      "ENCE"
+    ],
+    "teammates": [
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "Kjaerbye",
+      "dennis",
+      "Magisk",
+      "es3tag",
+      "Bubzkji",
+      "Snappi",
+      "Lucky",
+      "blameF",
+      "k0nfig",
+      "staehr",
+      "valde",
+      "niko",
+      "dycha",
+      "hades",
+      "sdy"
+    ],
+    "coaches": [
+      "zonic",
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 4,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": true,
     "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
     "cs16": false
   },
   {
-    "id": "Liazz",
-    "nickname": "Liazz",
-    "name": "Liam Azzopardi",
-    "nationality": "Austrália",
+    "id": "Magisk",
+    "nickname": "Magisk",
+    "name": "Emil Reif",
+    "nationality": "Dinamarca",
     "teams": [
-      "RENEGADES",
-      "Team Liquid"
-    ],
-    "teammates": [
-      "jks",
-      "AZR",
-      "dexter",
-      "Gratisfaction",
-      "EliGE",
-      "NAF"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "AZR",
-    "nickname": "AZR",
-    "name": "Aaron Ward",
-    "nationality": "Austrália",
-    "teams": [
-      "RENEGADES",
-      "Chiefs"
-    ],
-    "teammates": [
-      "jks",
-      "Liazz",
-      "dexter",
-      "Gratisfaction"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Gratisfaction",
-    "nickname": "Gratisfaction",
-    "name": "Jordan Mumford",
-    "nationality": "Austrália",
-    "teams": [
-      "RENEGADES",
-      "Ninjas in Pyjamas"
-    ],
-    "teammates": [
-      "jks",
-      "Liazz",
-      "AZR",
-      "dexter"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "cNed",
-    "nickname": "cNed",
-    "name": "Mehmet Yağız İpek",
-    "nationality": "Turquia",
-    "teams": [
-      "Eternal Fire",
-      "MOUZ",
-      "Team Liquid"
-    ],
-    "teammates": [
-      "XANTARES",
-      "woxic",
-      "imoRR",
-      "ngiN",
-      "frozen",
-      "siuhy",
-      "YEKINDAR",
-      "EliGE"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Spinx",
-    "nickname": "Spinx",
-    "name": "Tomas Niemelä",
-    "nationality": "Israel",
-    "teams": [
+      "North",
+      "OpTic Gaming",
+      "Astralis",
+      "Dignitas",
       "Vitality",
-      "ENCE",
-      "MOUZ"
+      "Team Falcons"
     ],
     "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "es3tag",
+      "Bubzkji",
+      "Snappi",
+      "Lucky",
+      "MSL",
+      "k0nfig",
+      "cajunb",
+      "Kjaerbye",
+      "aizy",
+      "pimp",
+      "valde",
       "ZywOo",
       "apEX",
-      "dupreeh",
-      "Magisk",
+      "misutaaa",
+      "Spinx",
+      "flameZ",
       "mezii",
-      "flameZ"
+      "JaCkz",
+      "SunPayus",
+      "Maden",
+      "s1mple",
+      "NiKo",
+      "TeSeS",
+      "degster",
+      "kyxsan",
+      "m0NESY",
+      "kyousuke",
+      "friberg",
+      "allu"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 4,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": true,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Kjaerbye",
+    "nickname": "Kjaerbye",
+    "name": "Markus Kjærbye",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "Astralis",
+      "Dignitas",
+      "FaZe Clan"
+    ],
+    "teammates": [
+      "karrigan",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "cajunb",
+      "gla1ve",
+      "dennis",
+      "MSL",
+      "k0nfig",
+      "Magisk",
+      "aizy",
+      "pimp",
+      "valde",
+      "cadiaN",
+      "niko",
+      "lekr0",
+      "NiKo",
+      "rain",
+      "coldzera",
+      "broky",
+      "olofmeister",
+      "Bymas"
     ],
     "coaches": [
       "zonic"
     ],
     "majorChampion": true,
     "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "cajunb",
+    "nickname": "cajunb",
+    "name": "René Borg",
+    "nationality": "Dinamarca",
+    "teams": [
+      "TSM",
+      "North",
+      "OpTic Gaming",
+      "Dignitas",
+      "Astralis",
+      "Cloud9"
+    ],
+    "teammates": [
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "aizy",
+      "karrigan",
+      "Kjaerbye",
+      "MSL",
+      "k0nfig",
+      "Magisk",
+      "pimp",
+      "valde",
+      "cadiaN",
+      "niko",
+      "lekr0",
+      "autimatic",
+      "RUSH",
+      "skadoodle",
+      "STYKO",
+      "Golden",
+      "flusha",
+      "kioShiMa",
+      "daps",
+      "Snappi",
+      "refrezh",
+      "TeSeS"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "MSL",
+    "nickname": "MSL",
+    "name": "Mathias Lauridsen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "OpTic Gaming",
+      "Dignitas"
+    ],
+    "teammates": [
+      "k0nfig",
+      "cajunb",
+      "Magisk",
+      "Kjaerbye",
+      "aizy",
+      "pimp",
+      "valde",
+      "cadiaN",
+      "niko",
+      "lekr0",
+      "Snappi",
+      "refrezh",
+      "TeSeS"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "aizy",
+    "nickname": "aizy",
+    "name": "Philip Aistrup",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "Dignitas",
+      "G2 Esports",
+      "FaZe Clan"
+    ],
+    "teammates": [
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "cajunb",
+      "karrigan",
+      "MSL",
+      "k0nfig",
+      "Magisk",
+      "Kjaerbye",
+      "pimp",
+      "valde",
+      "Maikelele",
+      "rain",
+      "ScreaM",
+      "dennis",
+      "jkaem",
+      "kioShiMa",
+      "allu"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "valde",
+    "nickname": "valde",
+    "name": "Valdemar Bjørn Vangså",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "TSM",
+      "Heroic",
+      "ENCE",
+      "OG"
+    ],
+    "teammates": [
+      "MSL",
+      "k0nfig",
+      "cajunb",
+      "Magisk",
+      "aizy",
+      "Kjaerbye",
+      "cadiaN",
+      "niko",
+      "lekr0",
+      "gla1ve",
+      "Snappi",
+      "es3tag",
+      "dycha",
+      "Spinx",
+      "hades",
+      "Maden",
+      "SunPayus",
+      "NertZ",
+      "Aleksib",
+      "NBK",
+      "mantuu",
+      "flameZ"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "es3tag",
+    "nickname": "es3tag",
+    "name": "Patrick Hansen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Astralis",
+      "Heroic",
+      "Ninjas in Pyjamas",
+      "FaZe Clan",
+      "Cloud9",
+      "Complexity"
+    ],
+    "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "Magisk",
+      "Bubzkji",
+      "Snappi",
+      "Lucky",
+      "valde",
+      "niko",
+      "friberg",
+      "blameF",
+      "stavn",
+      "cadiaN",
+      "TeSeS",
+      "REZ",
+      "hampus",
+      "Plopski",
+      "Brollan",
+      "Aleksib",
+      "k0nfig",
+      "karrigan",
+      "rain",
+      "broky",
+      "Twistzz",
+      "ropz",
+      "jks",
+      "ALEX",
+      "mezii",
+      "woxic",
+      "floppy",
+      "RUSH",
+      "coldzera"
+    ],
+    "coaches": [
+      "zonic",
+      "peacemaker",
+      "RobbaN"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Bubzkji",
+    "nickname": "Bubzkji",
+    "name": "Lucas Andersen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "MAD Lions",
+      "Astralis"
+    ],
+    "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "Magisk",
+      "es3tag",
+      "Snappi",
+      "Lucky"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Lucky",
+    "nickname": "Lucky",
+    "name": "Philip Ewald",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Tricked",
+      "Astralis",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "Magisk",
+      "es3tag",
+      "Bubzkji",
+      "Snappi",
+      "blameF",
+      "k0nfig",
+      "shox",
+      "kennyS",
+      "JaCkz",
+      "AmaNEk",
+      "bodyy"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "staehr",
+    "nickname": "staehr",
+    "name": "Victor Staehr",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Sprout",
+      "Astralis"
+    ],
+    "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "blameF",
+      "xyp9x",
+      "stavn",
+      "jabbi",
+      "cadiaN",
+      "HooXi"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "cadiaN",
+    "nickname": "cadiaN",
+    "name": "Casper Møller",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "Rogue",
+      "Astralis",
+      "Heroic",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "dev1ce",
+      "staehr",
+      "stavn",
+      "jabbi",
+      "HooXi",
+      "MSL",
+      "valde",
+      "Kjaerbye",
+      "niko",
+      "cajunb",
+      "lekr0",
+      "Snappi",
+      "es3tag",
+      "friberg",
+      "blameF",
+      "TeSeS",
+      "sjuush",
+      "refrezh",
+      "dupreeh",
+      "NAF",
+      "YEKINDAR",
+      "Twistzz",
+      "skullz"
+    ],
+    "coaches": [
+      "peacemaker",
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
     "katowiceChampion": false,
     "cologneChampion": true,
     "grandSlamWinner": false,
@@ -5425,26 +3244,65 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "hiko",
-    "nickname": "hiko",
-    "name": "Spencer Martin",
-    "nationality": "EUA",
+    "id": "stavn",
+    "nickname": "stavn",
+    "name": "Martin Lund",
+    "nationality": "Dinamarca",
     "teams": [
-      "Team Liquid",
-      "Complexity",
-      "100 Thieves"
+      "Fragsters",
+      "Astralis",
+      "Heroic",
+      "Ninjas in Pyjamas"
     ],
     "teammates": [
-      "s1mple",
-      "nitr0",
-      "EliGE",
-      "daps",
-      "jdm64",
-      "Twistzz",
-      "Stewie2K",
-      "NAF",
-      "autimatic",
-      "RUSH"
+      "dev1ce",
+      "blameF",
+      "staehr",
+      "jabbi",
+      "cadiaN",
+      "HooXi",
+      "Snappi",
+      "es3tag",
+      "niko",
+      "friberg",
+      "TeSeS",
+      "sjuush",
+      "refrezh",
+      "dupreeh"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "jabbi",
+    "nickname": "jabbi",
+    "name": "Jakob Nygaard",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Copenhagen Flames",
+      "Astralis",
+      "Heroic"
+    ],
+    "teammates": [
+      "dev1ce",
+      "blameF",
+      "staehr",
+      "stavn",
+      "cadiaN",
+      "HooXi",
+      "TeSeS",
+      "sjuush",
+      "dupreeh"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5458,18 +3316,72 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "bLitz",
-    "nickname": "bLitz",
-    "name": "Enkhsaikhan Tserenpuntsag",
-    "nationality": "Mongólia",
+    "id": "TeSeS",
+    "nickname": "TeSeS",
+    "name": "Rene Madsen",
+    "nationality": "Dinamarca",
     "teams": [
-      "The MongolZ"
+      "OpTic Gaming",
+      "Heroic",
+      "Team Falcons"
     ],
     "teammates": [
-      "Senzu",
-      "SleepY",
-      "mzinho",
-      "Techno4K"
+      "cadiaN",
+      "stavn",
+      "niko",
+      "es3tag",
+      "sjuush",
+      "refrezh",
+      "jabbi",
+      "dupreeh",
+      "NertZ",
+      "kyxsan",
+      "nicoodoz",
+      "degster",
+      "NiKo",
+      "Magisk",
+      "m0NESY",
+      "kyousuke",
+      "k0nfig",
+      "cajunb",
+      "Snappi",
+      "MSL"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "sjuush",
+    "nickname": "sjuush",
+    "name": "Rasmus Beck",
+    "nationality": "Dinamarca",
+    "teams": [
+      "MAD Lions",
+      "Heroic",
+      "Ninjas in Pyjamas"
+    ],
+    "teammates": [
+      "cadiaN",
+      "stavn",
+      "TeSeS",
+      "refrezh",
+      "jabbi",
+      "dupreeh",
+      "NertZ",
+      "kyxsan",
+      "nicoodoz",
+      "degster",
+      "Snappi"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5483,18 +3395,27 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "Senzu",
-    "nickname": "Senzu",
-    "name": "Batzul Gantulga",
-    "nationality": "Mongólia",
+    "id": "refrezh",
+    "nickname": "refrezh",
+    "name": "Ismail Ali",
+    "nationality": "Dinamarca",
     "teams": [
-      "The MongolZ"
+      "OpTic Gaming",
+      "MAD Lions",
+      "Sprout",
+      "Preasy",
+      "Heroic"
     ],
     "teammates": [
-      "bLitz",
-      "SleepY",
-      "mzinho",
-      "Techno4K"
+      "cadiaN",
+      "stavn",
+      "TeSeS",
+      "sjuush",
+      "k0nfig",
+      "cajunb",
+      "niko",
+      "Snappi",
+      "MSL"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5508,18 +3429,259 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "SleepY",
-    "nickname": "SleepY",
-    "name": "Ulziisaikhan Sukhbaatar",
-    "nationality": "Mongólia",
+    "id": "blameF",
+    "nickname": "blameF",
+    "name": "Benjamin Bremer",
+    "nationality": "Dinamarca",
     "teams": [
-      "The MongolZ"
+      "Astralis",
+      "Heroic",
+      "Fnatic",
+      "Complexity"
     ],
     "teammates": [
-      "bLitz",
-      "Senzu",
-      "mzinho",
-      "Techno4K"
+      "gla1ve",
+      "xyp9x",
+      "k0nfig",
+      "Lucky",
+      "dev1ce",
+      "staehr",
+      "stavn",
+      "jabbi",
+      "Snappi",
+      "es3tag",
+      "niko",
+      "friberg",
+      "cadiaN",
+      "KRIMZ",
+      "bodyy",
+      "RUSH",
+      "jks",
+      "coldzera"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "k0nfig",
+    "nickname": "k0nfig",
+    "name": "Kristian Wienecke",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "OpTic Gaming",
+      "Astralis",
+      "Dignitas",
+      "Ninjas in Pyjamas",
+      "Complexity"
+    ],
+    "teammates": [
+      "gla1ve",
+      "xyp9x",
+      "blameF",
+      "Lucky",
+      "MSL",
+      "cajunb",
+      "Magisk",
+      "Kjaerbye",
+      "aizy",
+      "pimp",
+      "valde",
+      "REZ",
+      "hampus",
+      "Brollan",
+      "Plopski",
+      "es3tag",
+      "Aleksib",
+      "niko",
+      "Snappi",
+      "refrezh",
+      "TeSeS",
+      "RUSH",
+      "jks",
+      "coldzera"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "niko",
+    "nickname": "niko",
+    "name": "Nikolaj Kristensen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "North",
+      "OpTic Gaming",
+      "Rogue",
+      "Heroic",
+      "OG"
+    ],
+    "teammates": [
+      "MSL",
+      "valde",
+      "Kjaerbye",
+      "cadiaN",
+      "cajunb",
+      "lekr0",
+      "gla1ve",
+      "Snappi",
+      "es3tag",
+      "friberg",
+      "blameF",
+      "stavn",
+      "TeSeS",
+      "k0nfig",
+      "refrezh",
+      "Aleksib",
+      "NBK",
+      "mantuu",
+      "flameZ"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Snappi",
+    "nickname": "Snappi",
+    "name": "Marco Pfeiffer",
+    "nationality": "Dinamarca",
+    "teams": [
+      "OpTic Gaming",
+      "c0ntact",
+      "Astralis",
+      "Heroic",
+      "Ninjas in Pyjamas",
+      "Team Falcons",
+      "ENCE"
+    ],
+    "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "Magisk",
+      "es3tag",
+      "Bubzkji",
+      "Lucky",
+      "valde",
+      "niko",
+      "friberg",
+      "blameF",
+      "stavn",
+      "cadiaN",
+      "sjuush",
+      "SunPayus",
+      "Maden",
+      "s1mple",
+      "k0nfig",
+      "cajunb",
+      "refrezh",
+      "TeSeS",
+      "MSL",
+      "dycha",
+      "Spinx",
+      "hades",
+      "NertZ"
+    ],
+    "coaches": [
+      "zonic",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "HooXi",
+    "nickname": "HooXi",
+    "name": "Rasmus Nielsen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "Copenhagen Flames",
+      "MAD Lions",
+      "Astralis",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "dev1ce",
+      "staehr",
+      "stavn",
+      "jabbi",
+      "cadiaN",
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "jks",
+      "nexa",
+      "Stewie2K"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "acoR",
+    "nickname": "acoR",
+    "name": "Frederik Gyldstrand",
+    "nationality": "Dinamarca",
+    "teams": [
+      "MAD Lions",
+      "Tricked",
+      "MOUZ",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "dexter",
+      "ropz",
+      "frozen",
+      "Bymas",
+      "chrisJ",
+      "siuhy",
+      "iM",
+      "Snax"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5533,145 +3695,24 @@ export const PLAYERS = [
     "cs16": false
   },
   {
-    "id": "mzinho",
-    "nickname": "mzinho",
-    "name": "Paulo Henrique Carvalho",
-    "nationality": "Brasil",
+    "id": "nicoodoz",
+    "nickname": "nicoodoz",
+    "name": "Nico Tamjidi",
+    "nationality": "Dinamarca",
     "teams": [
-      "The MongolZ",
-      "9z Team"
+      "Copenhagen Flames",
+      "Heroic",
+      "Fnatic"
     ],
     "teammates": [
-      "bLitz",
-      "Senzu",
-      "SleepY",
-      "Techno4K",
-      "NEKIZ"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Techno4K",
-    "nickname": "Techno4K",
-    "name": "Ankhbayar Gantulga",
-    "nationality": "Mongólia",
-    "teams": [
-      "The MongolZ"
-    ],
-    "teammates": [
-      "bLitz",
-      "Senzu",
-      "SleepY",
-      "mzinho"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "Patsi",
-    "nickname": "Patsi",
-    "name": "Pavlo Slepov",
-    "nationality": "Ucrânia",
-    "teams": [
-      "Aurora Gaming",
-      "Outsiders"
-    ],
-    "teammates": [
-      "7ckngMad",
-      "qikert",
-      "FL1T"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "7ckngMad",
-    "nickname": "7ckngMad",
-    "name": "Andrii Zainetdinov",
-    "nationality": "Ucrânia",
-    "teams": [
-      "Aurora Gaming",
-      "forZe"
-    ],
-    "teammates": [
-      "Patsi"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "imoRR",
-    "nickname": "imoRR",
-    "name": "İmre Muhammet Tangitay",
-    "nationality": "Turquia",
-    "teams": [
-      "Eternal Fire",
-      "Space Soldiers"
-    ],
-    "teammates": [
-      "XANTARES",
-      "woxic",
-      "cNed",
-      "ngiN"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "ngiN",
-    "nickname": "ngiN",
-    "name": "Emre Koçak",
-    "nationality": "Turquia",
-    "teams": [
-      "Eternal Fire",
-      "Space Soldiers"
-    ],
-    "teammates": [
-      "XANTARES",
-      "woxic",
-      "cNed",
-      "imoRR"
+      "NertZ",
+      "TeSeS",
+      "sjuush",
+      "kyxsan",
+      "degster",
+      "KRIMZ",
+      "mezii",
+      "dexter"
     ],
     "coaches": [],
     "majorChampion": false,
@@ -5690,103 +3731,1564 @@ export const PLAYERS = [
     "name": "Jacob Winneche",
     "nationality": "Dinamarca",
     "teams": [
-      "Team Liquid",
+      "SK Gaming",
+      "Copenhagen Wolves",
       "Dignitas",
-      "OpTic Gaming"
+      "Team Liquid"
     ],
     "teammates": [
-      "EliGE",
-      "nitr0",
-      "Twistzz",
-      "Stewie2K",
-      "NAF",
-      "jdm64"
-    ],
-    "coaches": [],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "jdm64",
-    "nickname": "jdm64",
-    "name": "Joshua Marzano",
-    "nationality": "EUA",
-    "teams": [
-      "Team Liquid",
-      "NRG Esports"
-    ],
-    "teammates": [
-      "s1mple",
+      "MSL",
+      "k0nfig",
+      "cajunb",
+      "Magisk",
+      "Kjaerbye",
+      "aizy",
       "nitr0",
       "EliGE",
       "hiko",
-      "daps",
-      "pimp"
+      "s1mple",
+      "jdm64"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "NiKo",
+    "nickname": "NiKo",
+    "name": "Nikola Kovač",
+    "nationality": "Bósnia e Herzegovina",
+    "teams": [
+      "iNation",
+      "FaZe Clan",
+      "G2 Esports",
+      "Team Falcons",
+      "MOUZ"
+    ],
+    "teammates": [
+      "karrigan",
+      "rain",
+      "allu",
+      "kioShiMa",
+      "olofmeister",
+      "GuardiaN",
+      "Xizt",
+      "AdreN",
+      "NEO",
+      "coldzera",
+      "broky",
+      "Bymas",
+      "Kjaerbye",
+      "huNter-",
+      "nexa",
+      "AmaNEk",
+      "JaCkz",
+      "kennyS",
+      "m0NESY",
+      "Aleksib",
+      "jks",
+      "HooXi",
+      "Stewie2K",
+      "malbsMd",
+      "Snax",
+      "Magisk",
+      "TeSeS",
+      "degster",
+      "kyxsan",
+      "kyousuke",
+      "chrisJ",
+      "oskar"
+    ],
+    "coaches": [
+      "RobbaN",
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "huNter-",
+    "nickname": "huNter-",
+    "name": "Nemanja Kovač",
+    "nationality": "Bósnia e Herzegovina",
+    "teams": [
+      "CR4ZY",
+      "Valiance",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "kennyS",
+      "AmaNEk",
+      "JaCkz",
+      "nexa",
+      "NiKo",
+      "m0NESY",
+      "Aleksib",
+      "jks",
+      "HooXi",
+      "Stewie2K",
+      "malbsMd",
+      "Snax",
+      "HeavyGod",
+      "hades",
+      "SunPayus"
     ],
     "coaches": [],
     "majorChampion": false,
     "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
+    "katowiceChampion": true,
+    "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
-    "hltvTop20": false,
+    "hltvTop20": true,
     "hltvTop1": false,
     "cs16": false
   },
   {
-    "id": "HeavyGod",
-    "nickname": "HeavyGod",
-    "name": "Nikita Martynenko",
-    "nationality": "Israel",
-    "teams": [
-      "Endpoint",
-      "OG",
-      "Cloud9",
-      "G2 Esports"
-    ],
-    "teammates": [
-      "huNter-",
-      "m0NESY",
-      "Snax",
-      "Boombl4",
-      "Ax1Le",
-      "interz"
-    ],
-    "coaches": [
-      "TaZ"
-    ],
-    "majorChampion": false,
-    "majorsCount": 0,
-    "katowiceChampion": false,
-    "cologneChampion": false,
-    "grandSlamWinner": false,
-    "majorMvp": false,
-    "hltvTop20": false,
-    "hltvTop1": false,
-    "cs16": false
-  },
-  {
-    "id": "kyousuke",
-    "nickname": "kyousuke",
-    "name": "Maksim Lukin",
+    "id": "m0NESY",
+    "nickname": "m0NESY",
+    "name": "Ilya Osipov",
     "nationality": "Rússia",
     "teams": [
-      "Team Spirit Academy",
+      "NAVI Junior",
+      "G2 Esports",
       "Team Falcons"
     ],
     "teammates": [
       "NiKo",
-      "m0NESY",
+      "huNter-",
+      "JaCkz",
+      "Aleksib",
+      "AmaNEk",
+      "jks",
+      "HooXi",
+      "nexa",
+      "Stewie2K",
+      "malbsMd",
+      "Snax",
+      "HeavyGod",
+      "hades",
+      "SunPayus",
+      "Magisk",
       "TeSeS",
-      "karrigan"
+      "degster",
+      "kyxsan",
+      "kyousuke"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "malbsMd",
+    "nickname": "malbsMd",
+    "name": "Mario Samayoa",
+    "nationality": "Guatemala",
+    "teams": [
+      "M80",
+      "00Nation",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "coldzera",
+      "kNgV-",
+      "HEN1",
+      "LUCAS1",
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "Snax",
+      "HeavyGod",
+      "hades",
+      "SunPayus"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "nexa",
+    "nickname": "nexa",
+    "name": "Nemanja Isaković",
+    "nationality": "Sérvia",
+    "teams": [
+      "CR4ZY",
+      "Imperial",
+      "G2 Esports",
+      "OG"
+    ],
+    "teammates": [
+      "kennyS",
+      "AmaNEk",
+      "JaCkz",
+      "huNter-",
+      "NiKo",
+      "m0NESY",
+      "HooXi",
+      "Stewie2K",
+      "flameZ",
+      "mantuu",
+      "degster",
+      "HeavyGod"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "karrigan",
+    "nickname": "karrigan",
+    "name": "Finn Andersen",
+    "nationality": "Dinamarca",
+    "teams": [
+      "TSM",
+      "Dignitas",
+      "Astralis",
+      "FaZe Clan",
+      "MOUZ",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "cajunb",
+      "aizy",
+      "Kjaerbye",
+      "rain",
+      "Maikelele",
+      "jkaem",
+      "kioShiMa",
+      "allu",
+      "NiKo",
+      "olofmeister",
+      "GuardiaN",
+      "Xizt",
+      "broky",
+      "Twistzz",
+      "coldzera",
+      "ropz",
+      "jks",
+      "es3tag",
+      "frozen",
+      "EliGE",
+      "s1mple",
+      "skullz",
+      "woxic",
+      "chrisJ",
+      "Bymas"
+    ],
+    "coaches": [
+      "zonic",
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "rain",
+    "nickname": "rain",
+    "name": "Håvard Nygaard",
+    "nationality": "Noruega",
+    "teams": [
+      "Kinguin",
+      "LGB",
+      "G2 Esports",
+      "FaZe Clan"
+    ],
+    "teammates": [
+      "Maikelele",
+      "ScreaM",
+      "dennis",
+      "jkaem",
+      "aizy",
+      "kioShiMa",
+      "allu",
+      "karrigan",
+      "NiKo",
+      "olofmeister",
+      "GuardiaN",
+      "Xizt",
+      "AdreN",
+      "NEO",
+      "coldzera",
+      "broky",
+      "Bymas",
+      "Kjaerbye",
+      "Twistzz",
+      "ropz",
+      "jks",
+      "es3tag",
+      "frozen",
+      "EliGE",
+      "s1mple",
+      "skullz"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "broky",
+    "nickname": "broky",
+    "name": "Helvijs Saukants",
+    "nationality": "Letônia",
+    "teams": [
+      "Epsilon",
+      "FaZe Clan"
+    ],
+    "teammates": [
+      "NiKo",
+      "rain",
+      "coldzera",
+      "olofmeister",
+      "Bymas",
+      "Kjaerbye",
+      "karrigan",
+      "Twistzz",
+      "ropz",
+      "jks",
+      "es3tag",
+      "frozen",
+      "EliGE",
+      "s1mple",
+      "skullz"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "ropz",
+    "nickname": "ropz",
+    "name": "Robin Kool",
+    "nationality": "Estônia",
+    "teams": [
+      "FaZe Clan",
+      "Vitality",
+      "MOUZ"
+    ],
+    "teammates": [
+      "karrigan",
+      "rain",
+      "broky",
+      "Twistzz",
+      "jks",
+      "es3tag",
+      "frozen",
+      "ZywOo",
+      "apEX",
+      "flameZ",
+      "mezii",
+      "chrisJ",
+      "oskar",
+      "suNny",
+      "STYKO",
+      "Snax",
+      "woxic",
+      "Bymas",
+      "dexter",
+      "acoR"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Twistzz",
+    "nickname": "Twistzz",
+    "name": "Russel Van Dulken",
+    "nationality": "Canadá",
+    "teams": [
+      "TSM",
+      "Misfits",
+      "FaZe Clan",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "karrigan",
+      "rain",
+      "broky",
+      "coldzera",
+      "olofmeister",
+      "ropz",
+      "jks",
+      "es3tag",
+      "nitr0",
+      "EliGE",
+      "jdm64",
+      "stanislaw",
+      "NAF",
+      "steel",
+      "TACO",
+      "Stewie2K",
+      "YEKINDAR",
+      "cadiaN",
+      "skullz",
+      "NertZ",
+      "siuhy"
+    ],
+    "coaches": [
+      "RobbaN",
+      "zews"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "frozen",
+    "nickname": "frozen",
+    "name": "David Čerňanský",
+    "nationality": "Eslováquia",
+    "teams": [
+      "NoChance",
+      "FaZe Clan",
+      "MOUZ"
+    ],
+    "teammates": [
+      "karrigan",
+      "rain",
+      "broky",
+      "ropz",
+      "EliGE",
+      "s1mple",
+      "skullz",
+      "woxic",
+      "chrisJ",
+      "Bymas",
+      "dexter",
+      "acoR",
+      "torzsi",
+      "NBK",
+      "xertioN",
+      "siuhy",
+      "jimpphat"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Bymas",
+    "nickname": "Bymas",
+    "name": "Aurimas Pipiras",
+    "nationality": "Lituânia",
+    "teams": [
+      "Into the Breach",
+      "FaZe Clan",
+      "MOUZ"
+    ],
+    "teammates": [
+      "NiKo",
+      "rain",
+      "coldzera",
+      "broky",
+      "olofmeister",
+      "Kjaerbye",
+      "karrigan",
+      "ropz",
+      "frozen",
+      "woxic",
+      "chrisJ",
+      "dexter",
+      "acoR",
+      "torzsi",
+      "NBK",
+      "xertioN"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "jkaem",
+    "nickname": "jkaem",
+    "name": "Joakim Myrbostad",
+    "nationality": "Noruega",
+    "teams": [
+      "Apeks",
+      "LGB",
+      "G2 Esports",
+      "FaZe Clan",
+      "RENEGADES",
+      "100 Thieves"
+    ],
+    "teammates": [
+      "Maikelele",
+      "rain",
+      "ScreaM",
+      "dennis",
+      "aizy",
+      "kioShiMa",
+      "allu",
+      "karrigan",
+      "AZR",
+      "jks",
+      "Gratisfaction",
+      "Liazz",
+      "NAF"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "chrisJ",
+    "nickname": "chrisJ",
+    "name": "Chris de Jong",
+    "nationality": "Holanda",
+    "teams": [
+      "MOUZ"
+    ],
+    "teammates": [
+      "NiKo",
+      "oskar",
+      "ropz",
+      "suNny",
+      "STYKO",
+      "Snax",
+      "karrigan",
+      "frozen",
+      "woxic",
+      "Bymas",
+      "dexter",
+      "acoR"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "oskar",
+    "nickname": "oskar",
+    "name": "Tomáš Šťastný",
+    "nationality": "República Tcheca",
+    "teams": [
+      "HellRaisers",
+      "SINNERS",
+      "MOUZ"
+    ],
+    "teammates": [
+      "STYKO",
+      "woxic",
+      "HObbit",
+      "NiKo",
+      "chrisJ",
+      "ropz",
+      "suNny",
+      "Snax"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "STYKO",
+    "nickname": "STYKO",
+    "name": "Martin Styk",
+    "nationality": "Eslováquia",
+    "teams": [
+      "HellRaisers",
+      "GODSENT",
+      "Apeks",
+      "MOUZ",
+      "Cloud9"
+    ],
+    "teammates": [
+      "oskar",
+      "woxic",
+      "HObbit",
+      "Maden",
+      "Maikelele",
+      "chrisJ",
+      "ropz",
+      "suNny",
+      "Snax",
+      "autimatic",
+      "RUSH",
+      "skadoodle",
+      "Golden",
+      "flusha",
+      "kioShiMa",
+      "cajunb",
+      "daps"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "siuhy",
+    "nickname": "siuhy",
+    "name": "Kamil Szkaradek",
+    "nationality": "Polônia",
+    "teams": [
+      "MOUZ NXT",
+      "MOUZ",
+      "Team Liquid",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "frozen",
+      "torzsi",
+      "xertioN",
+      "jimpphat",
+      "Brollan",
+      "Spinx",
+      "NAF",
+      "Twistzz",
+      "YEKINDAR",
+      "jks",
+      "NertZ",
+      "iM",
+      "acoR",
+      "Snax"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "torzsi",
+    "nickname": "torzsi",
+    "name": "Ádám Torzsás",
+    "nationality": "Hungria",
+    "teams": [
+      "MOUZ NXT",
+      "MOUZ"
+    ],
+    "teammates": [
+      "dexter",
+      "frozen",
+      "Bymas",
+      "NBK",
+      "xertioN",
+      "siuhy",
+      "jimpphat",
+      "Brollan",
+      "Spinx"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "xertioN",
+    "nickname": "xertioN",
+    "name": "Dorian Berman",
+    "nationality": "Israel",
+    "teams": [
+      "MOUZ NXT",
+      "MOUZ"
+    ],
+    "teammates": [
+      "dexter",
+      "frozen",
+      "Bymas",
+      "torzsi",
+      "NBK",
+      "siuhy",
+      "jimpphat",
+      "Brollan",
+      "Spinx"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "jimpphat",
+    "nickname": "jimpphat",
+    "name": "Jimi Salo",
+    "nationality": "Finlândia",
+    "teams": [
+      "MOUZ NXT",
+      "MOUZ"
+    ],
+    "teammates": [
+      "siuhy",
+      "frozen",
+      "torzsi",
+      "xertioN",
+      "Brollan",
+      "Spinx"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "ZywOo",
+    "nickname": "ZywOo",
+    "name": "Mathieu Herbaut",
+    "nationality": "França",
+    "teams": [
+      "aAa",
+      "Vitality"
+    ],
+    "teammates": [
+      "apEX",
+      "NBK",
+      "RpK",
+      "Happy",
+      "ALEX",
+      "shox",
+      "misutaaa",
+      "dupreeh",
+      "Magisk",
+      "Spinx",
+      "flameZ",
+      "mezii",
+      "JaCkz",
+      "ropz"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": false
+  },
+  {
+    "id": "apEX",
+    "nickname": "apEX",
+    "name": "Dan Madesclaire",
+    "nationality": "França",
+    "teams": [
+      "Titan",
+      "LDLC",
+      "EnVyUs",
+      "G2 Esports",
+      "Vitality"
+    ],
+    "teammates": [
+      "shox",
+      "SmithZz",
+      "NBK",
+      "ScreaM",
+      "RpK",
+      "kennyS",
+      "Happy",
+      "kioShiMa",
+      "bodyy",
+      "ZywOo",
+      "ALEX",
+      "misutaaa",
+      "dupreeh",
+      "Magisk",
+      "Spinx",
+      "flameZ",
+      "mezii",
+      "JaCkz",
+      "ropz"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 3,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "shox",
+    "nickname": "shox",
+    "name": "Richard Papillon",
+    "nationality": "França",
+    "teams": [
+      "VeryGames",
+      "Titan",
+      "LDLC",
+      "EnVyUs",
+      "G2 Esports",
+      "Vitality",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "SmithZz",
+      "NBK",
+      "ScreaM",
+      "RpK",
+      "kennyS",
+      "apEX",
+      "Happy",
+      "kioShiMa",
+      "bodyy",
+      "JaCkz",
+      "Lucky",
+      "AmaNEk",
+      "ZywOo",
+      "ALEX",
+      "misutaaa",
+      "EliGE",
+      "NAF",
+      "nitr0",
+      "oSee",
+      "YEKINDAR",
+      "daps"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "kennyS",
+    "nickname": "kennyS",
+    "name": "Kenny Schrub",
+    "nationality": "França",
+    "teams": [
+      "VeryGames",
+      "Titan",
+      "EnVyUs",
+      "G2 Esports",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "shox",
+      "SmithZz",
+      "NBK",
+      "ScreaM",
+      "RpK",
+      "apEX",
+      "Happy",
+      "kioShiMa",
+      "bodyy",
+      "JaCkz",
+      "Lucky",
+      "AmaNEk",
+      "huNter-",
+      "nexa",
+      "NiKo",
+      "misutaaa"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "NBK",
+    "nickname": "NBK",
+    "name": "Nathan Schmitt",
+    "nationality": "França",
+    "teams": [
+      "VeryGames",
+      "Titan",
+      "LDLC",
+      "EnVyUs",
+      "G2 Esports",
+      "Vitality",
+      "Team Falcons",
+      "MOUZ",
+      "OG"
+    ],
+    "teammates": [
+      "shox",
+      "SmithZz",
+      "ScreaM",
+      "RpK",
+      "kennyS",
+      "apEX",
+      "Happy",
+      "kioShiMa",
+      "bodyy",
+      "ZywOo",
+      "ALEX",
+      "misutaaa",
+      "dexter",
+      "frozen",
+      "Bymas",
+      "torzsi",
+      "xertioN",
+      "Aleksib",
+      "valde",
+      "mantuu",
+      "flameZ",
+      "niko"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Happy",
+    "nickname": "Happy",
+    "name": "Vincent Schopenhauer",
+    "nationality": "França",
+    "teams": [
+      "LDLC",
+      "EnVyUs",
+      "Vitality"
+    ],
+    "teammates": [
+      "NBK",
+      "shox",
+      "SmithZz",
+      "kioShiMa",
+      "kennyS",
+      "apEX",
+      "RpK",
+      "ScreaM",
+      "Calyx",
+      "ZywOo",
+      "ALEX"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "SmithZz",
+    "nickname": "SmithZz",
+    "name": "Edouard Dubourdeaux",
+    "nationality": "França",
+    "teams": [
+      "VeryGames",
+      "Titan",
+      "LDLC",
+      "EnVyUs",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "shox",
+      "NBK",
+      "ScreaM",
+      "RpK",
+      "kennyS",
+      "apEX",
+      "Happy",
+      "kioShiMa",
+      "bodyy"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "kioShiMa",
+    "nickname": "kioShiMa",
+    "name": "Fabien Fiey",
+    "nationality": "França",
+    "teams": [
+      "LDLC",
+      "FaZe Clan",
+      "EnVyUs",
+      "Cloud9"
+    ],
+    "teammates": [
+      "rain",
+      "Maikelele",
+      "jkaem",
+      "aizy",
+      "allu",
+      "karrigan",
+      "NiKo",
+      "Happy",
+      "NBK",
+      "shox",
+      "SmithZz",
+      "kennyS",
+      "apEX",
+      "RpK",
+      "ScreaM",
+      "Calyx",
+      "autimatic",
+      "RUSH",
+      "skadoodle",
+      "STYKO",
+      "Golden",
+      "flusha",
+      "cajunb",
+      "daps"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "RpK",
+    "nickname": "RpK",
+    "name": "Cédric Guipouy",
+    "nationality": "França",
+    "teams": [
+      "VeryGames",
+      "Titan",
+      "EnVyUs",
+      "G2 Esports",
+      "Vitality"
+    ],
+    "teammates": [
+      "shox",
+      "SmithZz",
+      "NBK",
+      "ScreaM",
+      "kennyS",
+      "apEX",
+      "Happy",
+      "kioShiMa",
+      "Calyx",
+      "bodyy",
+      "ZywOo",
+      "ALEX",
+      "misutaaa"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "ScreaM",
+    "nickname": "ScreaM",
+    "name": "Adil Benrlitom",
+    "nationality": "Bélgica",
+    "teams": [
+      "VeryGames",
+      "Titan",
+      "Kinguin",
+      "G2 Esports",
+      "EnVyUs",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "Maikelele",
+      "rain",
+      "dennis",
+      "jkaem",
+      "aizy",
+      "shox",
+      "SmithZz",
+      "NBK",
+      "RpK",
+      "kennyS",
+      "apEX",
+      "Happy",
+      "kioShiMa",
+      "Calyx",
+      "bodyy",
+      "hampus",
+      "Xizt"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "bodyy",
+    "nickname": "bodyy",
+    "name": "Alexandre Pianaro",
+    "nationality": "França",
+    "teams": [
+      "LDLC",
+      "3DMAX",
+      "DBL PONEY",
+      "Fnatic",
+      "G2 Esports",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "KRIMZ",
+      "blameF",
+      "shox",
+      "SmithZz",
+      "ScreaM",
+      "RpK",
+      "kennyS",
+      "apEX",
+      "NBK",
+      "JaCkz",
+      "Lucky",
+      "AmaNEk",
+      "misutaaa"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "AmaNEk",
+    "nickname": "AmaNEk",
+    "name": "François Delaunay",
+    "nationality": "França",
+    "teams": [
+      "LDLC",
+      "Misfits",
+      "G2 Esports"
+    ],
+    "teammates": [
+      "shox",
+      "kennyS",
+      "JaCkz",
+      "Lucky",
+      "bodyy",
+      "huNter-",
+      "nexa",
+      "NiKo",
+      "m0NESY",
+      "Aleksib"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "JaCkz",
+    "nickname": "JaCkz",
+    "name": "Audric Jug",
+    "nationality": "França",
+    "teams": [
+      "3DMAX",
+      "HEET",
+      "G2 Esports",
+      "Vitality"
+    ],
+    "teammates": [
+      "shox",
+      "kennyS",
+      "Lucky",
+      "AmaNEk",
+      "bodyy",
+      "huNter-",
+      "nexa",
+      "NiKo",
+      "m0NESY",
+      "Aleksib",
+      "ZywOo",
+      "apEX",
+      "Spinx",
+      "flameZ",
+      "Magisk",
+      "mezii"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "misutaaa",
+    "nickname": "misutaaa",
+    "name": "Kévin Rabier",
+    "nationality": "França",
+    "teams": [
+      "9INE",
+      "Vitality",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "ZywOo",
+      "apEX",
+      "shox",
+      "RpK",
+      "dupreeh",
+      "Magisk",
+      "NBK",
+      "kennyS",
+      "bodyy"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "ALEX",
+    "nickname": "ALEX",
+    "name": "Alex McMeekin",
+    "nationality": "Reino Unido",
+    "teams": [
+      "LDLC",
+      "Movistar Riders",
+      "Fnatic",
+      "Vitality",
+      "Cloud9"
+    ],
+    "teammates": [
+      "KRIMZ",
+      "Brollan",
+      "mezii",
+      "ZywOo",
+      "apEX",
+      "NBK",
+      "RpK",
+      "Happy",
+      "shox",
+      "woxic",
+      "es3tag",
+      "floppy"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "mezii",
+    "nickname": "mezii",
+    "name": "William Merriman",
+    "nationality": "Reino Unido",
+    "teams": [
+      "Endpoint",
+      "Fnatic",
+      "Vitality",
+      "Cloud9"
+    ],
+    "teammates": [
+      "KRIMZ",
+      "Brollan",
+      "ALEX",
+      "nicoodoz",
+      "dexter",
+      "ZywOo",
+      "apEX",
+      "Spinx",
+      "flameZ",
+      "Magisk",
+      "JaCkz",
+      "ropz",
+      "woxic",
+      "es3tag",
+      "floppy"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "flameZ",
+    "nickname": "flameZ",
+    "name": "Shahar Shushan",
+    "nationality": "Israel",
+    "teams": [
+      "Endpoint",
+      "Vitality",
+      "OG"
+    ],
+    "teammates": [
+      "ZywOo",
+      "apEX",
+      "Spinx",
+      "Magisk",
+      "mezii",
+      "JaCkz",
+      "ropz",
+      "Aleksib",
+      "NBK",
+      "valde",
+      "mantuu",
+      "niko",
+      "nexa",
+      "degster",
+      "HeavyGod"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Spinx",
+    "nickname": "Spinx",
+    "name": "Lotan Giladi",
+    "nationality": "Israel",
+    "teams": [
+      "c0ntact",
+      "Vitality",
+      "MOUZ",
+      "ENCE"
+    ],
+    "teammates": [
+      "ZywOo",
+      "apEX",
+      "dupreeh",
+      "Magisk",
+      "flameZ",
+      "mezii",
+      "JaCkz",
+      "siuhy",
+      "torzsi",
+      "xertioN",
+      "jimpphat",
+      "Brollan",
+      "Snappi",
+      "dycha",
+      "hades",
+      "Maden",
+      "valde",
+      "SunPayus",
+      "NertZ"
     ],
     "coaches": [
       "zonic"
@@ -5797,32 +5299,3010 @@ export const PLAYERS = [
     "cologneChampion": true,
     "grandSlamWinner": false,
     "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "NertZ",
+    "nickname": "NertZ",
+    "name": "Guy Iluz",
+    "nationality": "Israel",
+    "teams": [
+      "Endpoint",
+      "Heroic",
+      "Team Liquid",
+      "ENCE"
+    ],
+    "teammates": [
+      "TeSeS",
+      "sjuush",
+      "kyxsan",
+      "nicoodoz",
+      "degster",
+      "NAF",
+      "Twistzz",
+      "YEKINDAR",
+      "jks",
+      "siuhy",
+      "Snappi",
+      "dycha",
+      "Spinx",
+      "hades",
+      "Maden",
+      "valde",
+      "SunPayus"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "HeavyGod",
+    "nickname": "HeavyGod",
+    "name": "Nikita Martynenko",
+    "nationality": "Israel",
+    "teams": [
+      "Endpoint",
+      "G2 Esports",
+      "Cloud9",
+      "OG"
+    ],
+    "teammates": [
+      "huNter-",
+      "m0NESY",
+      "malbsMd",
+      "Snax",
+      "hades",
+      "SunPayus",
+      "Boombl4",
+      "Ax1Le",
+      "interz",
+      "nexa",
+      "flameZ",
+      "mantuu",
+      "degster"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
     "hltvTop20": false,
     "hltvTop1": false,
     "cs16": false
   },
   {
-    "id": "refrezh",
-    "nickname": "refrezh",
-    "name": "Ismail Ali",
-    "nationality": "Dinamarca",
+    "id": "olofmeister",
+    "nickname": "olofmeister",
+    "name": "Olof Kajbjer",
+    "nationality": "Suécia",
     "teams": [
-      "Heroic",
-      "Cloud9",
-      "OpTic Gaming",
-      "MAD Lions",
-      "9INE",
-      "Sprout",
-      "Preasy"
+      "LGB",
+      "Fnatic",
+      "FaZe Clan"
     ],
     "teammates": [
-      "cadiaN",
-      "stavn",
-      "TeSeS"
+      "flusha",
+      "JW",
+      "KRIMZ",
+      "pronax",
+      "dennis",
+      "twist",
+      "lekr0",
+      "karrigan",
+      "rain",
+      "NiKo",
+      "GuardiaN",
+      "Xizt",
+      "AdreN",
+      "NEO",
+      "coldzera",
+      "broky",
+      "Bymas",
+      "Kjaerbye",
+      "Twistzz"
     ],
     "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": true
+  },
+  {
+    "id": "flusha",
+    "nickname": "flusha",
+    "name": "Robin Rönnquist",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "EYEBALLERS",
+      "Fnatic",
+      "Cloud9"
+    ],
+    "teammates": [
+      "JW",
+      "pronax",
+      "olofmeister",
+      "KRIMZ",
+      "dennis",
+      "Golden",
+      "lekr0",
+      "Xizt",
+      "draken",
+      "twist",
+      "Brollan",
+      "hampus",
+      "autimatic",
+      "RUSH",
+      "skadoodle",
+      "STYKO",
+      "kioShiMa",
+      "cajunb",
+      "daps"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 3,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "JW",
+    "nickname": "JW",
+    "name": "Jesper Wecksell",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "EYEBALLERS",
+      "Fnatic"
+    ],
+    "teammates": [
+      "flusha",
+      "pronax",
+      "olofmeister",
+      "KRIMZ",
+      "dennis",
+      "Golden",
+      "lekr0",
+      "Xizt",
+      "draken",
+      "twist",
+      "Brollan",
+      "hampus"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 3,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "KRIMZ",
+    "nickname": "KRIMZ",
+    "name": "Freddy Johansson",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "LGB",
+      "Fnatic"
+    ],
+    "teammates": [
+      "olofmeister",
+      "flusha",
+      "JW",
+      "pronax",
+      "dennis",
+      "twist",
+      "lekr0",
+      "Golden",
+      "Xizt",
+      "draken",
+      "Brollan",
+      "ALEX",
+      "mezii",
+      "nicoodoz",
+      "dexter",
+      "blameF",
+      "bodyy",
+      "hampus"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 2,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "pronax",
+    "nickname": "pronax",
+    "name": "Markus Wallsten",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "Fnatic"
+    ],
+    "teammates": [
+      "JW",
+      "flusha",
+      "olofmeister",
+      "KRIMZ",
+      "lekr0",
+      "twist",
+      "dennis",
+      "hampus",
+      "Brollan"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 3,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "dennis",
+    "nickname": "dennis",
+    "name": "Dennis Edman",
+    "nationality": "Suécia",
+    "teams": [
+      "LGB",
+      "Kinguin",
+      "GODSENT",
+      "Apeks",
+      "Astralis",
+      "Fnatic",
+      "Ninjas in Pyjamas",
+      "G2 Esports",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "gla1ve",
+      "dev1ce",
+      "dupreeh",
+      "xyp9x",
+      "Kjaerbye",
+      "olofmeister",
+      "flusha",
+      "JW",
+      "KRIMZ",
+      "twist",
+      "lekr0",
+      "pronax",
+      "hampus",
+      "Brollan",
+      "f0rest",
+      "GeT_RiGhT",
+      "REZ",
+      "Plopski",
+      "Maikelele",
+      "rain",
+      "ScreaM",
+      "jkaem",
+      "aizy",
       "Xizt"
     ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "Golden",
+    "nickname": "Golden",
+    "name": "Maikil Selim",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "Fnatic",
+      "Cloud9"
+    ],
+    "teammates": [
+      "JW",
+      "flusha",
+      "KRIMZ",
+      "lekr0",
+      "Brollan",
+      "autimatic",
+      "RUSH",
+      "skadoodle",
+      "STYKO",
+      "kioShiMa",
+      "cajunb",
+      "daps"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "lekr0",
+    "nickname": "lekr0",
+    "name": "Jonas Olofsson",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "North",
+      "Fnatic",
+      "Ninjas in Pyjamas",
+      "Dignitas"
+    ],
+    "teammates": [
+      "MSL",
+      "valde",
+      "Kjaerbye",
+      "cadiaN",
+      "niko",
+      "cajunb",
+      "olofmeister",
+      "dennis",
+      "KRIMZ",
+      "twist",
+      "JW",
+      "flusha",
+      "Golden",
+      "pronax",
+      "hampus",
+      "Brollan",
+      "f0rest",
+      "GeT_RiGhT",
+      "REZ",
+      "Plopski",
+      "Xizt",
+      "friberg",
+      "hallzerk"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "twist",
+    "nickname": "twist",
+    "name": "Simon Eliasson",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "LGB",
+      "Fnatic",
+      "Ninjas in Pyjamas"
+    ],
+    "teammates": [
+      "olofmeister",
+      "dennis",
+      "KRIMZ",
+      "lekr0",
+      "JW",
+      "flusha",
+      "Xizt",
+      "draken",
+      "Brollan",
+      "pronax",
+      "hampus",
+      "f0rest",
+      "GeT_RiGhT",
+      "REZ",
+      "Plopski"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Brollan",
+    "nickname": "Brollan",
+    "name": "Ludvig Brolin",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "Fnatic",
+      "Ninjas in Pyjamas",
+      "MOUZ"
+    ],
+    "teammates": [
+      "JW",
+      "flusha",
+      "KRIMZ",
+      "Xizt",
+      "draken",
+      "twist",
+      "Golden",
+      "ALEX",
+      "mezii",
+      "pronax",
+      "lekr0",
+      "dennis",
+      "hampus",
+      "REZ",
+      "Plopski",
+      "es3tag",
+      "Aleksib",
+      "k0nfig",
+      "siuhy",
+      "torzsi",
+      "xertioN",
+      "jimpphat",
+      "Spinx"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "f0rest",
+    "nickname": "f0rest",
+    "name": "Patrik Lindberg",
+    "nationality": "Suécia",
+    "teams": [
+      "SK Gaming",
+      "Fnatic",
+      "Ninjas in Pyjamas",
+      "Dignitas"
+    ],
+    "teammates": [
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "Maikelele",
+      "allu",
+      "draken",
+      "REZ",
+      "dennis",
+      "lekr0",
+      "twist",
+      "Plopski",
+      "hallzerk"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "GeT_RiGhT",
+    "nickname": "GeT_RiGhT",
+    "name": "Christopher Alesund",
+    "nationality": "Suécia",
+    "teams": [
+      "SK Gaming",
+      "Fnatic",
+      "Ninjas in Pyjamas",
+      "Dignitas"
+    ],
+    "teammates": [
+      "f0rest",
+      "Xizt",
+      "friberg",
+      "Maikelele",
+      "allu",
+      "draken",
+      "REZ",
+      "dennis",
+      "lekr0",
+      "twist",
+      "Plopski",
+      "hallzerk"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": true
+  },
+  {
+    "id": "Xizt",
+    "nickname": "Xizt",
+    "name": "Richard Landström",
+    "nationality": "Suécia",
+    "teams": [
+      "Fnatic",
+      "Ninjas in Pyjamas",
+      "Dignitas",
+      "FaZe Clan",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "JW",
+      "flusha",
+      "KRIMZ",
+      "draken",
+      "twist",
+      "Brollan",
+      "f0rest",
+      "GeT_RiGhT",
+      "friberg",
+      "Maikelele",
+      "allu",
+      "REZ",
+      "hallzerk",
+      "lekr0",
+      "karrigan",
+      "rain",
+      "NiKo",
+      "olofmeister",
+      "GuardiaN",
+      "dennis",
+      "ScreaM",
+      "hampus"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "friberg",
+    "nickname": "friberg",
+    "name": "Adam Friberg",
+    "nationality": "Suécia",
+    "teams": [
+      "OpTic Gaming",
+      "Heroic",
+      "Ninjas in Pyjamas",
+      "Dignitas"
+    ],
+    "teammates": [
+      "Snappi",
+      "es3tag",
+      "niko",
+      "blameF",
+      "stavn",
+      "cadiaN",
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "Maikelele",
+      "allu",
+      "draken",
+      "REZ",
+      "hallzerk",
+      "lekr0",
+      "Magisk"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Maikelele",
+    "nickname": "Maikelele",
+    "name": "Mikail Bill",
+    "nationality": "Suécia",
+    "teams": [
+      "LGB",
+      "Kinguin",
+      "GODSENT",
+      "Ninjas in Pyjamas",
+      "G2 Esports",
+      "FaZe Clan"
+    ],
+    "teammates": [
+      "STYKO",
+      "Maden",
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "allu",
+      "rain",
+      "ScreaM",
+      "dennis",
+      "jkaem",
+      "aizy",
+      "kioShiMa",
+      "karrigan"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "draken",
+    "nickname": "draken",
+    "name": "William Sundin",
+    "nationality": "Suécia",
+    "teams": [
+      "Epsilon",
+      "Fnatic",
+      "Ninjas in Pyjamas"
+    ],
+    "teammates": [
+      "JW",
+      "flusha",
+      "KRIMZ",
+      "Xizt",
+      "twist",
+      "Brollan",
+      "f0rest",
+      "GeT_RiGhT",
+      "friberg",
+      "REZ"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "REZ",
+    "nickname": "REZ",
+    "name": "Fredrik Sterner",
+    "nationality": "Suécia",
+    "teams": [
+      "Epsilon",
+      "Ninjas in Pyjamas"
+    ],
+    "teammates": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "draken",
+      "dennis",
+      "lekr0",
+      "twist",
+      "Plopski",
+      "hampus",
+      "dev1ce",
+      "es3tag",
+      "Brollan",
+      "Aleksib",
+      "k0nfig"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "hampus",
+    "nickname": "hampus",
+    "name": "Hampus Poser",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "BLEED",
+      "Ninjas in Pyjamas",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "pronax",
+      "JW",
+      "flusha",
+      "KRIMZ",
+      "lekr0",
+      "twist",
+      "dennis",
+      "Brollan",
+      "REZ",
+      "Plopski",
+      "dev1ce",
+      "es3tag",
+      "Aleksib",
+      "k0nfig",
+      "ScreaM",
+      "Xizt"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Plopski",
+    "nickname": "Plopski",
+    "name": "Nicolas Gonzalez Zamora",
+    "nationality": "Suécia",
+    "teams": [
+      "GODSENT",
+      "Metizport",
+      "Ninjas in Pyjamas"
+    ],
+    "teammates": [
+      "f0rest",
+      "GeT_RiGhT",
+      "REZ",
+      "dennis",
+      "lekr0",
+      "twist",
+      "hampus",
+      "dev1ce",
+      "es3tag",
+      "Brollan",
+      "Aleksib",
+      "k0nfig"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Aleksib",
+    "nickname": "Aleksib",
+    "name": "Aleksi Virolainen",
+    "nationality": "Finlândia",
+    "teams": [
+      "HAVU",
+      "NAVI",
+      "Ninjas in Pyjamas",
+      "G2 Esports",
+      "ENCE",
+      "OG"
+    ],
+    "teammates": [
+      "s1mple",
+      "b1t",
+      "jL",
+      "iM",
+      "w0nderful",
+      "REZ",
+      "hampus",
+      "Brollan",
+      "Plopski",
+      "es3tag",
+      "k0nfig",
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "JaCkz",
+      "AmaNEk",
+      "allu",
+      "sergej",
+      "Aerial",
+      "suNny",
+      "NBK",
+      "valde",
+      "mantuu",
+      "flameZ",
+      "niko"
+    ],
+    "coaches": [
+      "blade"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "allu",
+    "nickname": "allu",
+    "name": "Aleksi Jalli",
+    "nationality": "Finlândia",
+    "teams": [
+      "3DMAX",
+      "OpTic Gaming",
+      "JANO",
+      "Ninjas in Pyjamas",
+      "FaZe Clan",
+      "ENCE"
+    ],
+    "teammates": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "Maikelele",
+      "rain",
+      "jkaem",
+      "aizy",
+      "kioShiMa",
+      "karrigan",
+      "NiKo",
+      "Magisk",
+      "Aleksib",
+      "sergej",
+      "Aerial",
+      "suNny"
+    ],
+    "coaches": [
+      "RobbaN"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "sergej",
+    "nickname": "sergej",
+    "name": "Jere Salo",
+    "nationality": "Finlândia",
+    "teams": [
+      "HAVU",
+      "GORILLAZ",
+      "ENCE"
+    ],
+    "teammates": [
+      "Aleksib",
+      "allu",
+      "Aerial",
+      "suNny"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "suNny",
+    "nickname": "suNny",
+    "name": "Miikka Kemppi",
+    "nationality": "Finlândia",
+    "teams": [
+      "PENTA",
+      "GORILLAZ",
+      "MOUZ",
+      "ENCE"
+    ],
+    "teammates": [
+      "chrisJ",
+      "oskar",
+      "ropz",
+      "STYKO",
+      "Snax",
+      "Aleksib",
+      "allu",
+      "sergej",
+      "Aerial"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Aerial",
+    "nickname": "Aerial",
+    "name": "Jani Jussila",
+    "nationality": "Finlândia",
+    "teams": [
+      "HAVU",
+      "ENCE"
+    ],
+    "teammates": [
+      "Aleksib",
+      "allu",
+      "sergej",
+      "suNny"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "dycha",
+    "nickname": "dycha",
+    "name": "Paweł Dycha",
+    "nationality": "Polônia",
+    "teams": [
+      "Sprout",
+      "Monte",
+      "ENCE"
+    ],
+    "teammates": [
+      "Snappi",
+      "Spinx",
+      "hades",
+      "Maden",
+      "valde",
+      "SunPayus",
+      "NertZ",
+      "gla1ve",
+      "sdy"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "hades",
+    "nickname": "hades",
+    "name": "Olek Miskiewicz",
+    "nationality": "Polônia",
+    "teams": [
+      "9INE",
+      "Monte",
+      "G2 Esports",
+      "ENCE"
+    ],
+    "teammates": [
+      "huNter-",
+      "m0NESY",
+      "malbsMd",
+      "Snax",
+      "HeavyGod",
+      "SunPayus",
+      "Snappi",
+      "dycha",
+      "Spinx",
+      "Maden",
+      "valde",
+      "NertZ",
+      "gla1ve",
+      "sdy"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "SunPayus",
+    "nickname": "SunPayus",
+    "name": "Álvaro García",
+    "nationality": "Espanha",
+    "teams": [
+      "Movistar Riders",
+      "Heroic",
+      "G2 Esports",
+      "Team Falcons",
+      "ENCE"
+    ],
+    "teammates": [
+      "huNter-",
+      "m0NESY",
+      "malbsMd",
+      "Snax",
+      "HeavyGod",
+      "hades",
+      "Snappi",
+      "Magisk",
+      "Maden",
+      "dupreeh",
+      "s1mple",
+      "dycha",
+      "Spinx",
+      "valde",
+      "NertZ"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Maden",
+    "nickname": "Maden",
+    "name": "Pavle Bošković",
+    "nationality": "Montenegro",
+    "teams": [
+      "GODSENT",
+      "FunPlus Phoenix",
+      "Team Falcons",
+      "ENCE"
+    ],
+    "teammates": [
+      "STYKO",
+      "Maikelele",
+      "Snappi",
+      "Magisk",
+      "SunPayus",
+      "dupreeh",
+      "s1mple",
+      "dycha",
+      "Spinx",
+      "hades",
+      "valde",
+      "NertZ"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "kyxsan",
+    "nickname": "kyxsan",
+    "name": "Damjan Stoilkovski",
+    "nationality": "Macedônia do Norte",
+    "teams": [
+      "Apeks",
+      "Heroic",
+      "Team Falcons"
+    ],
+    "teammates": [
+      "NertZ",
+      "TeSeS",
+      "sjuush",
+      "nicoodoz",
+      "degster",
+      "NiKo",
+      "Magisk",
+      "m0NESY",
+      "kyousuke"
+    ],
+    "coaches": [
+      "zonic"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "pashaBiceps",
+    "nickname": "pashaBiceps",
+    "name": "Jarosław Jarząbkowski",
+    "nationality": "Polônia",
+    "teams": [
+      "ESC Gaming",
+      "AGO",
+      "Virtus.pro"
+    ],
+    "teammates": [
+      "TaZ",
+      "NEO",
+      "Snax",
+      "byali"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "NEO",
+    "nickname": "NEO",
+    "name": "Filip Kubski",
+    "nationality": "Polônia",
+    "teams": [
+      "ESC Gaming",
+      "PENTA",
+      "HONORIS",
+      "FaZe Clan",
+      "Virtus.pro"
+    ],
+    "teammates": [
+      "NiKo",
+      "rain",
+      "olofmeister",
+      "GuardiaN",
+      "AdreN",
+      "TaZ",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": true,
+    "cs16": true
+  },
+  {
+    "id": "TaZ",
+    "nickname": "TaZ",
+    "name": "Wiktor Wojtas",
+    "nationality": "Polônia",
+    "teams": [
+      "ESC Gaming",
+      "PENTA",
+      "Kinguin",
+      "HONORIS",
+      "Virtus.pro"
+    ],
+    "teammates": [
+      "NEO",
+      "pashaBiceps",
+      "Snax",
+      "byali"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "Snax",
+    "nickname": "Snax",
+    "name": "Janusz Pogorzelski",
+    "nationality": "Polônia",
+    "teams": [
+      "Anonymo",
+      "G2 Esports",
+      "MOUZ",
+      "Virtus.pro",
+      "GamerLegion"
+    ],
+    "teammates": [
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "malbsMd",
+      "HeavyGod",
+      "hades",
+      "SunPayus",
+      "chrisJ",
+      "oskar",
+      "ropz",
+      "suNny",
+      "STYKO",
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "byali",
+      "siuhy",
+      "iM",
+      "acoR"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "byali",
+    "nickname": "byali",
+    "name": "Paweł Bieliński",
+    "nationality": "Polônia",
+    "teams": [
+      "Virtus.pro"
+    ],
+    "teammates": [
+      "TaZ",
+      "NEO",
+      "pashaBiceps",
+      "Snax"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": true,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "mantuu",
+    "nickname": "mantuu",
+    "name": "Mateusz Wilczewski",
+    "nationality": "Reino Unido",
+    "teams": [
+      "ALTERNATE aTTaX",
+      "OG",
+      "BIG"
+    ],
+    "teammates": [
+      "Aleksib",
+      "NBK",
+      "valde",
+      "flameZ",
+      "niko",
+      "nexa",
+      "degster",
+      "HeavyGod",
+      "tabseN",
+      "tiziaN",
+      "syrsoN",
+      "faveN",
+      "Krimbo"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "tabseN",
+    "nickname": "tabseN",
+    "name": "Johannes Wodarz",
+    "nationality": "Alemanha",
+    "teams": [
+      "PENTA",
+      "NRG",
+      "BIG"
+    ],
+    "teammates": [
+      "tiziaN",
+      "XANTARES",
+      "syrsoN",
+      "faveN",
+      "Krimbo",
+      "mantuu"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "tiziaN",
+    "nickname": "tiziaN",
+    "name": "Tizian Feldbusch",
+    "nationality": "Alemanha",
+    "teams": [
+      "ALTERNATE aTTaX",
+      "BIG"
+    ],
+    "teammates": [
+      "tabseN",
+      "XANTARES",
+      "syrsoN",
+      "faveN",
+      "Krimbo",
+      "mantuu"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "syrsoN",
+    "nickname": "syrsoN",
+    "name": "Florian Rische",
+    "nationality": "Alemanha",
+    "teams": [
+      "Sprout",
+      "00Nation",
+      "BIG"
+    ],
+    "teammates": [
+      "tabseN",
+      "tiziaN",
+      "XANTARES",
+      "faveN",
+      "Krimbo",
+      "mantuu"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "faveN",
+    "nickname": "faveN",
+    "name": "Josef Baumann",
+    "nationality": "Alemanha",
+    "teams": [
+      "Sprout",
+      "BIG"
+    ],
+    "teammates": [
+      "tabseN",
+      "tiziaN",
+      "syrsoN",
+      "Krimbo",
+      "mantuu"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Krimbo",
+    "nickname": "Krimbo",
+    "name": "Karim Moussa",
+    "nationality": "Alemanha",
+    "teams": [
+      "cowana",
+      "ALTERNATE aTTaX",
+      "BIG"
+    ],
+    "teammates": [
+      "tabseN",
+      "tiziaN",
+      "syrsoN",
+      "faveN",
+      "mantuu"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "XANTARES",
+    "nickname": "XANTARES",
+    "name": "İsmailcan Dörtkardeş",
+    "nationality": "Turquia",
+    "teams": [
+      "Space Soldiers",
+      "Aurora Gaming",
+      "BIG",
+      "Eternal Fire"
+    ],
+    "teammates": [
+      "tabseN",
+      "tiziaN",
+      "syrsoN",
+      "MAJ3R",
+      "Calyx",
+      "ngiN",
+      "imoRR",
+      "woxic",
+      "Wicadia"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "woxic",
+    "nickname": "woxic",
+    "name": "Özgür Eker",
+    "nationality": "Turquia",
+    "teams": [
+      "HellRaisers",
+      "Aurora Gaming",
+      "MOUZ",
+      "Cloud9",
+      "Eternal Fire"
+    ],
+    "teammates": [
+      "oskar",
+      "STYKO",
+      "HObbit",
+      "karrigan",
+      "ropz",
+      "frozen",
+      "chrisJ",
+      "Bymas",
+      "ALEX",
+      "mezii",
+      "es3tag",
+      "floppy",
+      "XANTARES",
+      "Calyx",
+      "imoRR",
+      "MAJ3R",
+      "Wicadia"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Calyx",
+    "nickname": "Calyx",
+    "name": "Buğra Arkın",
+    "nationality": "Turquia",
+    "teams": [
+      "Space Soldiers",
+      "Windigo",
+      "EnVyUs",
+      "Eternal Fire"
+    ],
+    "teammates": [
+      "Happy",
+      "RpK",
+      "ScreaM",
+      "kioShiMa",
+      "XANTARES",
+      "MAJ3R",
+      "ngiN",
+      "imoRR",
+      "woxic",
+      "Wicadia"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "MAJ3R",
+    "nickname": "MAJ3R",
+    "name": "Engin Küpeli",
+    "nationality": "Turquia",
+    "teams": [
+      "Space Soldiers",
+      "LDLC",
+      "Sangal",
+      "Eternal Fire"
+    ],
+    "teammates": [
+      "XANTARES",
+      "Calyx",
+      "ngiN",
+      "imoRR",
+      "woxic",
+      "Wicadia"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "Wicadia",
+    "nickname": "Wicadia",
+    "name": "Ali Haydar Yalçın",
+    "nationality": "Turquia",
+    "teams": [
+      "Aurora Gaming",
+      "Eternal Fire"
+    ],
+    "teammates": [
+      "XANTARES",
+      "woxic",
+      "Calyx",
+      "imoRR",
+      "MAJ3R"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "imoRR",
+    "nickname": "imoRR",
+    "name": "Ömer Karataş",
+    "nationality": "Turquia",
+    "teams": [
+      "Sangal",
+      "Space Soldiers",
+      "Eternal Fire"
+    ],
+    "teammates": [
+      "XANTARES",
+      "MAJ3R",
+      "Calyx",
+      "ngiN",
+      "woxic",
+      "Wicadia"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "ngiN",
+    "nickname": "ngiN",
+    "name": "Engin Kor",
+    "nationality": "Turquia",
+    "teams": [
+      "Space Soldiers"
+    ],
+    "teammates": [
+      "XANTARES",
+      "MAJ3R",
+      "Calyx",
+      "imoRR"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "EliGE",
+    "nickname": "EliGE",
+    "name": "Jonathan Jablonowski",
+    "nationality": "EUA",
+    "teams": [
+      "eLevate",
+      "FaZe Clan",
+      "Team Liquid",
+      "Complexity"
+    ],
+    "teammates": [
+      "karrigan",
+      "rain",
+      "broky",
+      "frozen",
+      "s1mple",
+      "skullz",
+      "nitr0",
+      "hiko",
+      "jdm64",
+      "pimp",
+      "stanislaw",
+      "Twistzz",
+      "NAF",
+      "steel",
+      "TACO",
+      "Stewie2K",
+      "FalleN",
+      "Grim",
+      "oSee",
+      "shox",
+      "YEKINDAR",
+      "daps",
+      "JT",
+      "floppy",
+      "junior",
+      "hallzerk"
+    ],
+    "coaches": [
+      "peacemaker",
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "NAF",
+    "nickname": "NAF",
+    "name": "Keith Markovic",
+    "nationality": "Canadá",
+    "teams": [
+      "OpTic Gaming",
+      "Conquest",
+      "Team Liquid",
+      "RENEGADES"
+    ],
+    "teammates": [
+      "nitr0",
+      "EliGE",
+      "Twistzz",
+      "steel",
+      "TACO",
+      "Stewie2K",
+      "FalleN",
+      "Grim",
+      "oSee",
+      "shox",
+      "YEKINDAR",
+      "daps",
+      "Patsi",
+      "cadiaN",
+      "skullz",
+      "jks",
+      "NertZ",
+      "siuhy",
+      "stanislaw",
+      "RUSH",
+      "Tarik",
+      "hiko",
+      "AZR",
+      "jkaem",
+      "Gratisfaction",
+      "Liazz"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "nitr0",
+    "nickname": "nitr0",
+    "name": "Nick Cannella",
+    "nationality": "EUA",
+    "teams": [
+      "iBUYPOWER",
+      "NRG",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "EliGE",
+      "hiko",
+      "s1mple",
+      "jdm64",
+      "pimp",
+      "stanislaw",
+      "Twistzz",
+      "NAF",
+      "steel",
+      "TACO",
+      "Stewie2K",
+      "oSee",
+      "shox",
+      "YEKINDAR",
+      "daps"
+    ],
+    "coaches": [
+      "peacemaker",
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Stewie2K",
+    "nickname": "Stewie2K",
+    "name": "Jake Yip",
+    "nationality": "EUA",
+    "teams": [
+      "SK Gaming",
+      "MIBR",
+      "G2 Esports",
+      "Cloud9",
+      "Team Liquid",
+      "Evil Geniuses"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "boltz",
+      "Tarik",
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "HooXi",
+      "nexa",
+      "n0thing",
+      "shroud",
+      "skadoodle",
+      "autimatic",
+      "RUSH",
+      "nitr0",
+      "EliGE",
+      "Twistzz",
+      "NAF",
+      "Grim",
+      "Brehze",
+      "CerQ",
+      "stanislaw",
+      "daps"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": true,
+    "grandSlamWinner": true,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Tarik",
+    "nickname": "Tarik",
+    "name": "Tarik Celik",
+    "nationality": "EUA",
+    "teams": [
+      "CLG",
+      "OpTic Gaming",
+      "NRG",
+      "MIBR",
+      "Cloud9",
+      "Evil Geniuses"
+    ],
+    "teammates": [
+      "FalleN",
+      "fer",
+      "coldzera",
+      "Stewie2K",
+      "boltz",
+      "RUSH",
+      "autimatic",
+      "skadoodle",
+      "daps",
+      "stanislaw",
+      "NAF",
+      "hiko",
+      "Brehze",
+      "CerQ",
+      "Ethan"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": true,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "autimatic",
+    "nickname": "autimatic",
+    "name": "Timothy Ta",
+    "nationality": "EUA",
+    "teams": [
+      "TSM",
+      "NRG",
+      "Cloud9",
+      "Evil Geniuses"
+    ],
+    "teammates": [
+      "n0thing",
+      "shroud",
+      "skadoodle",
+      "Stewie2K",
+      "Tarik",
+      "RUSH",
+      "STYKO",
+      "Golden",
+      "flusha",
+      "kioShiMa",
+      "cajunb",
+      "daps",
+      "Brehze",
+      "CerQ",
+      "stanislaw"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "RUSH",
+    "nickname": "RUSH",
+    "name": "William Wierzba",
+    "nationality": "EUA",
+    "teams": [
+      "OpTic Gaming",
+      "Cloud9",
+      "Evil Geniuses",
+      "Complexity"
+    ],
+    "teammates": [
+      "Tarik",
+      "Stewie2K",
+      "autimatic",
+      "skadoodle",
+      "STYKO",
+      "Golden",
+      "flusha",
+      "kioShiMa",
+      "cajunb",
+      "daps",
+      "stanislaw",
+      "NAF",
+      "hiko",
+      "Brehze",
+      "CerQ",
+      "blameF",
+      "k0nfig",
+      "jks",
+      "es3tag",
+      "coldzera"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "skadoodle",
+    "nickname": "skadoodle",
+    "name": "Tyler Latham",
+    "nationality": "EUA",
+    "teams": [
+      "iBUYPOWER",
+      "Cloud9"
+    ],
+    "teammates": [
+      "n0thing",
+      "shroud",
+      "seang@res",
+      "freakazoid",
+      "hiko",
+      "Stewie2K",
+      "autimatic",
+      "Tarik",
+      "RUSH",
+      "STYKO",
+      "Golden",
+      "flusha",
+      "kioShiMa",
+      "cajunb",
+      "daps"
+    ],
+    "coaches": [],
+    "majorChampion": true,
+    "majorsCount": 1,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "n0thing",
+    "nickname": "n0thing",
+    "name": "Jordan Gilbert",
+    "nationality": "EUA",
+    "teams": [
+      "Evil Geniuses",
+      "Cloud9",
+      "Complexity"
+    ],
+    "teammates": [
+      "shroud",
+      "seang@res",
+      "skadoodle",
+      "freakazoid",
+      "hiko",
+      "Stewie2K",
+      "autimatic"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "shroud",
+    "nickname": "shroud",
+    "name": "Michael Grzesiek",
+    "nationality": "Canadá",
+    "teams": [
+      "Complexity",
+      "Cloud9"
+    ],
+    "teammates": [
+      "n0thing",
+      "seang@res",
+      "skadoodle",
+      "freakazoid",
+      "hiko",
+      "Stewie2K",
+      "autimatic"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "seang@res",
+    "nickname": "seang@res",
+    "name": "Sean Gares",
+    "nationality": "EUA",
+    "teams": [
+      "Complexity",
+      "Echo Fox",
+      "Misfits",
+      "Cloud9"
+    ],
+    "teammates": [
+      "n0thing",
+      "shroud",
+      "skadoodle",
+      "freakazoid",
+      "hiko"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "freakazoid",
+    "nickname": "freakazoid",
+    "name": "Ryan Abadir",
+    "nationality": "EUA",
+    "teams": [
+      "Echo Fox",
+      "Swole Patrol",
+      "Cloud9"
+    ],
+    "teammates": [
+      "n0thing",
+      "shroud",
+      "seang@res",
+      "skadoodle",
+      "hiko"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "hiko",
+    "nickname": "hiko",
+    "name": "Spencer Martin",
+    "nationality": "EUA",
+    "teams": [
+      "OpTic Gaming",
+      "Rogue",
+      "Cloud9",
+      "Team Liquid",
+      "Complexity"
+    ],
+    "teammates": [
+      "n0thing",
+      "shroud",
+      "seang@res",
+      "skadoodle",
+      "freakazoid",
+      "nitr0",
+      "EliGE",
+      "s1mple",
+      "jdm64",
+      "pimp",
+      "daps",
+      "stanislaw",
+      "NAF",
+      "RUSH",
+      "Tarik"
+    ],
+    "coaches": [
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": true
+  },
+  {
+    "id": "jdm64",
+    "nickname": "jdm64",
+    "name": "Josh Marzano",
+    "nationality": "EUA",
+    "teams": [
+      "CLG",
+      "Team Envy",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "nitr0",
+      "EliGE",
+      "hiko",
+      "s1mple",
+      "pimp",
+      "stanislaw",
+      "Twistzz"
+    ],
+    "coaches": [
+      "peacemaker",
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "daps",
+    "nickname": "daps",
+    "name": "Damian Steele",
+    "nationality": "Canadá",
+    "teams": [
+      "OpTic Gaming",
+      "NRG",
+      "Gen.G",
+      "Cloud9",
+      "Team Liquid",
+      "Evil Geniuses",
+      "Complexity"
+    ],
+    "teammates": [
+      "autimatic",
+      "RUSH",
+      "skadoodle",
+      "STYKO",
+      "Golden",
+      "flusha",
+      "kioShiMa",
+      "cajunb",
+      "EliGE",
+      "NAF",
+      "nitr0",
+      "oSee",
+      "shox",
+      "YEKINDAR",
+      "Patsi",
+      "stanislaw",
+      "Tarik",
+      "hiko",
+      "Brehze",
+      "CerQ",
+      "Ethan",
+      "Stewie2K"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "stanislaw",
+    "nickname": "stanislaw",
+    "name": "Peter Jarguz",
+    "nationality": "Canadá",
+    "teams": [
+      "OpTic Gaming",
+      "NRG",
+      "Wildcard",
+      "Team Liquid",
+      "Evil Geniuses",
+      "Complexity"
+    ],
+    "teammates": [
+      "nitr0",
+      "EliGE",
+      "jdm64",
+      "Twistzz",
+      "daps",
+      "NAF",
+      "RUSH",
+      "Tarik",
+      "hiko",
+      "Brehze",
+      "CerQ",
+      "Ethan",
+      "Stewie2K",
+      "autimatic"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Brehze",
+    "nickname": "Brehze",
+    "name": "Vincent Cayonte",
+    "nationality": "EUA",
+    "teams": [
+      "NRG",
+      "Evil Geniuses"
+    ],
+    "teammates": [
+      "daps",
+      "CerQ",
+      "Ethan",
+      "Tarik",
+      "stanislaw",
+      "Stewie2K",
+      "autimatic",
+      "RUSH"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "CerQ",
+    "nickname": "CerQ",
+    "name": "Tsvetelin Dimitrov",
+    "nationality": "Bulgária",
+    "teams": [
+      "NRG",
+      "BLEED",
+      "Evil Geniuses"
+    ],
+    "teammates": [
+      "daps",
+      "Brehze",
+      "Ethan",
+      "Tarik",
+      "stanislaw",
+      "Stewie2K",
+      "autimatic",
+      "RUSH"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Ethan",
+    "nickname": "Ethan",
+    "name": "Ethan Arnold",
+    "nationality": "EUA",
+    "teams": [
+      "NRG",
+      "CLG",
+      "Evil Geniuses"
+    ],
+    "teammates": [
+      "daps",
+      "Brehze",
+      "CerQ",
+      "Tarik",
+      "stanislaw"
+    ],
+    "coaches": [
+      "zews"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "oSee",
+    "nickname": "oSee",
+    "name": "Josh Ohm",
+    "nationality": "EUA",
+    "teams": [
+      "Extra Salt",
+      "NRG",
+      "Team Liquid"
+    ],
+    "teammates": [
+      "EliGE",
+      "NAF",
+      "nitr0",
+      "shox",
+      "YEKINDAR",
+      "daps",
+      "Patsi"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "junior",
+    "nickname": "junior",
+    "name": "Paytyn Johnson",
+    "nationality": "EUA",
+    "teams": [
+      "Triumph",
+      "Bad News Bears",
+      "Nouns",
+      "FURIA",
+      "Complexity"
+    ],
+    "teammates": [
+      "arT",
+      "yuurih",
+      "KSCERATO",
+      "VINI",
+      "drop",
+      "JT",
+      "floppy",
+      "Grim",
+      "hallzerk",
+      "EliGE"
+    ],
+    "coaches": [
+      "guerri"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Grim",
+    "nickname": "Grim",
+    "name": "Michael Wince",
+    "nationality": "EUA",
+    "teams": [
+      "Triumph",
+      "Team Liquid",
+      "Complexity"
+    ],
+    "teammates": [
+      "EliGE",
+      "NAF",
+      "Stewie2K",
+      "FalleN",
+      "JT",
+      "floppy",
+      "junior",
+      "hallzerk"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "floppy",
+    "nickname": "floppy",
+    "name": "Ricky Kemery",
+    "nationality": "EUA",
+    "teams": [
+      "Extra Salt",
+      "Cloud9",
+      "Complexity"
+    ],
+    "teammates": [
+      "ALEX",
+      "mezii",
+      "woxic",
+      "es3tag",
+      "JT",
+      "Grim",
+      "junior",
+      "hallzerk",
+      "EliGE"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "JT",
+    "nickname": "JT",
+    "name": "Johnny Theodosiou",
+    "nationality": "África do Sul",
+    "teams": [
+      "ATK",
+      "Extra Salt",
+      "Complexity"
+    ],
+    "teammates": [
+      "floppy",
+      "Grim",
+      "junior",
+      "hallzerk",
+      "EliGE"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "hallzerk",
+    "nickname": "hallzerk",
+    "name": "Håkon Fjærli",
+    "nationality": "Noruega",
+    "teams": [
+      "Nordavind",
+      "Dignitas",
+      "Complexity"
+    ],
+    "teammates": [
+      "f0rest",
+      "GeT_RiGhT",
+      "Xizt",
+      "friberg",
+      "lekr0",
+      "JT",
+      "floppy",
+      "Grim",
+      "junior",
+      "EliGE"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "jks",
+    "nickname": "jks",
+    "name": "Justin Savage",
+    "nationality": "Austrália",
+    "teams": [
+      "Vox Eminor",
+      "FaZe Clan",
+      "G2 Esports",
+      "Team Liquid",
+      "Complexity",
+      "RENEGADES",
+      "100 Thieves"
+    ],
+    "teammates": [
+      "karrigan",
+      "rain",
+      "broky",
+      "Twistzz",
+      "ropz",
+      "es3tag",
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "HooXi",
+      "NAF",
+      "YEKINDAR",
+      "NertZ",
+      "siuhy",
+      "blameF",
+      "k0nfig",
+      "RUSH",
+      "coldzera",
+      "AZR",
+      "jkaem",
+      "Gratisfaction",
+      "Liazz"
+    ],
+    "coaches": [
+      "RobbaN",
+      "peacemaker"
+    ],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": true,
+    "cologneChampion": true,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": true,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "AZR",
+    "nickname": "AZR",
+    "name": "Aaron Ward",
+    "nationality": "Austrália",
+    "teams": [
+      "Vox Eminor",
+      "EXTREMUM",
+      "RENEGADES",
+      "100 Thieves"
+    ],
+    "teammates": [
+      "jks",
+      "jkaem",
+      "Gratisfaction",
+      "Liazz",
+      "NAF",
+      "dexter"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Liazz",
+    "nickname": "Liazz",
+    "name": "Jay Tregillgas",
+    "nationality": "Austrália",
+    "teams": [
+      "ORDER",
+      "FlyQuest",
+      "RENEGADES",
+      "100 Thieves"
+    ],
+    "teammates": [
+      "AZR",
+      "jks",
+      "jkaem",
+      "Gratisfaction",
+      "NAF",
+      "dexter"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Gratisfaction",
+    "nickname": "Gratisfaction",
+    "name": "Sean Kaiwai",
+    "nationality": "Austrália",
+    "teams": [
+      "Grayhound",
+      "EXTREMUM",
+      "RENEGADES",
+      "100 Thieves"
+    ],
+    "teammates": [
+      "AZR",
+      "jks",
+      "jkaem",
+      "Liazz",
+      "NAF"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "dexter",
+    "nickname": "dexter",
+    "name": "Christopher Nong",
+    "nationality": "Austrália",
+    "teams": [
+      "Grayhound",
+      "FlyQuest",
+      "Fnatic",
+      "MOUZ",
+      "RENEGADES"
+    ],
+    "teammates": [
+      "KRIMZ",
+      "mezii",
+      "nicoodoz",
+      "ropz",
+      "frozen",
+      "Bymas",
+      "acoR",
+      "chrisJ",
+      "torzsi",
+      "NBK",
+      "xertioN",
+      "Liazz",
+      "AZR"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "bLitz",
+    "nickname": "bLitz",
+    "name": "Garidmagnai Byambasuren",
+    "nationality": "Mongólia",
+    "teams": [
+      "IHC Esports",
+      "Checkmate",
+      "The MongolZ"
+    ],
+    "teammates": [
+      "Techno4K",
+      "Senzu",
+      "mzinho",
+      "910"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Techno4K",
+    "nickname": "Techno4K",
+    "name": "Sodbayar Munkhbold",
+    "nationality": "Mongólia",
+    "teams": [
+      "IHC Esports",
+      "Checkmate",
+      "The MongolZ"
+    ],
+    "teammates": [
+      "bLitz",
+      "Senzu",
+      "mzinho",
+      "910"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "Senzu",
+    "nickname": "Senzu",
+    "name": "Azbayar Munkhbold",
+    "nationality": "Mongólia",
+    "teams": [
+      "Team NKT",
+      "The MongolZ"
+    ],
+    "teammates": [
+      "bLitz",
+      "Techno4K",
+      "mzinho",
+      "910"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "mzinho",
+    "nickname": "mzinho",
+    "name": "Ayush Batbold",
+    "nationality": "Mongólia",
+    "teams": [
+      "The MongolZ"
+    ],
+    "teammates": [
+      "bLitz",
+      "Techno4K",
+      "Senzu",
+      "910"
+    ],
+    "coaches": [],
+    "majorChampion": false,
+    "majorsCount": 0,
+    "katowiceChampion": false,
+    "cologneChampion": false,
+    "grandSlamWinner": false,
+    "majorMvp": false,
+    "hltvTop20": false,
+    "hltvTop1": false,
+    "cs16": false
+  },
+  {
+    "id": "910",
+    "nickname": "910",
+    "name": "Usukhbayar Banzragch",
+    "nationality": "Mongólia",
+    "teams": [
+      "Clutch Gaming",
+      "The MongolZ"
+    ],
+    "teammates": [
+      "bLitz",
+      "Techno4K",
+      "Senzu",
+      "mzinho"
+    ],
+    "coaches": [],
     "majorChampion": false,
     "majorsCount": 0,
     "katowiceChampion": false,
@@ -5835,7 +8315,6 @@ export const PLAYERS = [
   }
 ];
 
-// Lista de critérios disponíveis para gerar as colunas e linhas
 export const CRITERIA_POOL = [
   {
     "id": "team_navi",
@@ -5891,7 +8370,7 @@ export const CRITERIA_POOL = [
     "type": "team",
     "value": "MIBR",
     "label": "MIBR",
-    "icon": "⚡"
+    "icon": "🇧🇷"
   },
   {
     "id": "team_vitality",
@@ -5905,7 +8384,7 @@ export const CRITERIA_POOL = [
     "type": "team",
     "value": "FURIA",
     "label": "FURIA",
-    "icon": "🐾"
+    "icon": "🐆"
   },
   {
     "id": "team_cloud9",
@@ -5925,7 +8404,7 @@ export const CRITERIA_POOL = [
     "id": "team_nip",
     "type": "team",
     "value": "Ninjas in Pyjamas",
-    "label": "NiP",
+    "label": "NIP",
     "icon": "🥷"
   },
   {
@@ -5968,35 +8447,112 @@ export const CRITERIA_POOL = [
     "type": "team",
     "value": "BIG",
     "label": "BIG",
-    "icon": "🐻"
+    "icon": "🇩🇪"
   },
   {
     "id": "team_gambit",
     "type": "team",
     "value": "Gambit",
     "label": "Gambit",
-    "icon": "♟️"
+    "icon": "🔴"
   },
   {
     "id": "team_imperial",
     "type": "team",
     "value": "Imperial",
     "label": "Imperial",
-    "icon": "🦅"
+    "icon": "👑"
   },
   {
     "id": "team_envyus",
     "type": "team",
     "value": "EnVyUs",
     "label": "EnVyUs",
-    "icon": "🔵"
+    "icon": "💙"
   },
   {
     "id": "team_renegades",
     "type": "team",
     "value": "RENEGADES",
     "label": "RENEGADES",
-    "icon": "🦘"
+    "icon": "🤠"
+  },
+  {
+    "id": "team_falcons",
+    "type": "team",
+    "value": "Team Falcons",
+    "label": "Team Falcons",
+    "icon": "🦅"
+  },
+  {
+    "id": "team_mongolz",
+    "type": "team",
+    "value": "The MongolZ",
+    "label": "The MongolZ",
+    "icon": "🇲🇳"
+  },
+  {
+    "id": "team_eternalfire",
+    "type": "team",
+    "value": "Eternal Fire",
+    "label": "Eternal Fire",
+    "icon": "🔥"
+  },
+  {
+    "id": "team_100t",
+    "type": "team",
+    "value": "100 Thieves",
+    "label": "100 Thieves",
+    "icon": "💯"
+  },
+  {
+    "id": "team_outsiders",
+    "type": "team",
+    "value": "Outsiders",
+    "label": "Outsiders",
+    "icon": "🟣"
+  },
+  {
+    "id": "team_pain",
+    "type": "team",
+    "value": "paiN Gaming",
+    "label": "paiN Gaming",
+    "icon": "🇧🇷"
+  },
+  {
+    "id": "team_immortals",
+    "type": "team",
+    "value": "Immortals",
+    "label": "Immortals",
+    "icon": "⚔️"
+  },
+  {
+    "id": "team_og",
+    "type": "team",
+    "value": "OG",
+    "label": "OG",
+    "icon": "🌻"
+  },
+  {
+    "id": "team_eg",
+    "type": "team",
+    "value": "Evil Geniuses",
+    "label": "Evil Geniuses",
+    "icon": "😈"
+  },
+  {
+    "id": "team_dignitas",
+    "type": "team",
+    "value": "Dignitas",
+    "label": "Dignitas",
+    "icon": "🦉"
+  },
+  {
+    "id": "team_gamerlegion",
+    "type": "team",
+    "value": "GamerLegion",
+    "label": "GamerLegion",
+    "icon": "⚔️"
   },
   {
     "id": "nat_br",
@@ -6132,6 +8688,20 @@ export const CRITERIA_POOL = [
     "icon": "🇸🇰"
   },
   {
+    "id": "nat_mongo",
+    "type": "nationality",
+    "value": "Mongólia",
+    "label": "Mongólia",
+    "icon": "🇲🇳"
+  },
+  {
+    "id": "nat_tr",
+    "type": "nationality",
+    "value": "Turquia",
+    "label": "Turquia",
+    "icon": "🇹🇷"
+  },
+  {
     "id": "play_fallen",
     "type": "teammate",
     "value": "FalleN",
@@ -6143,7 +8713,7 @@ export const CRITERIA_POOL = [
     "type": "teammate",
     "value": "s1mple",
     "label": "Jogou com s1mple",
-    "icon": "goat"
+    "icon": "🐐"
   },
   {
     "id": "play_device",
@@ -6167,32 +8737,53 @@ export const CRITERIA_POOL = [
     "icon": "💥"
   },
   {
-    "id": "play_coldzera",
+    "id": "play_cold",
     "type": "teammate",
     "value": "coldzera",
     "label": "Jogou com coldzera",
-    "icon": "❄️"
+    "icon": "🏆"
   },
   {
     "id": "play_olof",
     "type": "teammate",
     "value": "olofmeister",
     "label": "Jogou com olofmeister",
-    "icon": "🏆"
+    "icon": "🔥"
   },
   {
     "id": "play_karrigan",
     "type": "teammate",
     "value": "karrigan",
     "label": "Jogou com karrigan",
-    "icon": "📋"
+    "icon": "🧠"
+  },
+  {
+    "id": "play_electronic",
+    "type": "teammate",
+    "value": "electronic",
+    "label": "Jogou com electronic",
+    "icon": "⚡"
+  },
+  {
+    "id": "play_getright",
+    "type": "teammate",
+    "value": "GeT_RiGhT",
+    "label": "Jogou com GeT_RiGhT",
+    "icon": "🥷"
+  },
+  {
+    "id": "play_pasha",
+    "type": "teammate",
+    "value": "pashaBiceps",
+    "label": "Jogou com pashaBiceps",
+    "icon": "💪"
   },
   {
     "id": "coach_zonic",
     "type": "coach",
     "value": "zonic",
     "label": "Treinado por zonic",
-    "icon": "📋"
+    "icon": "🧠"
   },
   {
     "id": "coach_blade",
@@ -6206,28 +8797,28 @@ export const CRITERIA_POOL = [
     "type": "coach",
     "value": "RobbaN",
     "label": "Treinado por RobbaN",
-    "icon": "📋"
+    "icon": "🎓"
   },
   {
     "id": "coach_zews",
     "type": "coach",
     "value": "zews",
     "label": "Treinado por zews",
-    "icon": "📋"
+    "icon": "🇧🇷"
   },
   {
     "id": "coach_guerri",
     "type": "coach",
     "value": "guerri",
     "label": "Treinado por guerri",
-    "icon": "📋"
+    "icon": "🐆"
   },
   {
     "id": "coach_peacemaker",
     "type": "coach",
     "value": "peacemaker",
     "label": "Treinado por peacemaker",
-    "icon": "☮️"
+    "icon": "📋"
   },
   {
     "id": "ach_major",
@@ -6241,7 +8832,7 @@ export const CRITERIA_POOL = [
     "type": "achievement",
     "value": "multiMajor",
     "label": "Multi-Campeão Major",
-    "icon": "🥇"
+    "icon": "🏆"
   },
   {
     "id": "ach_katowice",
@@ -6262,14 +8853,14 @@ export const CRITERIA_POOL = [
     "type": "achievement",
     "value": "grandSlamWinner",
     "label": "Intel Grand Slam",
-    "icon": "💎"
+    "icon": "🥇"
   },
   {
     "id": "ach_major_mvp",
     "type": "achievement",
     "value": "majorMvp",
     "label": "MVP de Major",
-    "icon": "🌟"
+    "icon": "⭐"
   },
   {
     "id": "ach_hltv_top20",
@@ -6290,77 +8881,58 @@ export const CRITERIA_POOL = [
     "type": "achievement",
     "value": "cs16",
     "label": "Jogou no CS 1.6",
-    "icon": "💿"
-  },
-  {
-    "id": "team_falcons",
-    "type": "team",
-    "value": "Team Falcons",
-    "label": "Team Falcons",
-    "icon": "🦅"
-  },
-  {
-    "id": "team_mongolz",
-    "type": "team",
-    "value": "The MongolZ",
-    "label": "The MongolZ",
-    "icon": "🐉"
-  },
-  {
-    "id": "team_eternalfire",
-    "type": "team",
-    "value": "Eternal Fire",
-    "label": "Eternal Fire",
-    "icon": "🔥"
-  },
-  {
-    "id": "team_100t",
-    "type": "team",
-    "value": "100 Thieves",
-    "label": "100 Thieves",
-    "icon": "💎"
-  },
-  {
-    "id": "team_outsiders",
-    "type": "team",
-    "value": "Outsiders",
-    "label": "Outsiders",
-    "icon": "🐻"
-  },
-  {
-    "id": "nat_mongo",
-    "type": "nationality",
-    "value": "Mongólia",
-    "label": "Mongólia",
-    "icon": "🇲🇳"
-  },
-  {
-    "id": "play_electronic",
-    "type": "teammate",
-    "value": "electronic",
-    "label": "Jogou com electronic",
-    "icon": "⚡"
-  },
-  {
-    "id": "play_dev1ce",
-    "type": "teammate",
-    "value": "dev1ce",
-    "label": "Jogou com dev1ce",
-    "icon": "🎯"
+    "icon": "🕹️"
   }
 ];
+
+const PNG_TEAMS = new Set([
+  'SK Gaming',
+  'Vitality',
+  'Complexity',
+  'Team Falcons',
+  'Imperial',
+  'RENEGADES',
+  'Eternal Fire',
+  'Ninjas in Pyjamas',
+  'EnVyUs'
+]);
+
+const JPG_PORTRAITS = new Set([
+  'B1ad3',
+  'RobbaN',
+  'karrigan',
+  'electronic',
+  'peacemaker'
+]);
+
+const WEBP_PORTRAITS = new Set([
+  's1mple',
+  'FalleN',
+  'dev1ce',
+  'ZywOo',
+  'NiKo',
+  'coldzera',
+  'olofmeister',
+  'pashaBiceps',
+  'GeT_RiGhT',
+  'zonic',
+  'zews',
+  'guerri'
+]);
 
 export function getImageUrl(name, type) {
   let ext = 'svg';
   let filename = name;
-  
-  if (type === 'teammate') {
-    ext = 'webp';
-  } else if (type === 'coach') {
+
+  if (type === 'team') {
+    if (PNG_TEAMS.has(name)) {
+      ext = 'png';
+    }
+  } else if (type === 'teammate' || type === 'coach') {
     if (name === 'blade' || name === 'B1ad3') {
       filename = 'B1ad3';
       ext = 'jpg';
-    } else if (name === 'RobbaN') {
+    } else if (JPG_PORTRAITS.has(name)) {
       ext = 'jpg';
     } else {
       ext = 'webp';
@@ -6369,7 +8941,7 @@ export function getImageUrl(name, type) {
     if (name === 'multiMajor') ext = 'png';
     else ext = 'webp';
   }
-  
+
   try {
     return new URL(`../assets/${filename}.${ext}`, import.meta.url).href;
   } catch (e) {
@@ -6379,9 +8951,15 @@ export function getImageUrl(name, type) {
 }
 
 export function getPlayerImageUrl(nickname) {
-  const imagePlayers = ['s1mple', 'FalleN', 'dev1ce', 'ZywOo', 'NiKo', 'coldzera', 'olofmeister', 'pashaBiceps', 'GeT_RiGhT'];
-  if (imagePlayers.includes(nickname)) {
+  if (!nickname) return '';
+  if (nickname === 'blade' || nickname === 'B1ad3') {
+    return new URL('../assets/B1ad3.jpg', import.meta.url).href;
+  }
+  if (WEBP_PORTRAITS.has(nickname)) {
     return new URL(`../assets/${nickname}.webp`, import.meta.url).href;
+  }
+  if (JPG_PORTRAITS.has(nickname)) {
+    return new URL(`../assets/${nickname}.jpg`, import.meta.url).href;
   }
   return '';
 }

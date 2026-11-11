@@ -1,1 +1,194 @@
 @import "tailwindcss";
+
+/*
+ * Clutch Taka Toe — HLTV.org Authentic Dark Slate Aesthetic
+ * Paleta fiel ao HLTV Dark Mode:
+ * - Fundo externo: #1b1f23
+ * - Coluna central: #242b33
+ * - Painéis / Caixas: #2d3844
+ * - Linhas alternadas (zebra): #26303a e #34404e
+ * - Cabeçalhos / Botões ativos: #435971
+ * - Azul HLTV: #3c6e9f / Links: #87a3bf
+ * - Badge VRS Laranja: #c77700
+ * - Pílulas de placar: Verde #0b970e / Vermelho #e40b0b
+ */
+@theme {
+  --color-canvas: #1b1f23;
+  --color-column: #242b33;
+  --color-nav: #2d3844;
+  --color-panel: #2d3844;
+  --color-panel-alt: #26303a;
+  --color-panel-2: #34404e;
+  --color-panel-3: #435971;
+  --color-line: #1b1f23;
+  --color-line-box: #3a4756;
+  --color-line-strong: #4f6277;
+
+  --color-ink: #ffffff;
+  --color-soft: #d3dce6;
+  --color-muted: #929a9e;
+  --color-dim: #6c7a89;
+  --color-hltv-link: #87a3bf;
+  --color-hltv-blue: #3c6e9f;
+  --color-vrs: #c77700;
+
+  --color-ct: #3c6e9f;
+  --color-ct-bright: #5b9de8;
+  --color-ct-ink: #b8d4f2;
+  --color-ct-bg: #223548;
+
+  --color-t: #c77700;
+  --color-t-bright: #e59824;
+  --color-t-ink: #f5ce8c;
+  --color-t-bg: #382c1e;
+
+  --color-win: #0b970e;
+  --color-loss: #e40b0b;
+
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    overflow-x: hidden;
+    font-size: 13px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  :focus-visible {
+    outline: 1px solid var(--color-hltv-link);
+    outline-offset: 1px;
+  }
+}
+
+/* Títulos de seção no padrão exato da HLTV ("Matches, past 3 months", "Map stats") */
+.section-label {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+  color: #929a9e;
+}
+
+/* Caixa padrão HLTV */
+.hltv-box {
+  background-color: var(--color-panel);
+  border: 1px solid var(--color-line-box);
+  border-radius: 2px;
+}
+
+/* Pílulas de placar da HLTV (2 - 0 verde / 1 - 2 vermelho) */
+.hltv-pill-win {
+  background-color: #0b970e;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.hltv-pill-loss {
+  background-color: #e40b0b;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.hltv-pill-neutral {
+  background-color: #435971;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.hltv-badge-rank {
+  background-color: #435971;
+  color: #d3dce6;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 2px;
+  line-height: 1.1;
+}
+
+.hltv-badge-vrs {
+  background-color: #c77700;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 2px;
+  line-height: 1.1;
+}
+
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@keyframes cell-in {
+  from { transform: scale(0.96); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes rise-in {
+  from { transform: translateY(6px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.anim-cell-in { animation: cell-in 150ms ease-out; }
+.anim-fade-in { animation: fade-in 120ms ease-out; }
+.anim-rise-in { animation: rise-in 150ms cubic-bezier(0.22, 1, 0.36, 1); }
+.anim-shake { animation: shake 220ms ease-in-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-cell-in,
+  .anim-fade-in,
+  .anim-rise-in,
+  .anim-shake {
+    animation: none;
+  }
+}
+
+/* Scrollbars no tom ardósia da HLTV */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #242b33;
+}
+::-webkit-scrollbar-thumb {
+  background: #435971;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #56708d;
+}
